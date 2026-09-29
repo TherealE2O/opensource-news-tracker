@@ -10,6 +10,7 @@ import requests
 from notifiers import (
     send_discord_notification,
     send_telegram_notification,
+    send_email_notification,
     update_markdown_log,
     log_github_summary
 )
@@ -270,6 +271,9 @@ def main():
     discord_webhook = os.getenv("DISCORD_WEBHOOK_URL")
     telegram_bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
     telegram_chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    mail_username = os.getenv("MAIL_USERNAME")
+    mail_password = os.getenv("MAIL_PASSWORD")
+    mail_to = os.getenv("MAIL_TO")
 
     all_fetched = []
 
@@ -346,6 +350,9 @@ def main():
         if telegram_bot_token and telegram_chat_id:
             logger.info("Sending notifications to Telegram...")
             send_telegram_notification(telegram_bot_token, telegram_chat_id, items_to_notify)
+        if mail_username and mail_password:
+            logger.info(f"Sending email notification via Gmail to {mail_to or mail_username}...")
+            send_email_notification(mail_username, mail_password, mail_to, items_to_notify)
 
         update_markdown_log(LOG_PATH, items_to_notify)
         log_github_summary(items_to_notify)

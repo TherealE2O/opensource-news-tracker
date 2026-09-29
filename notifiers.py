@@ -1,10 +1,93 @@
 import os
 import json
 import logging
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 import requests
 from datetime import datetime
 
 logger = logging.getLogger("notifiers")
+
+def send_email_notification(username: str, password: str, to_email: str | None, updates: list[dict]):
+    """
+    Sends email notifications via Gmail SMTP (SSL 465).
+    """
+    if not username or not password or not updates:
+        return
+
+    recipient = to_email if to_email else username
+    subject = f"🚨 Open Source News: {len(updates)} New Update(s) Detected"
+
+    # Plain text fallback
+    text_lines = [f"Open Source News Tracker - {len(updates)} New Update(s)\n"]
+    for u in updates:
+        text_lines.append(f"• [{u.get('category', 'Tech')}] {u['project']}: {u['title']}")
+        text_lines.append(f"  Time: {u['formatted_time']}")
+        text_lines.append(f"  Link: {u['url']}\n")
+    plain_text = "\n".join(text_lines)
+
+    # HTML formatted email
+    rows_html = ""
+    for u in updates:
+        rows_html += f"""
+        <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 10px 12px; font-weight: bold; color: #24292e;">{u['project']}</td>
+            <td style="padding: 10px 12px; color: #586069; font-size: 13px;">{u.get('category', 'General')}</td>
+            <td style="padding: 10px 12px; color: #0366d6;"><a href="{u['url']}" style="color: #0366d6; text-decoration: none; font-weight: 500;">{u['title']}</a></td>
+            <td style="padding: 10px 12px; color: #6a737d; font-size: 13px;">{u['formatted_time']}</td>
+        </tr>
+        """
+
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head><meta charset="utf-8"></head>
+    <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f6f8fa; margin: 0; padding: 20px;">
+        <div style="max-width: 680px; margin: 0 auto; background: #ffffff; border-radius: 8px; border: 1px solid #d1d5da; overflow: hidden;">
+            <div style="background-color: #24292e; color: #ffffff; padding: 16px 20px;">
+                <h2 style="margin: 0; font-size: 18px;">📡 Open Source YouTube News Digest</h2>
+                <p style="margin: 4px 0 0 0; font-size: 13px; color: #cfd3d6;">{len(updates)} new open-source release(s) or article(s) detected.</p>
+            </div>
+            <div style="padding: 20px;">
+                <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                    <thead>
+                        <tr style="background-color: #f1f3f5; border-bottom: 2px solid #e1e4e8;">
+                            <th style="padding: 10px 12px; font-size: 13px; color: #444d56;">Project</th>
+                            <th style="padding: 10px 12px; font-size: 13px; color: #444d56;">Category</th>
+                            <th style="padding: 10px 12px; font-size: 13px; color: #444d56;">Title / Release</th>
+                            <th style="padding: 10px 12px; font-size: 13px; color: #444d56;">Date (UTC)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {rows_html}
+                    </tbody>
+                </table>
+            </div>
+            <div style="background-color: #fafbfc; border-top: 1px solid #eaecef; padding: 12px 20px; font-size: 12px; color: #586069; text-align: center;">
+                Generated automatically by <a href="https://github.com/TherealE2O/opensource-news-tracker" style="color: #0366d6;">opensource-news-tracker</a>.
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"] = f"Open Source Tracker <{username}>"
+    msg["To"] = recipient
+
+    msg.attach(MIMEText(plain_text, "plain", "utf-8"))
+    msg.attach(MIMEText(html_content, "html", "utf-8"))
+
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=15) as server:
+            server.login(username, password)
+            server.sendmail(username, [recipient], msg.as_string())
+        logger.info(f"Email alert sent successfully to {recipient} ({len(updates)} updates).")
+    except Exception as e:
+        logger.error(f"Failed to send email alert via Gmail SMTP: {e}")
+
 
 def send_discord_notification(webhook_url: str, updates: list[dict]):
     """

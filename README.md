@@ -70,6 +70,15 @@ You can choose either **Discord Webhook** or **Telegram Bot** (or both!). Both a
    - Add secret `TELEGRAM_BOT_TOKEN`
    - Add secret `TELEGRAM_CHAT_ID`
 
+### Option C: Gmail Email Alerts (Same as Watch Party)
+Get formatted HTML digests delivered straight to your email inbox!
+1. In your GitHub repository:
+   - Go to **Settings** ➡️ **Secrets and variables** ➡️ **Actions** ➡️ **New repository secret**.
+2. Add the following secrets:
+   - **`MAIL_USERNAME`**: Your Gmail address (e.g. `yourname@gmail.com`).
+   - **`MAIL_PASSWORD`**: Your 16-character Google **App Password** (from Google Account ➡️ Security ➡️ 2-Step Verification ➡️ App Passwords).
+   - *(Optional)* **`MAIL_TO`**: Custom recipient email (defaults to `MAIL_USERNAME` if omitted).
+
 ---
 
 ## ⚙️ How the GitHub Action Works
