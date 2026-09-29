@@ -1,0 +1,170 @@
+{
+  "github:bevyengine/bevy:398556973": {
+    "project": "Bevy Engine",
+    "title": "v0.20.0-rc.2",
+    "time": "2026-09-28 19:28:02 UTC",
+    "url": "https://github.com/bevyengine/bevy/releases/tag/v0.20.0-rc.2",
+    "seen_at": "2026-09-29T21:52:15.116449+00:00"
+  },
+  "github:defold/defold:399325106": {
+    "project": "Defold",
+    "title": "v1.13.2 - stable",
+    "time": "2026-09-29 16:21:08 UTC",
+    "url": "https://github.com/defold/defold/releases/tag/1.13.2",
+    "seen_at": "2026-09-29T21:52:15.116482+00:00"
+  },
+  "github:mltframework/shotcut:397863191": {
+    "project": "Shotcut",
+    "title": "v26.9.27",
+    "time": "2026-09-28 00:29:29 UTC",
+    "url": "https://github.com/mltframework/shotcut/releases/tag/v26.9.27",
+    "seen_at": "2026-09-29T21:52:15.116500+00:00"
+  },
+  "github:OpenShot/openshot-qt:397834747": {
+    "project": "OpenShot",
+    "title": "v4.0.1",
+    "time": "2026-09-27 22:16:25 UTC",
+    "url": "https://github.com/OpenShot/openshot-qt/releases/tag/v4.0.1",
+    "seen_at": "2026-09-29T21:52:15.116512+00:00"
+  },
+  "github:obsproject/obs-studio:396962373": {
+    "project": "OBS Studio",
+    "title": "OBS Studio 33.0.0-beta4",
+    "time": "2026-09-25 22:29:13 UTC",
+    "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta4",
+    "seen_at": "2026-09-29T21:52:15.116523+00:00"
+  },
+  "github:FreeCAD/FreeCAD:398304099": {
+    "project": "FreeCAD",
+    "title": "FreeCAD 1.1.4",
+    "time": "2026-09-28 13:58:35 UTC",
+    "url": "https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.4",
+    "seen_at": "2026-09-29T21:52:15.116539+00:00"
+  },
+  "github:FreeCAD/FreeCAD:394216537": {
+    "project": "FreeCAD",
+    "title": "Development Build weekly-2026.09.23",
+    "time": "2026-09-23 00:49:32 UTC",
+    "url": "https://github.com/FreeCAD/FreeCAD/releases/tag/weekly-2026.09.23",
+    "seen_at": "2026-09-29T21:52:15.116546+00:00"
+  },
+  "github:neovim/neovim:398846870": {
+    "project": "Neovim",
+    "title": "Nvim development (prerelease) build",
+    "time": "2026-09-29 05:26:58 UTC",
+    "url": "https://github.com/neovim/neovim/releases/tag/nightly",
+    "seen_at": "2026-09-29T21:52:15.116556+00:00"
+  },
+  "rss:https://godotengine.org/rss.xml:https://godotengine.org/article/dev-snapshot-godot-4-8-dev-7/": {
+    "project": "Godot Engine Blog",
+    "title": "Dev snapshot: Godot 4.8 dev 7",
+    "time": "2026-09-29 12:00:00 UTC",
+    "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-7/",
+    "seen_at": "2026-09-29T21:52:15.116579+00:00"
+  },
+  "rss:https://www.blender.org/feed/:https://www.blender.org/press/20-years-open-movies/": {
+    "project": "Blender News",
+    "title": "Celebrating 20 Years of Open Movies",
+    "time": "2026-09-25 16:46:28 UTC",
+    "url": "https://www.blender.org/press/20-years-open-movies/",
+    "seen_at": "2026-09-29T21:52:15.116598+00:00"
+  },
+  "rss:https://www.blender.org/feed/:https://www.blender.org/news/blender-foundation-annual-report-2025/": {
+    "project": "Blender News",
+    "title": "Blender Foundation Annual Report 2025",
+    "time": "2026-09-23 07:39:43 UTC",
+    "url": "https://www.blender.org/news/blender-foundation-annual-report-2025/",
+    "seen_at": "2026-09-29T21:52:15.116615+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/review/amd-perfopt": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "AMD Boosting AI/LLM Performance For Radeon iGPUs As Much As 18~23% With Linux 7.4",
+    "time": "2026-09-29 18:57:00 UTC",
+    "url": "https://www.phoronix.com/review/amd-perfopt",
+    "seen_at": "2026-09-29T21:52:15.116626+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Microsoft-WSLC-Linux-Containers": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Microsoft Announces General Availability Of WSLC: Linux Containers On Windows",
+    "time": "2026-09-29 17:09:12 UTC",
+    "url": "https://www.phoronix.com/news/Microsoft-WSLC-Linux-Containers",
+    "seen_at": "2026-09-29T21:52:15.116634+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Branch-Target-Reuse-BTR": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Branch Target Reuse, BTR: New Spectre V2 Attack Targeting JIT Compilers",
+    "time": "2026-09-29 17:00:00 UTC",
+    "url": "https://www.phoronix.com/news/Branch-Target-Reuse-BTR",
+    "seen_at": "2026-09-29T21:52:15.116640+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Ubuntu-26.10-Snapdragon-Concept": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "New Ubuntu Concept ISO For Snapdragon Laptops Brings First X2 Laptop Support",
+    "time": "2026-09-29 16:15:36 UTC",
+    "url": "https://www.phoronix.com/news/Ubuntu-26.10-Snapdragon-Concept",
+    "seen_at": "2026-09-29T21:52:15.116647+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/OpenZL-0.3-Released": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Meta Releases OpenZL 0.3 With Decompression Speed 144% Faster Than Zstd",
+    "time": "2026-09-29 16:06:44 UTC",
+    "url": "https://www.phoronix.com/news/OpenZL-0.3-Released",
+    "seen_at": "2026-09-29T21:52:15.116654+00:00"
+  },
+  "github:LizardByte/Sunshine:399214847": {
+    "project": "Sunshine Game Streamer",
+    "title": "v2026.929.125923",
+    "time": "2026-09-29 14:11:10 UTC",
+    "url": "https://github.com/LizardByte/Sunshine/releases/tag/v2026.929.125923",
+    "seen_at": "2026-09-29T22:18:53.287078+00:00"
+  },
+  "github:LizardByte/Sunshine:398871086": {
+    "project": "Sunshine Game Streamer",
+    "title": "v2026.929.34453",
+    "time": "2026-09-29 06:21:33 UTC",
+    "url": "https://github.com/LizardByte/Sunshine/releases/tag/v2026.929.34453",
+    "seen_at": "2026-09-29T22:18:53.287125+00:00"
+  },
+  "github:JetBrains/kotlin:394445672": {
+    "project": "Kotlin",
+    "title": "Kotlin 2.5.0-Beta1",
+    "time": "2026-09-23 12:02:11 UTC",
+    "url": "https://github.com/JetBrains/kotlin/releases/tag/v2.5.0-Beta1",
+    "seen_at": "2026-09-29T22:18:53.287161+00:00"
+  },
+  "github:nodejs/node:394939147": {
+    "project": "Node.js (JavaScript)",
+    "title": "2026-09-23, Version 22.23.3 'Jod' (LTS), @aduh95 prepared by @juanarbol",
+    "time": "2026-09-23 18:21:37 UTC",
+    "url": "https://github.com/nodejs/node/releases/tag/v22.23.3",
+    "seen_at": "2026-09-29T22:18:53.287180+00:00"
+  },
+  "rss:https://blog.python.org/feeds/posts/default:https://blog.python.org/2026/09/python-docs-in-german/": {
+    "project": "Python Insider Blog",
+    "title": "The Python documentation is now available in German",
+    "time": "2026-09-26 00:00:00 UTC",
+    "url": "https://blog.python.org/2026/09/python-docs-in-german/",
+    "seen_at": "2026-09-29T22:18:53.287242+00:00"
+  },
+  "rss:https://blog.python.org/feeds/posts/default:https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/": {
+    "project": "Python Insider Blog",
+    "title": "The Python documentation is now available in Persian",
+    "time": "2026-09-23 00:00:00 UTC",
+    "url": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+    "seen_at": "2026-09-29T22:18:53.287255+00:00"
+  },
+  "rss:https://blog.jetbrains.com/kotlin/feed/:https://blog.jetbrains.com/kotlin/2026/09/state-of-kotlin-2026-report/": {
+    "project": "Kotlin Official Blog",
+    "title": "The State of Kotlin in 2026 Report",
+    "time": "2026-09-29 12:38:29 UTC",
+    "url": "https://blog.jetbrains.com/kotlin/2026/09/state-of-kotlin-2026-report/",
+    "seen_at": "2026-09-29T22:18:53.287283+00:00"
+  },
+  "rss:https://blog.jetbrains.com/kotlin/feed/:https://blog.jetbrains.com/kotlin/2026/09/a-more-reliable-compilation-scheme-for-kotlin-multiplatform-modules/": {
+    "project": "Kotlin Official Blog",
+    "title": "A More Reliable Compilation Scheme for Kotlin Multiplatform Modules",
+    "time": "2026-09-28 09:38:26 UTC",
+    "url": "https://blog.jetbrains.com/kotlin/2026/09/a-more-reliable-compilation-scheme-for-kotlin-multiplatform-modules/",
+    "seen_at": "2026-09-29T22:18:53.287295+00:00"
+  }
+}
