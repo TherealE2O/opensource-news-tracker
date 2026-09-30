@@ -2,6 +2,10 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-09-30 19:10:03 UTC | **TypeScript** | Programming Language | [vscode-typescript/v1.0.1](https://github.com/microsoft/TypeScript/releases/tag/vscode-typescript/v1.0.1) | GitHub Release |
+| 2026-09-30 18:57:43 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [More AI In Open-Source, CachyOS, Ryzen AI Halo, Framework Laptop 13 Pro & Other Q3 Hits](https://www.phoronix.com/news/Q3-2026-Highlights) | RSS Feed |
+| 2026-09-30 18:00:00 UTC | **Defold** | Game Engine | [v1.14.1 - alpha](https://github.com/defold/defold/releases/tag/1.14.1-alpha) | GitHub Release |
+| 2026-09-30 17:53:32 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [EDG C/C++ Front-End Open-Sourced](https://www.phoronix.com/news/EDG-CPP-Open-Sourced) | RSS Feed |
 | 2026-09-30 15:15:58 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Framework Desktop With AMD Ryzen AI Max+ PRO 495 Starts Out At $6799 USD](https://www.phoronix.com/news/Framework-Desktop-Gorgon-Halo) | RSS Feed |
 | 2026-09-30 14:42:29 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [OpenJDK vs. GraalVM vs. Eclipse Temurin vs. Semeru Java Performance](https://www.phoronix.com/review/openjdk-graalvm-temurin-semeru) | RSS Feed |
 | 2026-09-30 13:40:47 UTC | **Defold** | Game Engine | [v1.14.0 - beta](https://github.com/defold/defold/releases/tag/1.14.0-beta) | GitHub Release |

@@ -306,5 +306,33 @@
     "time": "2026-09-30 12:00:07 UTC",
     "url": "https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/",
     "seen_at": "2026-09-30T17:30:01.036018+00:00"
+  },
+  "github:defold/defold:400303478": {
+    "project": "Defold",
+    "title": "v1.14.1 - alpha",
+    "time": "2026-09-30 18:00:00 UTC",
+    "url": "https://github.com/defold/defold/releases/tag/1.14.1-alpha",
+    "seen_at": "2026-09-30T21:48:26.935720+00:00"
+  },
+  "github:microsoft/TypeScript:400357206": {
+    "project": "TypeScript",
+    "title": "vscode-typescript/v1.0.1",
+    "time": "2026-09-30 19:10:03 UTC",
+    "url": "https://github.com/microsoft/TypeScript/releases/tag/vscode-typescript/v1.0.1",
+    "seen_at": "2026-09-30T21:48:26.935762+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Q3-2026-Highlights": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "More AI In Open-Source, CachyOS, Ryzen AI Halo, Framework Laptop 13 Pro & Other Q3 Hits",
+    "time": "2026-09-30 18:57:43 UTC",
+    "url": "https://www.phoronix.com/news/Q3-2026-Highlights",
+    "seen_at": "2026-09-30T21:48:26.935784+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/EDG-CPP-Open-Sourced": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "EDG C/C++ Front-End Open-Sourced",
+    "time": "2026-09-30 17:53:32 UTC",
+    "url": "https://www.phoronix.com/news/EDG-CPP-Open-Sourced",
+    "seen_at": "2026-09-30T21:48:26.935786+00:00"
   }
 }
