@@ -166,5 +166,19 @@
     "time": "2026-09-28 09:38:26 UTC",
     "url": "https://blog.jetbrains.com/kotlin/2026/09/a-more-reliable-compilation-scheme-for-kotlin-multiplatform-modules/",
     "seen_at": "2026-09-29T22:18:53.287295+00:00"
+  },
+  "github:FreeCAD/FreeCAD:399632287": {
+    "project": "FreeCAD",
+    "title": "Development Build weekly-2026.09.30",
+    "time": "2026-09-30 00:56:31 UTC",
+    "url": "https://github.com/FreeCAD/FreeCAD/releases/tag/weekly-2026.09.30",
+    "seen_at": "2026-09-30T03:42:18.116339+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Arch-Linux-Archinstall-4.5": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Archinstall 4.5 For Arch Linux Brings AArch64 Improvements, RT Kernel Options",
+    "time": "2026-09-30 00:25:51 UTC",
+    "url": "https://www.phoronix.com/news/Arch-Linux-Archinstall-4.5",
+    "seen_at": "2026-09-30T03:42:18.116382+00:00"
   }
 }

@@ -2,6 +2,8 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-09-30 00:56:31 UTC | **FreeCAD** | CAD & 3D | [Development Build weekly-2026.09.30](https://github.com/FreeCAD/FreeCAD/releases/tag/weekly-2026.09.30) | GitHub Release |
+| 2026-09-30 00:25:51 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Archinstall 4.5 For Arch Linux Brings AArch64 Improvements, RT Kernel Options](https://www.phoronix.com/news/Arch-Linux-Archinstall-4.5) | RSS Feed |
 | 2026-09-29 14:11:10 UTC | **Sunshine Game Streamer** | Game Streaming & Tech | [v2026.929.125923](https://github.com/LizardByte/Sunshine/releases/tag/v2026.929.125923) | GitHub Release |
 | 2026-09-29 12:38:29 UTC | **Kotlin Official Blog** | Programming Language | [The State of Kotlin in 2026 Report](https://blog.jetbrains.com/kotlin/2026/09/state-of-kotlin-2026-report/) | RSS Feed |
 | 2026-09-29 06:21:33 UTC | **Sunshine Game Streamer** | Game Streaming & Tech | [v2026.929.34453](https://github.com/LizardByte/Sunshine/releases/tag/v2026.929.34453) | GitHub Release |
