@@ -222,5 +222,89 @@
     "time": "2026-09-30 10:33:03 UTC",
     "url": "https://blog.jetbrains.com/kotlin/2026/09/the-companions-to-come/",
     "seen_at": "2026-09-30T11:49:33.908522+00:00"
+  },
+  "github:defold/defold:400085564": {
+    "project": "Defold",
+    "title": "v1.14.0 - beta",
+    "time": "2026-09-30 13:40:47 UTC",
+    "url": "https://github.com/defold/defold/releases/tag/1.14.0-beta",
+    "seen_at": "2026-09-30T17:30:01.035924+00:00"
+  },
+  "github:audacity/audacity:399997429": {
+    "project": "Audacity",
+    "title": "Audacity-4.0.1",
+    "time": "2026-09-30 11:59:48 UTC",
+    "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.1",
+    "seen_at": "2026-09-30T17:30:01.035947+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Framework-Desktop-Gorgon-Halo": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Framework Desktop With AMD Ryzen AI Max+ PRO 495 Starts Out At $6799 USD",
+    "time": "2026-09-30 15:15:58 UTC",
+    "url": "https://www.phoronix.com/news/Framework-Desktop-Gorgon-Halo",
+    "seen_at": "2026-09-30T17:30:01.035986+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/review/openjdk-graalvm-temurin-semeru": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "OpenJDK vs. GraalVM vs. Eclipse Temurin vs. Semeru Java Performance",
+    "time": "2026-09-30 14:42:29 UTC",
+    "url": "https://www.phoronix.com/review/openjdk-graalvm-temurin-semeru",
+    "seen_at": "2026-09-30T17:30:01.035989+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Qt-6.12-LTS-Released": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Qt 6.12 LTS Released With QML Hot Reloading, StyleKit In Experimental Form",
+    "time": "2026-09-30 13:20:00 UTC",
+    "url": "https://www.phoronix.com/news/Qt-6.12-LTS-Released",
+    "seen_at": "2026-09-30T17:30:01.035992+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Rusticl-2026": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Rusticl Had A Great Year For Rust OpenCL In Mesa With 3.1 Support, More Drivers",
+    "time": "2026-09-30 13:03:20 UTC",
+    "url": "https://www.phoronix.com/news/Rusticl-2026",
+    "seen_at": "2026-09-30T17:30:01.035995+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/AMD-Gorgon-Halo-NPU-LInux": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Linux 7.4 To Support The NPU On AMD Ryzen AI Max 400 Series \"Gorgon Halo\"",
+    "time": "2026-09-30 12:20:14 UTC",
+    "url": "https://www.phoronix.com/news/AMD-Gorgon-Halo-NPU-LInux",
+    "seen_at": "2026-09-30T17:30:01.035997+00:00"
+  },
+  "rss:https://blog.python.org/feeds/posts/default:https://blog.python.org/2026/09/language-summit-2026/": {
+    "project": "Python Insider Blog",
+    "title": "Python Language Summit 2026",
+    "time": "2026-09-30 12:00:11 UTC",
+    "url": "https://blog.python.org/2026/09/language-summit-2026/",
+    "seen_at": "2026-09-30T17:30:01.036000+00:00"
+  },
+  "rss:https://blog.python.org/feeds/posts/default:https://blog.python.org/2026/09/language-summit-2026-lightning-talks/": {
+    "project": "Python Insider Blog",
+    "title": "Lightning Talks (Python Language Summit 2026)",
+    "time": "2026-09-30 12:00:10 UTC",
+    "url": "https://blog.python.org/2026/09/language-summit-2026-lightning-talks/",
+    "seen_at": "2026-09-30T17:30:01.036003+00:00"
+  },
+  "rss:https://blog.python.org/feeds/posts/default:https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/": {
+    "project": "Python Insider Blog",
+    "title": "PEP 827: Type Manipulation (Python Language Summit 2026)",
+    "time": "2026-09-30 12:00:09 UTC",
+    "url": "https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/",
+    "seen_at": "2026-09-30T17:30:01.036005+00:00"
+  },
+  "rss:https://blog.python.org/feeds/posts/default:https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/": {
+    "project": "Python Insider Blog",
+    "title": "Free-Threaded Python Post-Era (Python Language Summit 2026)",
+    "time": "2026-09-30 12:00:08 UTC",
+    "url": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
+    "seen_at": "2026-09-30T17:30:01.036007+00:00"
+  },
+  "rss:https://blog.python.org/feeds/posts/default:https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/": {
+    "project": "Python Insider Blog",
+    "title": "Developer-in-Residence Update & Future (Python Language Summit 2026)",
+    "time": "2026-09-30 12:00:07 UTC",
+    "url": "https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/",
+    "seen_at": "2026-09-30T17:30:01.036018+00:00"
   }
 }
