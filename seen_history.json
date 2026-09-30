@@ -180,5 +180,47 @@
     "time": "2026-09-30 00:25:51 UTC",
     "url": "https://www.phoronix.com/news/Arch-Linux-Archinstall-4.5",
     "seen_at": "2026-09-30T03:42:18.116382+00:00"
+  },
+  "github:neovim/neovim:399742103": {
+    "project": "Neovim",
+    "title": "Nvim development (prerelease) build",
+    "time": "2026-09-30 05:26:59 UTC",
+    "url": "https://github.com/neovim/neovim/releases/tag/nightly",
+    "seen_at": "2026-09-30T11:49:33.908465+00:00"
+  },
+  "github:JetBrains/kotlin:399938786": {
+    "project": "Kotlin",
+    "title": "Kotlin 2.4.21-RC",
+    "time": "2026-09-30 11:30:47 UTC",
+    "url": "https://github.com/JetBrains/kotlin/releases/tag/v2.4.21-RC",
+    "seen_at": "2026-09-30T11:49:33.908489+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/ARM64-Linux-Stack-Size-Boot": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Proposal To Set ARM64 Kernel Stack Size At Boot Time To Reduce Memory Consumption",
+    "time": "2026-09-30 10:27:00 UTC",
+    "url": "https://www.phoronix.com/news/ARM64-Linux-Stack-Size-Boot",
+    "seen_at": "2026-09-30T11:49:33.908509+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Intel-Media-Crescent-Island": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Intel Media Driver 2026Q3 Introduces Crescent Island Support",
+    "time": "2026-09-30 10:11:06 UTC",
+    "url": "https://www.phoronix.com/news/Intel-Media-Crescent-Island",
+    "seen_at": "2026-09-30T11:49:33.908512+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Mesa-Toward-Eliminating-TGSI": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Mesa Developers To Work Toward Eliminating TGSI IR",
+    "time": "2026-09-30 09:55:14 UTC",
+    "url": "https://www.phoronix.com/news/Mesa-Toward-Eliminating-TGSI",
+    "seen_at": "2026-09-30T11:49:33.908514+00:00"
+  },
+  "rss:https://blog.jetbrains.com/kotlin/feed/:https://blog.jetbrains.com/kotlin/2026/09/the-companions-to-come/": {
+    "project": "Kotlin Official Blog",
+    "title": "The Companions to Come",
+    "time": "2026-09-30 10:33:03 UTC",
+    "url": "https://blog.jetbrains.com/kotlin/2026/09/the-companions-to-come/",
+    "seen_at": "2026-09-30T11:49:33.908522+00:00"
   }
 }

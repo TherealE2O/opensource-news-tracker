@@ -2,6 +2,12 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-09-30 11:30:47 UTC | **Kotlin** | Programming Language | [Kotlin 2.4.21-RC](https://github.com/JetBrains/kotlin/releases/tag/v2.4.21-RC) | GitHub Release |
+| 2026-09-30 10:33:03 UTC | **Kotlin Official Blog** | Programming Language | [The Companions to Come](https://blog.jetbrains.com/kotlin/2026/09/the-companions-to-come/) | RSS Feed |
+| 2026-09-30 10:27:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Proposal To Set ARM64 Kernel Stack Size At Boot Time To Reduce Memory Consumption](https://www.phoronix.com/news/ARM64-Linux-Stack-Size-Boot) | RSS Feed |
+| 2026-09-30 10:11:06 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Intel Media Driver 2026Q3 Introduces Crescent Island Support](https://www.phoronix.com/news/Intel-Media-Crescent-Island) | RSS Feed |
+| 2026-09-30 09:55:14 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Mesa Developers To Work Toward Eliminating TGSI IR](https://www.phoronix.com/news/Mesa-Toward-Eliminating-TGSI) | RSS Feed |
+| 2026-09-30 05:26:59 UTC | **Neovim** | Developer Tools | [Nvim development (prerelease) build](https://github.com/neovim/neovim/releases/tag/nightly) | GitHub Release |
 | 2026-09-30 00:56:31 UTC | **FreeCAD** | CAD & 3D | [Development Build weekly-2026.09.30](https://github.com/FreeCAD/FreeCAD/releases/tag/weekly-2026.09.30) | GitHub Release |
 | 2026-09-30 00:25:51 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Archinstall 4.5 For Arch Linux Brings AArch64 Improvements, RT Kernel Options](https://www.phoronix.com/news/Arch-Linux-Archinstall-4.5) | RSS Feed |
 | 2026-09-29 14:11:10 UTC | **Sunshine Game Streamer** | Game Streaming & Tech | [v2026.929.125923](https://github.com/LizardByte/Sunshine/releases/tag/v2026.929.125923) | GitHub Release |
