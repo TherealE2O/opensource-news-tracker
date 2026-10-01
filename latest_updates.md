@@ -2,6 +2,13 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-01 20:57:58 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Fedora 45 Beta Performance: The Satisfyingly Boring Benchmarks](https://www.phoronix.com/review/fedora-45-beta-benchmarks) | RSS Feed |
+| 2026-10-01 20:00:08 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Mesa Drops Its Poorly Maintained & Rarely Used Direct3D 10 User-Mode Driver](https://www.phoronix.com/news/Mesa-Drops-Direct3D-10-UMD) | RSS Feed |
+| 2026-10-01 19:26:05 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Ubuntu 26.10 Beta Released With Linux 7.3 Kernel, GNOME 51 Desktop](https://www.phoronix.com/news/Ubuntu-26.10-Beta-Released) | RSS Feed |
+| 2026-10-01 17:07:48 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Nearing A 10 Second Kernel Build, Xeon 600 & Other September Excitement On Phoronix](https://www.phoronix.com/news/September-2026-Highlights) | RSS Feed |
+| 2026-10-01 16:24:40 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Some Networking Fixes Being Diverted To Linux 7.4, AI/LLM Activity Still Increasing](https://www.phoronix.com/news/Linux-Networking-Linux-7.3-rc6) | RSS Feed |
+| 2026-10-01 12:47:28 UTC | **FreeCAD** | CAD & 3D | [Development Build weekly-2026.10.01](https://github.com/FreeCAD/FreeCAD/releases/tag/weekly-2026.10.01) | GitHub Release |
+| 2026-10-01 12:41:12 UTC | **Rust Language** | Major Open Source | [Rust 1.99.0](https://github.com/rust-lang/rust/releases/tag/1.99.0) | GitHub Release |
 | 2026-10-01 12:04:18 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Clearing Out Linux's Old 32-bit ARM Platform Code Is Itself A Challenge](https://www.phoronix.com/news/Clearing-Old-ARM-Code-Challenge) | RSS Feed |
 | 2026-10-01 11:06:11 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Intel Optimization Zone 1.2 Released With New Guides & Recommendations](https://www.phoronix.com/news/Intel-Optimization-Zone-1.2) | RSS Feed |
 | 2026-10-01 10:27:41 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [NVIDIA Olympus SMT Optimizations For Vera CPU Showing 3~6% Performance Gains](https://www.phoronix.com/news/NVIDIA-Olympus-SMT-Better) | RSS Feed |

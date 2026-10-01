@@ -404,5 +404,54 @@
     "time": "2026-10-01 09:55:08 UTC",
     "url": "https://www.phoronix.com/news/Renesas-SH7305-Linux-Patches",
     "seen_at": "2026-10-01T12:18:58.840299+00:00"
+  },
+  "github:FreeCAD/FreeCAD:400960970": {
+    "project": "FreeCAD",
+    "title": "Development Build weekly-2026.10.01",
+    "time": "2026-10-01 12:47:28 UTC",
+    "url": "https://github.com/FreeCAD/FreeCAD/releases/tag/weekly-2026.10.01",
+    "seen_at": "2026-10-01T22:16:15.225346+00:00"
+  },
+  "github:rust-lang/rust:400956096": {
+    "project": "Rust Language",
+    "title": "Rust 1.99.0",
+    "time": "2026-10-01 12:41:12 UTC",
+    "url": "https://github.com/rust-lang/rust/releases/tag/1.99.0",
+    "seen_at": "2026-10-01T22:16:15.225360+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/review/fedora-45-beta-benchmarks": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Fedora 45 Beta Performance: The Satisfyingly Boring Benchmarks",
+    "time": "2026-10-01 20:57:58 UTC",
+    "url": "https://www.phoronix.com/review/fedora-45-beta-benchmarks",
+    "seen_at": "2026-10-01T22:16:15.225386+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Mesa-Drops-Direct3D-10-UMD": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Mesa Drops Its Poorly Maintained & Rarely Used Direct3D 10 User-Mode Driver",
+    "time": "2026-10-01 20:00:08 UTC",
+    "url": "https://www.phoronix.com/news/Mesa-Drops-Direct3D-10-UMD",
+    "seen_at": "2026-10-01T22:16:15.225389+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Ubuntu-26.10-Beta-Released": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Ubuntu 26.10 Beta Released With Linux 7.3 Kernel, GNOME 51 Desktop",
+    "time": "2026-10-01 19:26:05 UTC",
+    "url": "https://www.phoronix.com/news/Ubuntu-26.10-Beta-Released",
+    "seen_at": "2026-10-01T22:16:15.225392+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/September-2026-Highlights": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Nearing A 10 Second Kernel Build, Xeon 600 & Other September Excitement On Phoronix",
+    "time": "2026-10-01 17:07:48 UTC",
+    "url": "https://www.phoronix.com/news/September-2026-Highlights",
+    "seen_at": "2026-10-01T22:16:15.225394+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-Networking-Linux-7.3-rc6": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Some Networking Fixes Being Diverted To Linux 7.4, AI/LLM Activity Still Increasing",
+    "time": "2026-10-01 16:24:40 UTC",
+    "url": "https://www.phoronix.com/news/Linux-Networking-Linux-7.3-rc6",
+    "seen_at": "2026-10-01T22:16:15.225401+00:00"
   }
 }
