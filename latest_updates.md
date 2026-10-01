@@ -2,6 +2,12 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-01 12:04:18 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Clearing Out Linux's Old 32-bit ARM Platform Code Is Itself A Challenge](https://www.phoronix.com/news/Clearing-Old-ARM-Code-Challenge) | RSS Feed |
+| 2026-10-01 11:06:11 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Intel Optimization Zone 1.2 Released With New Guides & Recommendations](https://www.phoronix.com/news/Intel-Optimization-Zone-1.2) | RSS Feed |
+| 2026-10-01 10:27:41 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [NVIDIA Olympus SMT Optimizations For Vera CPU Showing 3~6% Performance Gains](https://www.phoronix.com/news/NVIDIA-Olympus-SMT-Better) | RSS Feed |
+| 2026-10-01 10:17:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Qualcomm Continues Doing More For Their Open-Source Linux Graphics Drivers](https://www.phoronix.com/news/Qualcomm-More-OSS-GPU-2026) | RSS Feed |
+| 2026-10-01 09:55:08 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [New Linux Patches Trying To Mainline Renesas SH7305 CPU Support](https://www.phoronix.com/news/Renesas-SH7305-Linux-Patches) | RSS Feed |
+| 2026-10-01 05:48:30 UTC | **Neovim** | Developer Tools | [Nvim development (prerelease) build](https://github.com/neovim/neovim/releases/tag/nightly) | GitHub Release |
 | 2026-10-01 01:36:25 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [OpenMandriva ROME 26.09 Released With More AI Apps, Snaps & PGO + LTO Optimizations](https://www.phoronix.com/news/OpenMandriva-ROME-26.09) | RSS Feed |
 | 2026-10-01 00:18:48 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Valve's Work On Foveated Rendering For The Open-Source Turnip Driver On The Steam Frame](https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated) | RSS Feed |
 | 2026-10-01 00:09:26 UTC | **OBS Studio** | Streaming & Recording | [OBS Studio 33.0.0-beta5](https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta5) | GitHub Release |

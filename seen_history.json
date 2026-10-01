@@ -362,5 +362,47 @@
     "time": "2026-10-01 00:00:00 UTC",
     "url": "https://blog.python.org/2026/10/python-31022-31117/",
     "seen_at": "2026-10-01T03:48:39.640477+00:00"
+  },
+  "github:neovim/neovim:400682073": {
+    "project": "Neovim",
+    "title": "Nvim development (prerelease) build",
+    "time": "2026-10-01 05:48:30 UTC",
+    "url": "https://github.com/neovim/neovim/releases/tag/nightly",
+    "seen_at": "2026-10-01T12:18:58.840261+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Clearing-Old-ARM-Code-Challenge": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Clearing Out Linux's Old 32-bit ARM Platform Code Is Itself A Challenge",
+    "time": "2026-10-01 12:04:18 UTC",
+    "url": "https://www.phoronix.com/news/Clearing-Old-ARM-Code-Challenge",
+    "seen_at": "2026-10-01T12:18:58.840290+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Intel-Optimization-Zone-1.2": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Intel Optimization Zone 1.2 Released With New Guides & Recommendations",
+    "time": "2026-10-01 11:06:11 UTC",
+    "url": "https://www.phoronix.com/news/Intel-Optimization-Zone-1.2",
+    "seen_at": "2026-10-01T12:18:58.840292+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/NVIDIA-Olympus-SMT-Better": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "NVIDIA Olympus SMT Optimizations For Vera CPU Showing 3~6% Performance Gains",
+    "time": "2026-10-01 10:27:41 UTC",
+    "url": "https://www.phoronix.com/news/NVIDIA-Olympus-SMT-Better",
+    "seen_at": "2026-10-01T12:18:58.840295+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Qualcomm-More-OSS-GPU-2026": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Qualcomm Continues Doing More For Their Open-Source Linux Graphics Drivers",
+    "time": "2026-10-01 10:17:00 UTC",
+    "url": "https://www.phoronix.com/news/Qualcomm-More-OSS-GPU-2026",
+    "seen_at": "2026-10-01T12:18:58.840297+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Renesas-SH7305-Linux-Patches": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "New Linux Patches Trying To Mainline Renesas SH7305 CPU Support",
+    "time": "2026-10-01 09:55:08 UTC",
+    "url": "https://www.phoronix.com/news/Renesas-SH7305-Linux-Patches",
+    "seen_at": "2026-10-01T12:18:58.840299+00:00"
   }
 }
