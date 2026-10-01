@@ -334,5 +334,33 @@
     "time": "2026-09-30 17:53:32 UTC",
     "url": "https://www.phoronix.com/news/EDG-CPP-Open-Sourced",
     "seen_at": "2026-09-30T21:48:26.935786+00:00"
+  },
+  "github:obsproject/obs-studio:400525054": {
+    "project": "OBS Studio",
+    "title": "OBS Studio 33.0.0-beta5",
+    "time": "2026-10-01 00:09:26 UTC",
+    "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta5",
+    "seen_at": "2026-10-01T03:48:39.640427+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/OpenMandriva-ROME-26.09": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "OpenMandriva ROME 26.09 Released With More AI Apps, Snaps & PGO + LTO Optimizations",
+    "time": "2026-10-01 01:36:25 UTC",
+    "url": "https://www.phoronix.com/news/OpenMandriva-ROME-26.09",
+    "seen_at": "2026-10-01T03:48:39.640469+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Valve's Work On Foveated Rendering For The Open-Source Turnip Driver On The Steam Frame",
+    "time": "2026-10-01 00:18:48 UTC",
+    "url": "https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated",
+    "seen_at": "2026-10-01T03:48:39.640472+00:00"
+  },
+  "rss:https://blog.python.org/feeds/posts/default:https://blog.python.org/2026/10/python-31022-31117/": {
+    "project": "Python Insider Blog",
+    "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
+    "time": "2026-10-01 00:00:00 UTC",
+    "url": "https://blog.python.org/2026/10/python-31022-31117/",
+    "seen_at": "2026-10-01T03:48:39.640477+00:00"
   }
 }

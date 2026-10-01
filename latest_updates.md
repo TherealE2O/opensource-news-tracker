@@ -2,6 +2,10 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-01 01:36:25 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [OpenMandriva ROME 26.09 Released With More AI Apps, Snaps & PGO + LTO Optimizations](https://www.phoronix.com/news/OpenMandriva-ROME-26.09) | RSS Feed |
+| 2026-10-01 00:18:48 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Valve's Work On Foveated Rendering For The Open-Source Turnip Driver On The Steam Frame](https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated) | RSS Feed |
+| 2026-10-01 00:09:26 UTC | **OBS Studio** | Streaming & Recording | [OBS Studio 33.0.0-beta5](https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta5) | GitHub Release |
+| 2026-10-01 00:00:00 UTC | **Python Insider Blog** | Programming Language | [Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!](https://blog.python.org/2026/10/python-31022-31117/) | RSS Feed |
 | 2026-09-30 19:10:03 UTC | **TypeScript** | Programming Language | [vscode-typescript/v1.0.1](https://github.com/microsoft/TypeScript/releases/tag/vscode-typescript/v1.0.1) | GitHub Release |
 | 2026-09-30 18:57:43 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [More AI In Open-Source, CachyOS, Ryzen AI Halo, Framework Laptop 13 Pro & Other Q3 Hits](https://www.phoronix.com/news/Q3-2026-Highlights) | RSS Feed |
 | 2026-09-30 18:00:00 UTC | **Defold** | Game Engine | [v1.14.1 - alpha](https://github.com/defold/defold/releases/tag/1.14.1-alpha) | GitHub Release |
