@@ -2,6 +2,10 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-02 14:25:45 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [AMD Ryzen AI Developer Platform OS Updated With ROCm 10.0, Linux 7.2](https://www.phoronix.com/news/Ryzen-AI-Dev-Platform-Sep-2026) | RSS Feed |
+| 2026-10-02 13:29:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [systemd-appd Out For Review To Centralize Tracking Of User's Apps](https://www.phoronix.com/news/systemd-appd) | RSS Feed |
+| 2026-10-02 13:00:03 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Imagination Talks Up Their Open-Source Vulkan Driver, Volcanic Architecture Plans](https://www.phoronix.com/news/Mesa-PowerVR-Vulkan-2026) | RSS Feed |
+| 2026-10-02 11:46:37 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Intel Iris Open-Source Driver Now Supports Efficient 64-bit Addressing Mode](https://www.phoronix.com/news/Intel-Iris-Efficient-64-bit) | RSS Feed |
 | 2026-10-02 10:27:20 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Ubuntu's Next Rust Effort May See OpenPGP Replaced By Sequoia PGP](https://www.phoronix.com/news/Ubuntu-Rust-Sequoia-PGP) | RSS Feed |
 | 2026-10-02 10:17:55 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Apex Compute Developing Open-Source Mesa Vulkan Driver For Their Hardware](https://www.phoronix.com/news/Apex-Compute-Mesa-Vulkan) | RSS Feed |
 | 2026-10-02 10:06:11 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Coreboot 26.09 Released With Framework Laptop 12 Support, AI Review Comment Policy](https://www.phoronix.com/news/Coreboot-26.09-Released) | RSS Feed |

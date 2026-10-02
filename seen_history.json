@@ -509,5 +509,33 @@
     "time": "2026-10-02 05:22:20 UTC",
     "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/",
     "seen_at": "2026-10-02T11:47:17.672864+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Ryzen-AI-Dev-Platform-Sep-2026": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "AMD Ryzen AI Developer Platform OS Updated With ROCm 10.0, Linux 7.2",
+    "time": "2026-10-02 14:25:45 UTC",
+    "url": "https://www.phoronix.com/news/Ryzen-AI-Dev-Platform-Sep-2026",
+    "seen_at": "2026-10-02T17:20:06.964384+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/systemd-appd": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "systemd-appd Out For Review To Centralize Tracking Of User's Apps",
+    "time": "2026-10-02 13:29:00 UTC",
+    "url": "https://www.phoronix.com/news/systemd-appd",
+    "seen_at": "2026-10-02T17:20:06.964389+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Mesa-PowerVR-Vulkan-2026": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Imagination Talks Up Their Open-Source Vulkan Driver, Volcanic Architecture Plans",
+    "time": "2026-10-02 13:00:03 UTC",
+    "url": "https://www.phoronix.com/news/Mesa-PowerVR-Vulkan-2026",
+    "seen_at": "2026-10-02T17:20:06.964391+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Intel-Iris-Efficient-64-bit": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Intel Iris Open-Source Driver Now Supports Efficient 64-bit Addressing Mode",
+    "time": "2026-10-02 11:46:37 UTC",
+    "url": "https://www.phoronix.com/news/Intel-Iris-Efficient-64-bit",
+    "seen_at": "2026-10-02T17:20:06.964392+00:00"
   }
 }
