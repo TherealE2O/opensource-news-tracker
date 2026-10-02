@@ -467,5 +467,47 @@
     "time": "2026-10-02 00:18:56 UTC",
     "url": "https://www.phoronix.com/news/Steam-Survey-September-2025",
     "seen_at": "2026-10-02T03:46:52.068248+00:00"
+  },
+  "github:neovim/neovim:401561820": {
+    "project": "Neovim",
+    "title": "Nvim development (prerelease) build",
+    "time": "2026-10-02 05:27:46 UTC",
+    "url": "https://github.com/neovim/neovim/releases/tag/nightly",
+    "seen_at": "2026-10-02T11:47:17.672804+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Ubuntu-Rust-Sequoia-PGP": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Ubuntu's Next Rust Effort May See OpenPGP Replaced By Sequoia PGP",
+    "time": "2026-10-02 10:27:20 UTC",
+    "url": "https://www.phoronix.com/news/Ubuntu-Rust-Sequoia-PGP",
+    "seen_at": "2026-10-02T11:47:17.672845+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Apex-Compute-Mesa-Vulkan": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Apex Compute Developing Open-Source Mesa Vulkan Driver For Their Hardware",
+    "time": "2026-10-02 10:17:55 UTC",
+    "url": "https://www.phoronix.com/news/Apex-Compute-Mesa-Vulkan",
+    "seen_at": "2026-10-02T11:47:17.672847+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Coreboot-26.09-Released": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Coreboot 26.09 Released With Framework Laptop 12 Support, AI Review Comment Policy",
+    "time": "2026-10-02 10:06:11 UTC",
+    "url": "https://www.phoronix.com/news/Coreboot-26.09-Released",
+    "seen_at": "2026-10-02T11:47:17.672850+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/BuildStream-Based-KDE-Linux": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "KDE Nearing Decision Point On BuildStream-Based KDE Linux",
+    "time": "2026-10-02 09:54:20 UTC",
+    "url": "https://www.phoronix.com/news/BuildStream-Based-KDE-Linux",
+    "seen_at": "2026-10-02T11:47:17.672852+00:00"
+  },
+  "hn:49930086": {
+    "project": "Hacker News (Major Releases)",
+    "title": "[57 pts] US tells France and Germany to release diesel stocks or face US export ban",
+    "time": "2026-10-02 05:22:20 UTC",
+    "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/",
+    "seen_at": "2026-10-02T11:47:17.672864+00:00"
   }
 }

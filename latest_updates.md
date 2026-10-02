@@ -2,6 +2,12 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-02 10:27:20 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Ubuntu's Next Rust Effort May See OpenPGP Replaced By Sequoia PGP](https://www.phoronix.com/news/Ubuntu-Rust-Sequoia-PGP) | RSS Feed |
+| 2026-10-02 10:17:55 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Apex Compute Developing Open-Source Mesa Vulkan Driver For Their Hardware](https://www.phoronix.com/news/Apex-Compute-Mesa-Vulkan) | RSS Feed |
+| 2026-10-02 10:06:11 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Coreboot 26.09 Released With Framework Laptop 12 Support, AI Review Comment Policy](https://www.phoronix.com/news/Coreboot-26.09-Released) | RSS Feed |
+| 2026-10-02 09:54:20 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [KDE Nearing Decision Point On BuildStream-Based KDE Linux](https://www.phoronix.com/news/BuildStream-Based-KDE-Linux) | RSS Feed |
+| 2026-10-02 05:27:46 UTC | **Neovim** | Developer Tools | [Nvim development (prerelease) build](https://github.com/neovim/neovim/releases/tag/nightly) | GitHub Release |
+| 2026-10-02 05:22:20 UTC | **Hacker News (Major Releases)** | Major Open Source | [[57 pts] US tells France and Germany to release diesel stocks or face US export ban](https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/) | Hacker News |
 | 2026-10-02 01:00:31 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Siemens Slams The Door Shut On Promising Open-Source Radioss Project](https://www.phoronix.com/news/Siemens-Ends-OpenRadioss) | RSS Feed |
 | 2026-10-02 00:18:56 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Steam On Linux Dives Down To 3.05% For September](https://www.phoronix.com/news/Steam-Survey-September-2025) | RSS Feed |
 | 2026-10-01 20:57:58 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Fedora 45 Beta Performance: The Satisfyingly Boring Benchmarks](https://www.phoronix.com/review/fedora-45-beta-benchmarks) | RSS Feed |
