@@ -537,5 +537,33 @@
     "time": "2026-10-02 11:46:37 UTC",
     "url": "https://www.phoronix.com/news/Intel-Iris-Efficient-64-bit",
     "seen_at": "2026-10-02T17:20:06.964392+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-7.4-Apple-Device-Trees": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Linux 7.4 To Introduce Initial Device Trees For Apple M4, A18 Pro For MacBook Neo",
+    "time": "2026-10-02 20:32:41 UTC",
+    "url": "https://www.phoronix.com/news/Linux-7.4-Apple-Device-Trees",
+    "seen_at": "2026-10-02T21:45:01.455494+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Intel-CPU-Binds-ULLS-Migration": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Intel Ready With A Big Improvement For Battlemage With Linux 7.4",
+    "time": "2026-10-02 18:34:00 UTC",
+    "url": "https://www.phoronix.com/news/Intel-CPU-Binds-ULLS-Migration",
+    "seen_at": "2026-10-02T21:45:01.455503+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Ubuntu-SHA3-For-Debian-APT": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Ubuntu Working On SHA3 For Debian's APT For If/When SHA2 Is Broken",
+    "time": "2026-10-02 18:10:00 UTC",
+    "url": "https://www.phoronix.com/news/Ubuntu-SHA3-For-Debian-APT",
+    "seen_at": "2026-10-02T21:45:01.455506+00:00"
+  },
+  "rss:https://blog.python.org/feeds/posts/default:https://blog.python.org/2026/10/python-3150-rc3/": {
+    "project": "Python Insider Blog",
+    "title": "Python 3.15.0 candidate 3 is here!",
+    "time": "2026-10-02 00:00:00 UTC",
+    "url": "https://blog.python.org/2026/10/python-3150-rc3/",
+    "seen_at": "2026-10-02T21:45:01.455511+00:00"
   }
 }

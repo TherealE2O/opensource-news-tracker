@@ -2,6 +2,10 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-02 20:32:41 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.4 To Introduce Initial Device Trees For Apple M4, A18 Pro For MacBook Neo](https://www.phoronix.com/news/Linux-7.4-Apple-Device-Trees) | RSS Feed |
+| 2026-10-02 18:34:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Intel Ready With A Big Improvement For Battlemage With Linux 7.4](https://www.phoronix.com/news/Intel-CPU-Binds-ULLS-Migration) | RSS Feed |
+| 2026-10-02 18:10:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Ubuntu Working On SHA3 For Debian's APT For If/When SHA2 Is Broken](https://www.phoronix.com/news/Ubuntu-SHA3-For-Debian-APT) | RSS Feed |
+| 2026-10-02 00:00:00 UTC | **Python Insider Blog** | Programming Language | [Python 3.15.0 candidate 3 is here!](https://blog.python.org/2026/10/python-3150-rc3/) | RSS Feed |
 | 2026-10-02 14:25:45 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [AMD Ryzen AI Developer Platform OS Updated With ROCm 10.0, Linux 7.2](https://www.phoronix.com/news/Ryzen-AI-Dev-Platform-Sep-2026) | RSS Feed |
 | 2026-10-02 13:29:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [systemd-appd Out For Review To Centralize Tracking Of User's Apps](https://www.phoronix.com/news/systemd-appd) | RSS Feed |
 | 2026-10-02 13:00:03 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Imagination Talks Up Their Open-Source Vulkan Driver, Volcanic Architecture Plans](https://www.phoronix.com/news/Mesa-PowerVR-Vulkan-2026) | RSS Feed |
