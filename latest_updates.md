@@ -2,6 +2,8 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-02 01:00:31 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Siemens Slams The Door Shut On Promising Open-Source Radioss Project](https://www.phoronix.com/news/Siemens-Ends-OpenRadioss) | RSS Feed |
+| 2026-10-02 00:18:56 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Steam On Linux Dives Down To 3.05% For September](https://www.phoronix.com/news/Steam-Survey-September-2025) | RSS Feed |
 | 2026-10-01 20:57:58 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Fedora 45 Beta Performance: The Satisfyingly Boring Benchmarks](https://www.phoronix.com/review/fedora-45-beta-benchmarks) | RSS Feed |
 | 2026-10-01 20:00:08 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Mesa Drops Its Poorly Maintained & Rarely Used Direct3D 10 User-Mode Driver](https://www.phoronix.com/news/Mesa-Drops-Direct3D-10-UMD) | RSS Feed |
 | 2026-10-01 19:26:05 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Ubuntu 26.10 Beta Released With Linux 7.3 Kernel, GNOME 51 Desktop](https://www.phoronix.com/news/Ubuntu-26.10-Beta-Released) | RSS Feed |

@@ -453,5 +453,19 @@
     "time": "2026-10-01 16:24:40 UTC",
     "url": "https://www.phoronix.com/news/Linux-Networking-Linux-7.3-rc6",
     "seen_at": "2026-10-01T22:16:15.225401+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Siemens-Ends-OpenRadioss": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Siemens Slams The Door Shut On Promising Open-Source Radioss Project",
+    "time": "2026-10-02 01:00:31 UTC",
+    "url": "https://www.phoronix.com/news/Siemens-Ends-OpenRadioss",
+    "seen_at": "2026-10-02T03:46:52.068241+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Steam-Survey-September-2025": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Steam On Linux Dives Down To 3.05% For September",
+    "time": "2026-10-02 00:18:56 UTC",
+    "url": "https://www.phoronix.com/news/Steam-Survey-September-2025",
+    "seen_at": "2026-10-02T03:46:52.068248+00:00"
   }
 }
