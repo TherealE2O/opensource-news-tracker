@@ -2,6 +2,10 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-03 10:33:10 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.4 To Support The Raspberry Pi 10-Inch Touch Display 2](https://www.phoronix.com/news/Linux-74-RPi-10-Touch-Display-2) | RSS Feed |
+| 2026-10-03 10:18:05 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.3 To Better Support The High-End Turtle Beach VelocityOne Race](https://www.phoronix.com/news/Linux-7.3-TB-VelocityOne-Race) | RSS Feed |
+| 2026-10-03 10:07:10 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [KDE Plasma 6.8 Now Makes Tiled Windows Fit Together More Nicely](https://www.phoronix.com/news/KDE-Plasma-6.8-Tiled-Windows) | RSS Feed |
+| 2026-10-03 05:30:16 UTC | **Neovim** | Developer Tools | [Nvim development (prerelease) build](https://github.com/neovim/neovim/releases/tag/nightly) | GitHub Release |
 | 2026-10-03 00:29:10 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Wine 11.19 Released With Wayland Color Management For Vulkan, DNS Query Caching](https://www.phoronix.com/news/Wine-11.19-Released) | RSS Feed |
 | 2026-10-02 23:27:06 UTC | **OBS Studio** | Streaming & Recording | [OBS Studio 33.0.0 Beta 6](https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta6) | GitHub Release |
 | 2026-10-02 20:32:41 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.4 To Introduce Initial Device Trees For Apple M4, A18 Pro For MacBook Neo](https://www.phoronix.com/news/Linux-7.4-Apple-Device-Trees) | RSS Feed |

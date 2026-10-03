@@ -579,5 +579,33 @@
     "time": "2026-10-03 00:29:10 UTC",
     "url": "https://www.phoronix.com/news/Wine-11.19-Released",
     "seen_at": "2026-10-03T03:31:20.166417+00:00"
+  },
+  "github:neovim/neovim:402346242": {
+    "project": "Neovim",
+    "title": "Nvim development (prerelease) build",
+    "time": "2026-10-03 05:30:16 UTC",
+    "url": "https://github.com/neovim/neovim/releases/tag/nightly",
+    "seen_at": "2026-10-03T11:00:21.617863+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-74-RPi-10-Touch-Display-2": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Linux 7.4 To Support The Raspberry Pi 10-Inch Touch Display 2",
+    "time": "2026-10-03 10:33:10 UTC",
+    "url": "https://www.phoronix.com/news/Linux-74-RPi-10-Touch-Display-2",
+    "seen_at": "2026-10-03T11:00:21.617898+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-7.3-TB-VelocityOne-Race": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Linux 7.3 To Better Support The High-End Turtle Beach VelocityOne Race",
+    "time": "2026-10-03 10:18:05 UTC",
+    "url": "https://www.phoronix.com/news/Linux-7.3-TB-VelocityOne-Race",
+    "seen_at": "2026-10-03T11:00:21.617901+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/KDE-Plasma-6.8-Tiled-Windows": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "KDE Plasma 6.8 Now Makes Tiled Windows Fit Together More Nicely",
+    "time": "2026-10-03 10:07:10 UTC",
+    "url": "https://www.phoronix.com/news/KDE-Plasma-6.8-Tiled-Windows",
+    "seen_at": "2026-10-03T11:00:21.617915+00:00"
   }
 }
