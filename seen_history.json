@@ -565,5 +565,19 @@
     "time": "2026-10-02 00:00:00 UTC",
     "url": "https://blog.python.org/2026/10/python-3150-rc3/",
     "seen_at": "2026-10-02T21:45:01.455511+00:00"
+  },
+  "github:obsproject/obs-studio:402219898": {
+    "project": "OBS Studio",
+    "title": "OBS Studio 33.0.0 Beta 6",
+    "time": "2026-10-02 23:27:06 UTC",
+    "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta6",
+    "seen_at": "2026-10-03T03:31:20.166377+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Wine-11.19-Released": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Wine 11.19 Released With Wayland Color Management For Vulkan, DNS Query Caching",
+    "time": "2026-10-03 00:29:10 UTC",
+    "url": "https://www.phoronix.com/news/Wine-11.19-Released",
+    "seen_at": "2026-10-03T03:31:20.166417+00:00"
   }
 }

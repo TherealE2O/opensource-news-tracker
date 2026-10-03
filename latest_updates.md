@@ -2,6 +2,8 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-03 00:29:10 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Wine 11.19 Released With Wayland Color Management For Vulkan, DNS Query Caching](https://www.phoronix.com/news/Wine-11.19-Released) | RSS Feed |
+| 2026-10-02 23:27:06 UTC | **OBS Studio** | Streaming & Recording | [OBS Studio 33.0.0 Beta 6](https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta6) | GitHub Release |
 | 2026-10-02 20:32:41 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.4 To Introduce Initial Device Trees For Apple M4, A18 Pro For MacBook Neo](https://www.phoronix.com/news/Linux-7.4-Apple-Device-Trees) | RSS Feed |
 | 2026-10-02 18:34:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Intel Ready With A Big Improvement For Battlemage With Linux 7.4](https://www.phoronix.com/news/Intel-CPU-Binds-ULLS-Migration) | RSS Feed |
 | 2026-10-02 18:10:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Ubuntu Working On SHA3 For Debian's APT For If/When SHA2 Is Broken](https://www.phoronix.com/news/Ubuntu-SHA3-For-Debian-APT) | RSS Feed |
