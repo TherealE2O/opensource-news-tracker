@@ -621,5 +621,26 @@
     "time": "2026-10-03 11:24:07 UTC",
     "url": "https://www.phoronix.com/news/KosmicKrisp-Vulkan-1.4-2026",
     "seen_at": "2026-10-03T15:37:05.715498+00:00"
+  },
+  "github:LizardByte/Sunshine:402634339": {
+    "project": "Sunshine Game Streamer",
+    "title": "v2026.1003.171600",
+    "time": "2026-10-03 18:17:29 UTC",
+    "url": "https://github.com/LizardByte/Sunshine/releases/tag/v2026.1003.171600",
+    "seen_at": "2026-10-03T20:31:39.252498+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "The Amazing Work By Valve's Timur Krist\u00f3f On Improving Old AMD GPUs On Linux",
+    "time": "2026-10-03 18:56:28 UTC",
+    "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+    "seen_at": "2026-10-03T20:31:39.252529+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-Latency-Short-Slice-Tasks": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Linux Patches Show Promising Results For Lower Latency Of Short Slice Tasks",
+    "time": "2026-10-03 17:25:38 UTC",
+    "url": "https://www.phoronix.com/news/Linux-Latency-Short-Slice-Tasks",
+    "seen_at": "2026-10-03T20:31:39.252532+00:00"
   }
 }
