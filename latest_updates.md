@@ -2,6 +2,8 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-03 11:47:01 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Moose: GNOME Gains Another Local AI App Option](https://www.phoronix.com/news/GNOME-Moose-Local-AI) | RSS Feed |
+| 2026-10-03 11:24:07 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [KosmicKrisp Now Conformant To Vulkan 1.4, Improving Performance Against Apple's Metal](https://www.phoronix.com/news/KosmicKrisp-Vulkan-1.4-2026) | RSS Feed |
 | 2026-10-03 10:33:10 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.4 To Support The Raspberry Pi 10-Inch Touch Display 2](https://www.phoronix.com/news/Linux-74-RPi-10-Touch-Display-2) | RSS Feed |
 | 2026-10-03 10:18:05 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.3 To Better Support The High-End Turtle Beach VelocityOne Race](https://www.phoronix.com/news/Linux-7.3-TB-VelocityOne-Race) | RSS Feed |
 | 2026-10-03 10:07:10 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [KDE Plasma 6.8 Now Makes Tiled Windows Fit Together More Nicely](https://www.phoronix.com/news/KDE-Plasma-6.8-Tiled-Windows) | RSS Feed |

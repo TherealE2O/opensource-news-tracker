@@ -607,5 +607,19 @@
     "time": "2026-10-03 10:07:10 UTC",
     "url": "https://www.phoronix.com/news/KDE-Plasma-6.8-Tiled-Windows",
     "seen_at": "2026-10-03T11:00:21.617915+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/GNOME-Moose-Local-AI": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Moose: GNOME Gains Another Local AI App Option",
+    "time": "2026-10-03 11:47:01 UTC",
+    "url": "https://www.phoronix.com/news/GNOME-Moose-Local-AI",
+    "seen_at": "2026-10-03T15:37:05.715489+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/KosmicKrisp-Vulkan-1.4-2026": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "KosmicKrisp Now Conformant To Vulkan 1.4, Improving Performance Against Apple's Metal",
+    "time": "2026-10-03 11:24:07 UTC",
+    "url": "https://www.phoronix.com/news/KosmicKrisp-Vulkan-1.4-2026",
+    "seen_at": "2026-10-03T15:37:05.715498+00:00"
   }
 }
