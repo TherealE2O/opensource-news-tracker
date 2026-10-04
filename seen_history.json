@@ -705,5 +705,12 @@
     "time": "2026-10-04 15:16:26 UTC",
     "url": "https://www.phoronix.com/news/Linux-MGLRU-FG-Patches",
     "seen_at": "2026-10-04T16:21:00.801034+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/OpenRadioss-OpenCourant": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "OpenCourant: Rocky Linux Developers Create Community Fork Of OpenRadioss",
+    "time": "2026-10-04 17:51:01 UTC",
+    "url": "https://www.phoronix.com/news/OpenRadioss-OpenCourant",
+    "seen_at": "2026-10-04T20:48:39.026656+00:00"
   }
 }

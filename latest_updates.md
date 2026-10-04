@@ -2,6 +2,7 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-04 17:51:01 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [OpenCourant: Rocky Linux Developers Create Community Fork Of OpenRadioss](https://www.phoronix.com/news/OpenRadioss-OpenCourant) | RSS Feed |
 | 2026-10-04 15:16:26 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [MGLRU-FG Delivering Up To 10~40% Higher Performance For Linux In Some Tests](https://www.phoronix.com/news/Linux-MGLRU-FG-Patches) | RSS Feed |
 | 2026-10-04 13:31:01 UTC | **Sunshine Game Streamer** | Game Streaming & Tech | [v2026.1004.122811](https://github.com/LizardByte/Sunshine/releases/tag/v2026.1004.122811) | GitHub Release |
 | 2026-10-04 11:03:20 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [NVIDIA's Results Of Conducting Wayland vs. X.Org Latency Testing](https://www.phoronix.com/news/NVIDIA-Wayland-Xorg-Latency) | RSS Feed |
