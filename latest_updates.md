@@ -2,6 +2,8 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-04 00:10:09 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Arm Working On "TLBID" For Linux To Increase Performance On High Core Count CPUs](https://www.phoronix.com/news/ARM64-Linux-TLBI-Domains) | RSS Feed |
+| 2026-10-03 23:20:18 UTC | **Sunshine Game Streamer** | Game Streaming & Tech | [v2026.1003.221627](https://github.com/LizardByte/Sunshine/releases/tag/v2026.1003.221627) | GitHub Release |
 | 2026-10-03 18:56:28 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [The Amazing Work By Valve's Timur Kristóf On Improving Old AMD GPUs On Linux](https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU) | RSS Feed |
 | 2026-10-03 18:17:29 UTC | **Sunshine Game Streamer** | Game Streaming & Tech | [v2026.1003.171600](https://github.com/LizardByte/Sunshine/releases/tag/v2026.1003.171600) | GitHub Release |
 | 2026-10-03 17:25:38 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux Patches Show Promising Results For Lower Latency Of Short Slice Tasks](https://www.phoronix.com/news/Linux-Latency-Short-Slice-Tasks) | RSS Feed |

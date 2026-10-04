@@ -642,5 +642,19 @@
     "time": "2026-10-03 17:25:38 UTC",
     "url": "https://www.phoronix.com/news/Linux-Latency-Short-Slice-Tasks",
     "seen_at": "2026-10-03T20:31:39.252532+00:00"
+  },
+  "github:LizardByte/Sunshine:402730562": {
+    "project": "Sunshine Game Streamer",
+    "title": "v2026.1003.221627",
+    "time": "2026-10-03 23:20:18 UTC",
+    "url": "https://github.com/LizardByte/Sunshine/releases/tag/v2026.1003.221627",
+    "seen_at": "2026-10-04T03:59:28.328360+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/ARM64-Linux-TLBI-Domains": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Arm Working On \"TLBID\" For Linux To Increase Performance On High Core Count CPUs",
+    "time": "2026-10-04 00:10:09 UTC",
+    "url": "https://www.phoronix.com/news/ARM64-Linux-TLBI-Domains",
+    "seen_at": "2026-10-04T03:59:28.328386+00:00"
   }
 }
