@@ -691,5 +691,19 @@
     "time": "2026-10-04 09:59:30 UTC",
     "url": "https://www.phoronix.com/news/openSUSE-ZUPT-Backups",
     "seen_at": "2026-10-04T11:42:15.982558+00:00"
+  },
+  "github:LizardByte/Sunshine:403034761": {
+    "project": "Sunshine Game Streamer",
+    "title": "v2026.1004.122811",
+    "time": "2026-10-04 13:31:01 UTC",
+    "url": "https://github.com/LizardByte/Sunshine/releases/tag/v2026.1004.122811",
+    "seen_at": "2026-10-04T16:21:00.801006+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-MGLRU-FG-Patches": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "MGLRU-FG Delivering Up To 10~40% Higher Performance For Linux In Some Tests",
+    "time": "2026-10-04 15:16:26 UTC",
+    "url": "https://www.phoronix.com/news/Linux-MGLRU-FG-Patches",
+    "seen_at": "2026-10-04T16:21:00.801034+00:00"
   }
 }
