@@ -2,6 +2,11 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-04 11:03:20 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [NVIDIA's Results Of Conducting Wayland vs. X.Org Latency Testing](https://www.phoronix.com/news/NVIDIA-Wayland-Xorg-Latency) | RSS Feed |
+| 2026-10-04 10:31:23 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux Begins Seeing Workarounds For Fujitsu MONAKA CPU Bugs](https://www.phoronix.com/news/Linux-MONAKA-CPU-Workarounds) | RSS Feed |
+| 2026-10-04 10:14:12 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [AMD Sends In More New GPU Hardware Enablement For Linux 7.4, Bug Fixes](https://www.phoronix.com/news/More-AMDGPU-Linux-7.4) | RSS Feed |
+| 2026-10-04 09:59:30 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [openSUSE Turns To ZUPT For Post-Quantum Backups](https://www.phoronix.com/news/openSUSE-ZUPT-Backups) | RSS Feed |
+| 2026-10-04 07:02:46 UTC | **Neovim** | Developer Tools | [Nvim development (prerelease) build](https://github.com/neovim/neovim/releases/tag/nightly) | GitHub Release |
 | 2026-10-04 00:10:09 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Arm Working On "TLBID" For Linux To Increase Performance On High Core Count CPUs](https://www.phoronix.com/news/ARM64-Linux-TLBI-Domains) | RSS Feed |
 | 2026-10-03 23:20:18 UTC | **Sunshine Game Streamer** | Game Streaming & Tech | [v2026.1003.221627](https://github.com/LizardByte/Sunshine/releases/tag/v2026.1003.221627) | GitHub Release |
 | 2026-10-03 18:56:28 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [The Amazing Work By Valve's Timur Kristóf On Improving Old AMD GPUs On Linux](https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU) | RSS Feed |

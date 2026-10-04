@@ -656,5 +656,40 @@
     "time": "2026-10-04 00:10:09 UTC",
     "url": "https://www.phoronix.com/news/ARM64-Linux-TLBI-Domains",
     "seen_at": "2026-10-04T03:59:28.328386+00:00"
+  },
+  "github:neovim/neovim:402890618": {
+    "project": "Neovim",
+    "title": "Nvim development (prerelease) build",
+    "time": "2026-10-04 07:02:46 UTC",
+    "url": "https://github.com/neovim/neovim/releases/tag/nightly",
+    "seen_at": "2026-10-04T11:42:15.982512+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/NVIDIA-Wayland-Xorg-Latency": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "NVIDIA's Results Of Conducting Wayland vs. X.Org Latency Testing",
+    "time": "2026-10-04 11:03:20 UTC",
+    "url": "https://www.phoronix.com/news/NVIDIA-Wayland-Xorg-Latency",
+    "seen_at": "2026-10-04T11:42:15.982548+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-MONAKA-CPU-Workarounds": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Linux Begins Seeing Workarounds For Fujitsu MONAKA CPU Bugs",
+    "time": "2026-10-04 10:31:23 UTC",
+    "url": "https://www.phoronix.com/news/Linux-MONAKA-CPU-Workarounds",
+    "seen_at": "2026-10-04T11:42:15.982552+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/More-AMDGPU-Linux-7.4": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "AMD Sends In More New GPU Hardware Enablement For Linux 7.4, Bug Fixes",
+    "time": "2026-10-04 10:14:12 UTC",
+    "url": "https://www.phoronix.com/news/More-AMDGPU-Linux-7.4",
+    "seen_at": "2026-10-04T11:42:15.982555+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/openSUSE-ZUPT-Backups": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "openSUSE Turns To ZUPT For Post-Quantum Backups",
+    "time": "2026-10-04 09:59:30 UTC",
+    "url": "https://www.phoronix.com/news/openSUSE-ZUPT-Backups",
+    "seen_at": "2026-10-04T11:42:15.982558+00:00"
   }
 }
