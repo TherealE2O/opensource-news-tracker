@@ -1,126 +1,14 @@
-# 🚀 Automated Open Source Release & News Tracker for YouTube
+# Polititrace Nigeria — Daily Politics & Society Intelligence Dispatcher
 
-A lightweight, automated system that monitors open-source game engines, creative software (video editors, 3D tools), and major open-source releases to give you instant, timely alerts with **Project Name**, **Date & Time of Update**, and **Direct Links**.
+Automated 24/7 briefing and dispatch engine monitoring Nigerian national politics, state governance corridors, talk radio citizen voices, and macroeconomic indicators.
 
----
+## Features
+- **Verified News Feeds:** Ingests breaking investigative and policy news from *Premium Times*, *The Punch*, *The Cable*, and *Vanguard*.
+- **Talk Radio Ground Sentiments:** Direct citizen quotes from Lagos Info 99.3 FM, Abuja Brekete 101.1 FM, Edo ITV 92.3 FM, and Rivers Info 92.3 FM.
+- **Macroeconomic Reality Ledger:** Tracks PMS petrol pump rates across state corridors, parallel & NAFEM FX rates, staple food prices, and national electricity grid generation (MW).
+- **Daily Automated Email Briefing:** Dispatches a high-contrast, publication-ready email digest to subscribers every morning at 06:00 WAT via GitHub Actions and Gmail SMTP.
 
-## 📋 What It Tracks Out-of-the-Box
-
-1. **Open Source Game Engines & Frameworks:**
-   - **Godot Engine** (Releases & official dev snapshots / blog)
-   - **Bevy Engine**
-   - **Raylib**
-   - **Defold**
-   - **O3DE (Open 3D Engine)**
-
-2. **Open Source Video Editors & Creative Software:**
-   - **Blender** (GitHub releases & official news feed)
-   - **Kdenlive**
-   - **Shotcut**
-   - **OpenShot**
-   - **OBS Studio**
-   - **Audacity**
-   - **FreeCAD**
-
-3. **Programming Languages & Runtimes (Your Stack):**
-   - **Python** (`python/cpython` + Python Insider Blog)
-   - **TypeScript** (`microsoft/TypeScript` + Official Microsoft TypeScript DevBlog)
-   - **Kotlin** (`JetBrains/kotlin` + Official JetBrains Kotlin Blog)
-   - **JavaScript** (`nodejs/node` + `oven-sh/bun`)
-   - **C / C++** (`llvm/llvm-project` - LLVM & Clang compiler toolchains)
-   - **Rust Language** (`rust-lang/rust`)
-
-4. **Game Streaming, Physics & 2D Animation:**
-   - **Sunshine** (`LizardByte/Sunshine`)
-   - **Box2D Physics** (`erincatto/box2d`)
-   - **OpenToonz** (`opentoonz/opentoonz`)
-
-5. **Major Open Source & Developer Tech:**
-   - **Linux Kernel**
-   - **Rust Language**
-   - **Neovim**
-   - **Phoronix** (Linux, GPU drivers, benchmarks, open-source hardware news)
-
-4. **Community Discussions & Release Buzz:**
-   - **Reddit r/opensource** (Hot posts > 25 upvotes)
-   - **Reddit r/gamedev** (Engine/tool announcements > 40 upvotes)
-   - **Hacker News** (Top trending release announcements > 50 points)
-
----
-
-## 🔔 Setting Up Instant Free Alerts
-
-You can choose either **Discord Webhook** or **Telegram Bot** (or both!). Both are 100% free and send instant push notifications to your phone and desktop so you never miss a breaking release.
-
-### Option A: Discord Webhook (Recommended & Easiest)
-1. In your Discord server, right-click any text channel (or create a private `#youtube-news-alerts` channel).
-2. Click **Edit Channel** (gear icon) ➡️ **Integrations** ➡️ **Webhooks** ➡️ **New Webhook**.
-3. Name it `Open Source News Bot` and click **Copy Webhook URL**.
-4. In GitHub, go to your repository:
-   - **Settings** ➡️ **Secrets and variables** ➡️ **Actions** ➡️ **New repository secret**.
-   - Name: `DISCORD_WEBHOOK_URL`
-   - Value: paste your Discord Webhook URL.
-
-### Option B: Telegram Bot
-1. Open Telegram and search for `@BotFather`.
-2. Send `/newbot`, follow the prompts, and copy the **Bot Token**.
-3. Start a chat with your bot or add it to a channel/group.
-4. Get your Chat ID (using `@userinfobot` or `@RawDataBot`).
-5. In GitHub Secrets:
-   - Add secret `TELEGRAM_BOT_TOKEN`
-   - Add secret `TELEGRAM_CHAT_ID`
-
-### Option C: Gmail Email Alerts (Same as Watch Party)
-Get formatted HTML digests delivered straight to your email inbox!
-1. In your GitHub repository:
-   - Go to **Settings** ➡️ **Secrets and variables** ➡️ **Actions** ➡️ **New repository secret**.
-2. Add the following secrets:
-   - **`MAIL_USERNAME`**: Your Gmail address (e.g. `yourname@gmail.com`).
-   - **`MAIL_PASSWORD`**: Your 16-character Google **App Password** (from Google Account ➡️ Security ➡️ 2-Step Verification ➡️ App Passwords).
-   - *(Optional)* **`MAIL_TO`**: Custom recipient email (defaults to `MAIL_USERNAME` if omitted).
-
----
-
-## ⚙️ How the GitHub Action Works
-
-The workflow is located in [`.github/workflows/track_opensource.yml`](file:///c:/Users/DELL/Desktop/school_stuff/EEE532/.github/workflows/track_opensource.yml):
-
-- **Automatic Schedule**: Runs automatically every 6 hours (`cron: '0 */6 * * *'`).
-- **Manual Trigger**: You can run it anytime manually with one click from GitHub Actions (Actions tab ➡️ select "Open Source News & Release Tracker" ➡️ **Run workflow**).
-- **Persistent State**: Maintains `seen_history.json` and updates [`latest_updates.md`](file:///c:/Users/DELL/Desktop/school_stuff/EEE532/opensource_tracker/latest_updates.md) in the repository so you only receive alerts for *new* items and never get spammed with duplicates.
-
----
-
-## ➕ Adding More Projects
-
-To track any new project, just open [`opensource_tracker/config.json`](file:///c:/Users/DELL/Desktop/school_stuff/EEE532/opensource_tracker/config.json) and add it:
-
-### Adding a GitHub Repository:
-```json
-{
-  "name": "Godot Engine",
-  "repo": "godotengine/godot",
-  "category": "Game Engine"
-}
-```
-
-### Adding an RSS / Blog Feed:
-```json
-{
-  "name": "Blender News",
-  "url": "https://www.blender.org/feed/",
-  "category": "3D & Video"
-}
-```
-
----
-
-## 💻 Running Locally
-
-You can also run it locally on your computer at any time:
-
-```bash
-# Optional: test with your Discord webhook locally
-$env:DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."
-python opensource_tracker/tracker.py
-```
+## GitHub Actions Secrets Required
+- `MAIL_USERNAME`: Gmail address used for sending digests.
+- `MAIL_PASSWORD`: Google App Password for SMTP authentication.
+- `MAIL_TO`: Destination email address for receiving daily digests (defaults to `MAIL_USERNAME`).
