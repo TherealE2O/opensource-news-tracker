@@ -2,6 +2,14 @@
 
 | Date & Time (UTC) | Project | Category | Update / Release | Source |
 |---|---|---|---|---|
+| 2026-10-05 13:04:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Mesa Developers Looking At A Formal Governance Model](https://www.phoronix.com/news/Mesa-Governance-Model) | RSS Feed |
+| 2026-10-05 12:44:11 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux's ZRAM Reworked For Greater Memory Savings, Better Performance](https://www.phoronix.com/news/Linux-ZRAM-Rework-Savings) | RSS Feed |
+| 2026-10-05 11:33:00 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.4 To Mainline Support For The Google Tensor G5, Pixel 10 Devices](https://www.phoronix.com/news/Linux-7.4-Google-Tensor-G5) | RSS Feed |
+| 2026-10-05 10:46:19 UTC | **Kotlin Official Blog** | Programming Language | [Discontinuing Swift Language IDE Support in the Kotlin Multiplatform Plugin](https://blog.jetbrains.com/kotlin/2026/10/discontinuing-swift-language-ide-support-in-the-kotlin-multiplatform-plugin/) | RSS Feed |
+| 2026-10-05 10:35:59 UTC | **Hacker News (Major Releases)** | Major Open Source | [[55 pts] Press Release: Nobel Prize in Physiology or Medicine 2026](https://www.nobelprize.org/prizes/medicine/2026/press-release/) | Hacker News |
+| 2026-10-05 10:29:15 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Mold 3.0 High Speed Linker Released Following Rust Rewrite](https://www.phoronix.com/news/Mold-3.0-Released) | RSS Feed |
+| 2026-10-05 10:23:18 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.4 Continues Preparing For Intel's Rugged Panther Lake](https://www.phoronix.com/news/Linux-7.4-Rugged-Panther-Lake) | RSS Feed |
+| 2026-10-05 05:38:58 UTC | **Neovim** | Developer Tools | [Nvim development (prerelease) build](https://github.com/neovim/neovim/releases/tag/nightly) | GitHub Release |
 | 2026-10-04 21:04:15 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [Linux 7.3-rc6 Released: Normal For The New "AI Normal"](https://www.phoronix.com/news/Linux-7.3-rc6-Released) | RSS Feed |
 | 2026-10-04 17:51:01 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [OpenCourant: Rocky Linux Developers Create Community Fork Of OpenRadioss](https://www.phoronix.com/news/OpenRadioss-OpenCourant) | RSS Feed |
 | 2026-10-04 15:16:26 UTC | **Phoronix (Linux & Open Source Hardware/Software)** | Major Open Source | [MGLRU-FG Delivering Up To 10~40% Higher Performance For Linux In Some Tests](https://www.phoronix.com/news/Linux-MGLRU-FG-Patches) | RSS Feed |

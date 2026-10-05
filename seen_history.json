@@ -719,5 +719,61 @@
     "time": "2026-10-04 21:04:15 UTC",
     "url": "https://www.phoronix.com/news/Linux-7.3-rc6-Released",
     "seen_at": "2026-10-05T03:44:53.041875+00:00"
+  },
+  "github:neovim/neovim:403398185": {
+    "project": "Neovim",
+    "title": "Nvim development (prerelease) build",
+    "time": "2026-10-05 05:38:58 UTC",
+    "url": "https://github.com/neovim/neovim/releases/tag/nightly",
+    "seen_at": "2026-10-05T13:25:56.380500+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Mesa-Governance-Model": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Mesa Developers Looking At A Formal Governance Model",
+    "time": "2026-10-05 13:04:00 UTC",
+    "url": "https://www.phoronix.com/news/Mesa-Governance-Model",
+    "seen_at": "2026-10-05T13:25:56.380536+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-ZRAM-Rework-Savings": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Linux's ZRAM Reworked For Greater Memory Savings, Better Performance",
+    "time": "2026-10-05 12:44:11 UTC",
+    "url": "https://www.phoronix.com/news/Linux-ZRAM-Rework-Savings",
+    "seen_at": "2026-10-05T13:25:56.380540+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-7.4-Google-Tensor-G5": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Linux 7.4 To Mainline Support For The Google Tensor G5, Pixel 10 Devices",
+    "time": "2026-10-05 11:33:00 UTC",
+    "url": "https://www.phoronix.com/news/Linux-7.4-Google-Tensor-G5",
+    "seen_at": "2026-10-05T13:25:56.380543+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Mold-3.0-Released": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Mold 3.0 High Speed Linker Released Following Rust Rewrite",
+    "time": "2026-10-05 10:29:15 UTC",
+    "url": "https://www.phoronix.com/news/Mold-3.0-Released",
+    "seen_at": "2026-10-05T13:25:56.380546+00:00"
+  },
+  "rss:https://www.phoronix.com/phoronix-rss.php:https://www.phoronix.com/news/Linux-7.4-Rugged-Panther-Lake": {
+    "project": "Phoronix (Linux & Open Source Hardware/Software)",
+    "title": "Linux 7.4 Continues Preparing For Intel's Rugged Panther Lake",
+    "time": "2026-10-05 10:23:18 UTC",
+    "url": "https://www.phoronix.com/news/Linux-7.4-Rugged-Panther-Lake",
+    "seen_at": "2026-10-05T13:25:56.380549+00:00"
+  },
+  "rss:https://blog.jetbrains.com/kotlin/feed/:https://blog.jetbrains.com/kotlin/2026/10/discontinuing-swift-language-ide-support-in-the-kotlin-multiplatform-plugin/": {
+    "project": "Kotlin Official Blog",
+    "title": "Discontinuing Swift Language IDE Support in the Kotlin Multiplatform Plugin",
+    "time": "2026-10-05 10:46:19 UTC",
+    "url": "https://blog.jetbrains.com/kotlin/2026/10/discontinuing-swift-language-ide-support-in-the-kotlin-multiplatform-plugin/",
+    "seen_at": "2026-10-05T13:25:56.380558+00:00"
+  },
+  "hn:49963094": {
+    "project": "Hacker News (Major Releases)",
+    "title": "[55 pts] Press Release: Nobel Prize in Physiology or Medicine 2026",
+    "time": "2026-10-05 10:35:59 UTC",
+    "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+    "seen_at": "2026-10-05T13:25:56.380587+00:00"
   }
 }
