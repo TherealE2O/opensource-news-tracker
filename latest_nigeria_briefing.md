@@ -5,16 +5,16 @@
 ---
 
 ## 1. Top Verified News Wire
-- **[Premium Times]** [CSOs demand probe of TikTok blackout in Northern Nigeria](https://www.premiumtimesng.com/news/914830-csos-demand-probe-of-tiktok-blackout-in-northern-nigeria.html)
-- **[Premium Times]** [2027: Lulu-Briggs dismisses Rainbow Coalition, vows to transform Rivers if elected governor](https://www.premiumtimesng.com/regional/south-south-regional/914827-2027-lulu-briggs-dismisses-rainbow-coalition-vows-to-transform-rivers-if-elected-governor.html)
-- **[Premium Times]** [Russia vs Nigeria Preview: Super Eagles face stern test as Chelle demands victory](https://www.premiumtimesng.com/news/top-news/914823-russia-vs-nigeria-preview-super-eagles-face-stern-test-as-chelle-demands-victory.html)
-- **[Premium Times]** [Gymnastics Federation appoints 44 coaches for national teams](https://www.premiumtimesng.com/sports/nigeria-sports-news/914820-gymnastics-federation-appoints-44-coaches-for-national-teams.html)
-- **[Premium Times]** [Alleged Sexual Affairs: Apostle Sam Pamilerin apologises, steps aside](https://www.premiumtimesng.com/entertainment/naija-fashion/914816-alleged-sexual-affairs-apostle-sam-pamilerin-apologises-steps-aside.html)
-- **[Premium Times]** [Russia vs Nigeria: Five danger men Super Eagles must contain](https://www.premiumtimesng.com/sports/football/914811-russia-vs-nigeria-five-danger-men-super-eagles-must-contain.html)
-- **[The Punch]** [Agriculture minister expresses condolences over military air crash](https://punchng.com/agriculture-minister-expresses-condolences-over-military-air-crash/?utm_source=rss.punchng.com&utm_medium=web)
-- **[The Punch]** [At 70, Alake has made Ekiti proud — Oyebanji](https://punchng.com/at-70-alake-has-made-ekiti-proud-oyebanji/?utm_source=rss.punchng.com&utm_medium=web)
-- **[The Punch]** [Delta varsity removes Kila’s profile from website over ‘fake professor’ controversy](https://punchng.com/delta-varsity-removes-kilas-profile-from-website-over-fake-professor-controversy/?utm_source=rss.punchng.com&utm_medium=web)
-- **[The Punch]** [Why JAMB took UTME to Canada – Registrar](https://punchng.com/why-jamb-took-utme-to-canada-registrar/?utm_source=rss.punchng.com&utm_medium=web)
+- **[Premium Times]** [NAS pairs 25 young Nigerian researchers with senior scientists in new mentorship programme](https://www.premiumtimesng.com/news/more-news/914869-nas-pairs-25-young-nigerian-researchers-with-senior-scientists-in-new-mentorship-programme.html)
+- **[Premium Times]** [Police to sanction DPO, two others over suspect’s disappearance from custody](https://www.premiumtimesng.com/news/top-news/914868-police-to-sanction-dpo-two-others-over-suspects-disappearance-from-custody.html)
+- **[Premium Times]** [dRPC opens applications for free training for Nigerian NGOs, foundations](https://www.premiumtimesng.com/health/health-news/914855-drpc-opens-applications-for-free-training-for-nigerian-ngos-foundations.html)
+- **[Premium Times]** [Dapper beats YBNL, Starboy, Mavin in mid-year market-share ranking](https://www.premiumtimesng.com/entertainment/music/914851-dapper-beats-ybnl-starboy-mavin-in-mid-year-market-share-ranking.html)
+- **[Premium Times]** [Taraba senator faces APC petition over alleged forged NECO certificate](https://www.premiumtimesng.com/news/more-news/914860-taraba-senator-faces-apc-petition-over-alleged-forged-neco-certificate.html)
+- **[Premium Times]** [Professor dies hours after swearing-in as substantive university VC](https://www.premiumtimesng.com/news/top-news/914857-professor-dies-hours-after-swearing-in-as-substantive-university-vc.html)
+- **[The Punch]** [Police arrest suspected murderer after three-month manhunt](https://punchng.com/police-arrest-suspected-murderer-after-three-month-manhunt/?utm_source=rss.punchng.com&utm_medium=web)
+- **[The Punch]** [Alcaraz wins Japan Open for first title since return from injury](https://punchng.com/alcaraz-wins-japan-open-for-first-title-since-return-from-injury/?utm_source=rss.punchng.com&utm_medium=web)
+- **[The Punch]** [NGF mourns victims of Ondo aircraft crash](https://punchng.com/ngf-mourns-victims-of-ondo-aircraft-crash/?utm_source=rss.punchng.com&utm_medium=web)
+- **[The Punch]** [Ondo air crash: APC chieftain backs Tinubu’s call for probe](https://punchng.com/ondo-air-crash-apc-chieftain-backs-tinubus-call-for-probe/?utm_source=rss.punchng.com&utm_medium=web)
 
 ---
 ## 2. Macroeconomic Ledger
@@ -28,21 +28,22 @@
 ---
 ## 3. 𝕏 (Twitter) Nigeria Trends & Political Pulse
 ### Trending Hashtags
-- [#RafaXKanoPillars](https://twitter.com/search?q=%23RafaXKanoPillars)
+- [#ChickenRepublic](https://twitter.com/search?q=%23ChickenRepublic)
 - [#PayTheBoatOwners](https://twitter.com/search?q=%23PayTheBoatOwners)
-- [World Wizkid Day](https://twitter.com/search?q=World%20Wizkid%20Day)
-- [Taco Tuesday](https://twitter.com/search?q=Taco%20Tuesday)
-- [#BayelsaAt30](https://twitter.com/search?q=%23BayelsaAt30)
-- [#NSPPD](https://twitter.com/search?q=%23NSPPD)
-- [#LarmmyBirthday2026](https://twitter.com/search?q=%23LarmmyBirthday2026)
+- [Fungo Labs](https://twitter.com/search?q=Fungo%20Labs)
 - [Olise](https://twitter.com/search?q=Olise)
-- [Big Fuse](https://twitter.com/search?q=Big%20Fuse)
+- [#SportyBetAnswerUs](https://twitter.com/search?q=%23SportyBetAnswerUs)
+- [World Wizkid Day](https://twitter.com/search?q=World%20Wizkid%20Day)
+- [#RafaXKanoPillars](https://twitter.com/search?q=%23RafaXKanoPillars)
 - [Encrypted NFTs](https://twitter.com/search?q=Encrypted%20NFTs)
+- [#NDCOfficialLogo](https://twitter.com/search?q=%23NDCOfficialLogo)
+- [Taco Tuesday](https://twitter.com/search?q=Taco%20Tuesday)
 
 ### Political Discourse Wire
-- [2026 INDEPENDENCE DAY ADDRESS: FROM REFORMS TO PROSPERITY My fellow Nigerians, Sixty-six years ago today, our flag was raised, for the first time, over a free and sovereign nation. Since then, we have journeyed together as one nation, bound](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ScFlrRUhYVmM3aDFnSUp0aVVheDdqcEtEczZUUGpuNDFHVkNXMWdDVmlMUmxSeUdjbDdta2s5ejFnTU1nS1JTU0MzV3J0ZXlRS00xeTQ5ZndDWmtxM2ZZRDRkWQ?oc=5)
-- [President Tinubu has done so well in so many aspects, especially in the area of finance, because the states are getting more. - Governor Bala Mohammed spoke today during the visit of Finance Minister Taiwo Oyedele and Health Minister Ali Pate to Bauchi St](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oVFhSOGt0OGtLa2VwTUx5XzNaaFNyNWs0SmlOWjllVjdkR09KRl9JSEFkT29jRnk0bmJCXzY4S0xpWkNPM05mNjZRczAtMDdDUDFVS0RfdlYxSUo0dWRMUw?oc=5)
-- [“If I win, I’ll bring back fuel subsidy and I’ll remove the corruption. From day one I talked about subsidy, I talked about the corruption, the corruption is the problem is the subsidy so If I win, I’ll bring back fuel subsidy and I’ll remove the corruption” Peter Obi in a ne](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LOWlKNzA1RnhUcWs1SkxENmFnWVhGQ1FCVzBnMWtOR3Q2UUxsTVJmWTU5aER6RF9NcG9hakRTRkRzNEhOaTM5VEh1MzlmVVBsMnFTZ0dFYnNDNi0zTUh6XzVCXzVtZw?oc=5)
+- [Last week, I visited the student hostel at Brock University in Ontario, Canada. Brock University is a public university. This should be the minimum standard for university hostels in Nigeria.](https://news.google.com/rss/articles/CBMiXkFVX3lxTE85OGItdlZTSXJuSUhRUXdmRjFRR0FJMmViYTVvQmd1dFZWemkxQXNIUXNNYlEtbGcyMGpoNWp5Uk5lalVpVVE3VGtBQ2tJVlNkV1poMklqazVUcXg0YXc?oc=5)
+- ["The country was not spoilt by President Bola Tinubu. He is doing great. Nigerians should be patient with him..." — Actor Hanks Anuku](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlVlFYQU44TGVGcDRFZjlMSjh1aVd5czFUYU5RX0pxMEljZ3NUOURTQVZUOHpfV1ptOEZPVDlsUVVMYVpEU2VoMnM4eEsyNGZoSXcwa2tMbU9vb1FGQVpOaDBHNFllZw?oc=5)
+- [STATEHOUSE PRESS RELEASE PRESIDENT TINUBU DECLARES THREE-DAY MOURNING FOR AIR FORCE PERSONNEL WHO DIED IN AIRCRAFT CRASH President Bola Ahmed Tinubu has declared a three-day national mourning for Air Force person](https://news.google.com/rss/articles/CBMiY0FVX3lxTE52U2VLSHcyYkhoWnpXRGlqS0NfRFlfdktGYUFYdmpUdkZLTGNISVE5ajNnRFJlWXlEMVU3cFltODNfdEl5Z1Z4VkFMVHZoWVVoNTJjaHQ1cG1yODJwLTlORnNBbw?oc=5)
 
 ---
 ## 4. Instagram Viral & Civic News Watch
+- **[Instagram News Wire]** [Nigeria’s $2.65 billion federal allocation for education places it far behind African peers including South Africa, Ethiopia, Algeria, Morocco and Kenya. The disparity comes as Nigeria heads towards the 2027 presidential election, with human capital developme](https://news.google.com/rss/articles/CBMiUkFVX3lxTE10dnNTbTJRS1QzWDBZcW5ISW5sSGVXUllRX1Q4cjlYcW5RSFBmM2RmYmJWWU9xWlVHY0wzdUdBQ3NVbW56dWxseW1xNDZUcy1LOUE?oc=5)
