@@ -1,6 +1,8 @@
 name: Polititrace Nigeria Daily Dispatch
 
 on:
+  push:
+    branches: [ main ]
   schedule:
     # Runs daily morning at 06:00 WAT (05:00 UTC)
     - cron: '0 5 * * *'
