@@ -5,16 +5,16 @@
 ---
 
 ## 1. Top Verified News Wire
-- **[Premium Times]** [NAS pairs 25 young Nigerian researchers with senior scientists in new mentorship programme](https://www.premiumtimesng.com/news/more-news/914869-nas-pairs-25-young-nigerian-researchers-with-senior-scientists-in-new-mentorship-programme.html)
-- **[Premium Times]** [Police to sanction DPO, two others over suspect’s disappearance from custody](https://www.premiumtimesng.com/news/top-news/914868-police-to-sanction-dpo-two-others-over-suspects-disappearance-from-custody.html)
-- **[Premium Times]** [dRPC opens applications for free training for Nigerian NGOs, foundations](https://www.premiumtimesng.com/health/health-news/914855-drpc-opens-applications-for-free-training-for-nigerian-ngos-foundations.html)
-- **[Premium Times]** [Dapper beats YBNL, Starboy, Mavin in mid-year market-share ranking](https://www.premiumtimesng.com/entertainment/music/914851-dapper-beats-ybnl-starboy-mavin-in-mid-year-market-share-ranking.html)
-- **[Premium Times]** [Taraba senator faces APC petition over alleged forged NECO certificate](https://www.premiumtimesng.com/news/more-news/914860-taraba-senator-faces-apc-petition-over-alleged-forged-neco-certificate.html)
-- **[Premium Times]** [Professor dies hours after swearing-in as substantive university VC](https://www.premiumtimesng.com/news/top-news/914857-professor-dies-hours-after-swearing-in-as-substantive-university-vc.html)
-- **[The Punch]** [Police arrest suspected murderer after three-month manhunt](https://punchng.com/police-arrest-suspected-murderer-after-three-month-manhunt/?utm_source=rss.punchng.com&utm_medium=web)
-- **[The Punch]** [Alcaraz wins Japan Open for first title since return from injury](https://punchng.com/alcaraz-wins-japan-open-for-first-title-since-return-from-injury/?utm_source=rss.punchng.com&utm_medium=web)
-- **[The Punch]** [NGF mourns victims of Ondo aircraft crash](https://punchng.com/ngf-mourns-victims-of-ondo-aircraft-crash/?utm_source=rss.punchng.com&utm_medium=web)
-- **[The Punch]** [Ondo air crash: APC chieftain backs Tinubu’s call for probe](https://punchng.com/ondo-air-crash-apc-chieftain-backs-tinubus-call-for-probe/?utm_source=rss.punchng.com&utm_medium=web)
+- **[Premium Times]** [Otti mourns Abia-born Squadron Leader Man-Ugwueje, commiserates with FG over plane crash](https://www.premiumtimesng.com/promoted/915102-otti-mourns-abia-born-squadron-leader-man-ugwueje-commiserates-with-fg-over-plane-crash.html)
+- **[Premium Times]** [Nigeria has reduced reliance on oil revenue – Tinubu](https://www.premiumtimesng.com/business/business-news/915100-nigeria-has-reduced-reliance-on-oil-revenue-tinubu.html)
+- **[Premium Times]** [What I’ll do with my ₦90m cash prize — BBNaija season 11 winner Temi Nkem](https://www.premiumtimesng.com/entertainment/naija-fashion/915091-what-ill-do-with-my-%e2%82%a690m-cash-prize-bbnaija-season-11-winner-temi-nkem.html)
+- **[Premium Times]** [Russia 3-3 Nigeria: Late Akor Adams goal rescues Super Eagles](https://www.premiumtimesng.com/sports/football/915088-russia-3-3-nigeria-late-akor-adams-goal-rescues-super-eagles.html)
+- **[Premium Times]** [Kenya confirms first imported Ebola case linked to DRC outbreak](https://www.premiumtimesng.com/health/health-news/915084-kenya-confirms-first-imported-ebola-case-linked-to-drc-outbreak.html)
+- **[Premium Times]** [Police commissioner in Bayelsa orders crackdown on cult groups](https://www.premiumtimesng.com/regional/south-south-regional/915083-police-commissioner-in-bayelsa-orders-crackdown-on-cult-groups.html)
+- **[The Punch]** [Oil spill: Oborevwori orders clean-up, medical help for Delta communities](https://punchng.com/oil-spill-oborevwori-orders-clean-up-medical-help-for-delta-communities/?utm_source=rss.punchng.com&utm_medium=web)
+- **[The Punch]** [Timeline: 10 major Nigerian Air Force crashes since 1980](https://punchng.com/timeline-10-major-nigerian-air-force-crashes-since-1980/?utm_source=rss.punchng.com&utm_medium=web)
+- **[The Punch]** [Presidency faults Economist report claiming Nigerians dislike Tinubu](https://punchng.com/presidency-faults-economist-report-claiming-nigerians-dislike-tinubu/?utm_source=rss.punchng.com&utm_medium=web)
+- **[The Punch]** [Nigeria selects Dear Ajayi movie for 2027 Oscars](https://punchng.com/nigeria-selects-dear-ajayi-movie-for-2027-oscars/?utm_source=rss.punchng.com&utm_medium=web)
 
 ---
 ## 2. Macroeconomic Ledger
@@ -28,22 +28,26 @@
 ---
 ## 3. 𝕏 (Twitter) Nigeria Trends & Political Pulse
 ### Trending Hashtags
-- [#ChickenRepublic](https://twitter.com/search?q=%23ChickenRepublic)
-- [#PayTheBoatOwners](https://twitter.com/search?q=%23PayTheBoatOwners)
-- [Fungo Labs](https://twitter.com/search?q=Fungo%20Labs)
-- [Olise](https://twitter.com/search?q=Olise)
-- [#SportyBetAnswerUs](https://twitter.com/search?q=%23SportyBetAnswerUs)
-- [World Wizkid Day](https://twitter.com/search?q=World%20Wizkid%20Day)
-- [#RafaXKanoPillars](https://twitter.com/search?q=%23RafaXKanoPillars)
-- [Encrypted NFTs](https://twitter.com/search?q=Encrypted%20NFTs)
-- [#NDCOfficialLogo](https://twitter.com/search?q=%23NDCOfficialLogo)
-- [Taco Tuesday](https://twitter.com/search?q=Taco%20Tuesday)
+- [Croatia](https://twitter.com/search?q=Croatia)
+- [Lionel Messi](https://twitter.com/search?q=Lionel%20Messi)
+- [#YoungJonnxDesperados](https://twitter.com/search?q=%23YoungJonnxDesperados)
+- [Russia](https://twitter.com/search?q=Russia)
+- [Poco Lee](https://twitter.com/search?q=Poco%20Lee)
+- [Argentina](https://twitter.com/search?q=Argentina)
+- [Akor Adams](https://twitter.com/search?q=Akor%20Adams)
+- [Femi Adebayo](https://twitter.com/search?q=Femi%20Adebayo)
+- [Maradona](https://twitter.com/search?q=Maradona)
+- [#ENGCZE](https://twitter.com/search?q=%23ENGCZE)
 
 ### Political Discourse Wire
-- [Last week, I visited the student hostel at Brock University in Ontario, Canada. Brock University is a public university. This should be the minimum standard for university hostels in Nigeria.](https://news.google.com/rss/articles/CBMiXkFVX3lxTE85OGItdlZTSXJuSUhRUXdmRjFRR0FJMmViYTVvQmd1dFZWemkxQXNIUXNNYlEtbGcyMGpoNWp5Uk5lalVpVVE3VGtBQ2tJVlNkV1poMklqazVUcXg0YXc?oc=5)
-- ["The country was not spoilt by President Bola Tinubu. He is doing great. Nigerians should be patient with him..." — Actor Hanks Anuku](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlVlFYQU44TGVGcDRFZjlMSjh1aVd5czFUYU5RX0pxMEljZ3NUOURTQVZUOHpfV1ptOEZPVDlsUVVMYVpEU2VoMnM4eEsyNGZoSXcwa2tMbU9vb1FGQVpOaDBHNFllZw?oc=5)
-- [STATEHOUSE PRESS RELEASE PRESIDENT TINUBU DECLARES THREE-DAY MOURNING FOR AIR FORCE PERSONNEL WHO DIED IN AIRCRAFT CRASH President Bola Ahmed Tinubu has declared a three-day national mourning for Air Force person](https://news.google.com/rss/articles/CBMiY0FVX3lxTE52U2VLSHcyYkhoWnpXRGlqS0NfRFlfdktGYUFYdmpUdkZLTGNISVE5ajNnRFJlWXlEMVU3cFltODNfdEl5Z1Z4VkFMVHZoWVVoNTJjaHQ1cG1yODJwLTlORnNBbw?oc=5)
+- [In my several decades of very close relationship with Dele Alake @AlakeDele, I have known him as a steady hand, a forthright, upright, loyal, and committed ally. He is straight and unequivocal. You always know where he stands on issues. On the occasion of - X](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UM25yRnhCSGNwTGJLcFFXcE9ieUtVY2c3alRIWkNUOEl0bEJ4OW9oVV91TTlHLUJNS2d5dHQ3bHlPSFV0U2tCMjdIQTZCQ01aUVFkaTZWSFdCUFJYWkVQYXp2dw?oc=5)
+- [PRESS RELEASE NAF MOURNS 25 LIVES LOST IN NAF 931 AIRCRAFT ACCIDENT The Chief of the Air Staff (CAS), Air Marshal Sunday Kelvin Aneke, has expressed profound condolences to the families of the personnel and passengers who lost their lives - X](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHdmJJa1pFeUNUSEJfbkR6eHd1TUtNQl80dXdRWW5hbEdEd05kQ2daRU8yV0pjbHJma3lkZWRIcUwzTWIwN2J3VVNoN3laUGNINWJTT09VWkt5MXZ3U0hQNml3?oc=5)
+- [2027: Don’t declare privately collated results – INEC Chairman warns media https://t.co/baLWyGSX7A - X](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvV0szRzBUa0NUcmRBTVk0V01WWVN0dWdtc1lremp6a18wdjdrUGlzQ19iYW1HNWlXbTdHcklDN1pKNWJScWhJb2MtM253Yl9JaHVIbmhWNFkxbk5lckZXcVNxSQ?oc=5)
+- [“I was broke before, that’s why I haven’t been spraying money for the street, but now, I want to do rally for Tinubu, they’ve paid me, I’ve collected money and now I’ll show love to the street. I have a lot of money now, I’ve been paid and I’m fully supporting Tinubu - X](https://news.google.com/rss/articles/CBMiZkFVX3lxTE13SXBRSHlpT084emFCdThqX1VSSVFnNllFS1Y2M2VxQlBZYVFLa0lmWnMxTUhlRXlheWdwYUtSOTZuRncxTElhbWRfbFVuSGp2YXdzcVJJUUlfRktUTFAwX3FJTnp2QQ?oc=5)
+- [The arrest of Nasir El-Rufai by the SSS in Anambra if true is another blot on our democracy, coming after yesterday's failed frame up. - X](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IYVU4NGdJa3d3c3BJX0prRDk3UE9FNnQzaHJ3Y2ZjTmJUb2F3N0tXdDczV21qZTVwbzhnLV9xSVd3cHd4Ry1qV0RZNlM0VFU3V0ZaRlhvdzlXZGFHLXBJYTRn?oc=5)
 
 ---
 ## 4. Instagram Viral & Civic News Watch
-- **[Instagram News Wire]** [Nigeria’s $2.65 billion federal allocation for education places it far behind African peers including South Africa, Ethiopia, Algeria, Morocco and Kenya. The disparity comes as Nigeria heads towards the 2027 presidential election, with human capital developme](https://news.google.com/rss/articles/CBMiUkFVX3lxTE10dnNTbTJRS1QzWDBZcW5ISW5sSGVXUllRX1Q4cjlYcW5RSFBmM2RmYmJWWU9xWlVHY0wzdUdBQ3NVbW56dWxseW1xNDZUcy1LOUE?oc=5)
+- **[Instagram News Wire]** [The First Lady of Zamfara State, Hajiya Huriyya Dauda Lawal, has described the strong turnout and unity of women at the APC Women Stakeholders’ Mobilisation and Empowerment Summit in Abuja as a sign of the party’s growing strength ahead of the 2027 - Instagram](https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0dHdkMXNTRjEzbGpjNFdqYkllMGlORFJENGI0MkdTOXJtc3hSMHJhR0w4VE9Sa2Vrb2Y2ZmtjLWhmcHlBWlhYVnRfdlZsazZaSXc?oc=5)
+- **[Instagram News Wire]** [Watch @toxalways Full interview on YouTube via Link in bio 📺🎥🔥 Russia 3-3 Nigeria highlights #nigeria #supereagles #russia #internationalfriendly #akoradams - Instagram](https://news.google.com/rss/articles/CBMiVkFVX3lxTE54SEVYdnZUTy1YNWxURmQwWGI2X0p5OGJibDhtaHJuNkpkSnZwb2s1WFJiYlJlY2d5VXVhNDhUM3RZY0RhMjQwZDU4OXkzVVczX2NObUJR?oc=5)
+- **[Instagram News Wire]** [Di Presidential candidate of di Nigeria Democratic Congress (NDC) for di 2027 general election Peter Obi, don tok about wetin happun for di 2023 presidential election. Di former Anambra State govnor for inside one exclusive interview wit di BBC tok say im stil - Instagram](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jNU5SZVQ1emhpb1BoZ0F6NFpCak1QRTVRaTVFTGxncW9JOUZVUVBEVTZtNmhvUkVxb3dXRWd4d2pScUN3T0tNNFBxSWk1X2ZhUXc?oc=5)
