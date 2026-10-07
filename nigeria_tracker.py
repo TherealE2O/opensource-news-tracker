@@ -41,7 +41,19 @@ HEADERS = {
 }
 
 RSS_FEEDS = [
-    # --- Top National & Breaking Wire ---
+    # --- Top National, Political & Breaking Wire ---
+    {
+        "name": "The Cable",
+        "url": "https://www.thecable.ng/feed",
+        "category": "National & Breaking",
+        "badge_color": "#0284C7"
+    },
+    {
+        "name": "Premium Times",
+        "url": "https://www.premiumtimesng.com/feed",
+        "category": "National & Breaking",
+        "badge_color": "#16A34A"
+    },
     {
         "name": "Daily Post",
         "url": "https://dailypost.ng/feed/",
@@ -52,7 +64,7 @@ RSS_FEEDS = [
         "name": "Channels TV",
         "url": "https://www.channelstv.com/feed/",
         "category": "National & Breaking",
-        "badge_color": "#0284C7"
+        "badge_color": "#2563EB"
     },
     {
         "name": "The Punch",
@@ -61,22 +73,22 @@ RSS_FEEDS = [
         "badge_color": "#EA580C"
     },
     {
-        "name": "Premium Times",
-        "url": "https://www.premiumtimesng.com/feed",
-        "category": "National & Breaking",
-        "badge_color": "#16A34A"
-    },
-    {
         "name": "Vanguard",
         "url": "https://www.vanguardngr.com/feed/",
         "category": "National & Breaking",
         "badge_color": "#9333EA"
     },
     {
+        "name": "Daily Trust",
+        "url": "https://dailytrust.com/feed/",
+        "category": "National & Breaking",
+        "badge_color": "#D97706"
+    },
+    {
         "name": "Google News Nigeria",
         "url": "https://news.google.com/rss?hl=en-NG&gl=NG&ceid=NG:en",
         "category": "National & Breaking",
-        "badge_color": "#2563EB"
+        "badge_color": "#4F46E5"
     },
 
     # --- Economy, Markets & Business ---
@@ -298,11 +310,12 @@ def fetch_x_trends():
 
 
 def fetch_x_discourse(history: set):
-    """Fetch live discourse and viral posts from X (Twitter) via indexed feeds."""
+    """Fetch live political discourse and viral posts from X (Twitter) via indexed feeds."""
     x_posts = []
     queries = [
-        "https://news.google.com/rss/search?q=site:x.com+Nigeria+politics&hl=en-NG&gl=NG&ceid=NG:en",
-        "https://news.google.com/rss/search?q=site:x.com+Tinubu+OR+Naira+OR+fuel&hl=en-NG&gl=NG&ceid=NG:en",
+        "https://news.google.com/rss/search?q=site:x.com+Nigeria+politics+OR+INEC+OR+National+Assembly&hl=en-NG&gl=NG&ceid=NG:en",
+        "https://news.google.com/rss/search?q=site:x.com+Tinubu+OR+Shettima+OR+Wike+OR+Fubara+OR+Obi&hl=en-NG&gl=NG&ceid=NG:en",
+        "https://news.google.com/rss/search?q=site:x.com+Nigeria+fuel+OR+Naira+OR+subsidy&hl=en-NG&gl=NG&ceid=NG:en",
         "https://news.google.com/rss/search?q=site:x.com+Nigeria+trending+OR+viral&hl=en-NG&gl=NG&ceid=NG:en"
     ]
     for url in queries:
@@ -447,8 +460,8 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
         </div>
         """
 
-    # Beat category rows
-    national_rows = render_category_rows(articles, "National & Breaking", max_items=6)
+    # Beat category rows (National, Political & Breaking leads with 8 items)
+    national_rows = render_category_rows(articles, "National & Breaking", max_items=8)
     economy_rows = render_category_rows(articles, "Economy & Business", max_items=5)
     tech_rows = render_category_rows(articles, "Tech & Startups", max_items=4)
     metro_rows = render_category_rows(articles, "Metro & Security", max_items=3) + render_category_rows(articles, "Metro & Society", max_items=3)
@@ -646,7 +659,7 @@ def build_markdown_log(today_str: str, articles: list, x_trends: list, x_posts: 
 ---
 
 ## 1. 🔴 Top National & Breaking Wire
-{render_category_md(articles, "National & Breaking", max_items=6)}
+{render_category_md(articles, "National & Breaking", max_items=8)}
 
 ---
 ## 2. 💼 Economy, Markets & Corporate Nigeria
