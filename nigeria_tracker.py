@@ -44,15 +44,33 @@ RSS_FEEDS = [
     # --- Top National, Political & Breaking Wire ---
     {
         "name": "The Cable",
-        "url": "https://www.thecable.ng/feed",
+        "url": "https://news.google.com/rss/search?q=site:thecable.ng&hl=en-NG&gl=NG&ceid=NG:en",
         "category": "National & Breaking",
         "badge_color": "#0284C7"
     },
     {
         "name": "Premium Times",
-        "url": "https://www.premiumtimesng.com/feed",
+        "url": "https://news.google.com/rss/search?q=site:premiumtimesng.com&hl=en-NG&gl=NG&ceid=NG:en",
         "category": "National & Breaking",
         "badge_color": "#16A34A"
+    },
+    {
+        "name": "Sahara Reporters",
+        "url": "https://news.google.com/rss/search?q=site:saharareporters.com&hl=en-NG&gl=NG&ceid=NG:en",
+        "category": "National & Breaking",
+        "badge_color": "#DC2626"
+    },
+    {
+        "name": "Peoples Gazette",
+        "url": "https://news.google.com/rss/search?q=site:gazettengr.com&hl=en-NG&gl=NG&ceid=NG:en",
+        "category": "National & Breaking",
+        "badge_color": "#9333EA"
+    },
+    {
+        "name": "The ICIR",
+        "url": "https://news.google.com/rss/search?q=site:icirnigeria.org&hl=en-NG&gl=NG&ceid=NG:en",
+        "category": "National & Breaking",
+        "badge_color": "#B45309"
     },
     {
         "name": "Daily Post",
@@ -105,12 +123,18 @@ RSS_FEEDS = [
         "badge_color": "#0D9488"
     },
 
-    # --- Tech & Innovation ---
+    # --- Tech, Startups & Digital Economy ---
     {
         "name": "TechCabal",
         "url": "https://techcabal.com/feed/",
         "category": "Tech & Startups",
         "badge_color": "#7C3AED"
+    },
+    {
+        "name": "Techpoint Africa",
+        "url": "https://news.google.com/rss/search?q=site:techpoint.africa&hl=en-NG&gl=NG&ceid=NG:en",
+        "category": "Tech & Startups",
+        "badge_color": "#2563EB"
     },
 
     # --- Metro, Security & Grassroots ---
@@ -126,6 +150,12 @@ RSS_FEEDS = [
         "category": "Metro & Society",
         "badge_color": "#4F46E5"
     },
+    {
+        "name": "HumAngle",
+        "url": "https://news.google.com/rss/search?q=site:humanglemedia.com&hl=en-NG&gl=NG&ceid=NG:en",
+        "category": "Metro & Security",
+        "badge_color": "#DC2626"
+    },
 
     # --- Entertainment, Culture & Lifestyle ---
     {
@@ -139,6 +169,12 @@ RSS_FEEDS = [
         "url": "https://www.bellanaija.com/feed/",
         "category": "Entertainment & Culture",
         "badge_color": "#E11D48"
+    },
+    {
+        "name": "Pulse Nigeria",
+        "url": "https://news.google.com/rss/search?q=site:pulse.ng&hl=en-NG&gl=NG&ceid=NG:en",
+        "category": "Entertainment & Culture",
+        "badge_color": "#F59E0B"
     },
 
     # --- Sports ---
@@ -157,9 +193,10 @@ RSS_FEEDS = [
 ]
 
 POI_TARGETS = [
+    # --- Top Executive & Political Leadership ---
     {
-        "name": "Bola Tinubu (Presidency)",
-        "query": "https://news.google.com/rss/search?q=Tinubu+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "name": "Bola Tinubu (Presidency & FEC)",
+        "query": "https://news.google.com/rss/search?q=(Tinubu+OR+%22Federal+Executive+Council%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
         "badge_color": "#15803D"
     },
     {
@@ -169,12 +206,12 @@ POI_TARGETS = [
     },
     {
         "name": "Atiku Abubakar",
-        "query": "https://news.google.com/rss/search?q=%22Atiku+Abubakar%22+OR+Atiku&hl=en-NG&gl=NG&ceid=NG:en",
+        "query": "https://news.google.com/rss/search?q=(%22Atiku+Abubakar%22+OR+Atiku)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
         "badge_color": "#2563EB"
     },
     {
         "name": "VeryDarkMan (VDM)",
-        "query": "https://news.google.com/rss/search?q=%22VeryDarkMan%22+OR+%22VDM%22+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "query": "https://news.google.com/rss/search?q=(%22VeryDarkMan%22+OR+%22VDM%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
         "badge_color": "#09090B"
     },
     {
@@ -187,6 +224,54 @@ POI_TARGETS = [
         "query": "https://news.google.com/rss/search?q=(Senate+OR+%22House+of+Reps%22+OR+NASS)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
         "badge_color": "#7C3AED"
     },
+
+    # --- Tax, Fiscal Policy & Data Regulators ---
+    {
+        "name": "FIRS & Tax Reform (Oyedele / Adedeji)",
+        "query": "https://news.google.com/rss/search?q=(FIRS+OR+%22Zacch+Adedeji%22+OR+%22Taiwo+Oyedele%22+OR+%22tax+reform%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#059669"
+    },
+    {
+        "name": "NDPC & Data Protection (Vincent Olatunji)",
+        "query": "https://news.google.com/rss/search?q=(%22NDPC%22+OR+%22Nigeria+Data+Protection%22+OR+%22Vincent+Olatunji%22)&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#0284C7"
+    },
+    {
+        "name": "NCC & Telecoms / ISPs (Aminu Maida)",
+        "query": "https://news.google.com/rss/search?q=(%22NCC%22+OR+%22Aminu+Maida%22+OR+%22telecom+tariff%22+OR+%22Starlink%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#2563EB"
+    },
+
+    # --- Food, Drug, Consumer Rights & Markets ---
+    {
+        "name": "NAFDAC & Drug Safety (Mojisola Adeyeye)",
+        "query": "https://news.google.com/rss/search?q=(NAFDAC+OR+%22Mojisola+Adeyeye%22+OR+%22fake+drugs%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#DC2626"
+    },
+    {
+        "name": "FCCPC Consumer Watch (Tunji Bello)",
+        "query": "https://news.google.com/rss/search?q=(FCCPC+OR+%22Tunji+Bello%22+OR+%22price+gouging%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#D97706"
+    },
+    {
+        "name": "Market Women & Traders (Iyaloja / NANTS)",
+        "query": "https://news.google.com/rss/search?q=(%22Market+women%22+OR+%22Iyaloja%22+OR+NANTS+OR+%22Mile+12%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#B45309"
+    },
+
+    # --- Energy, Power Grid & Critical Resources ---
+    {
+        "name": "NNPCL, NMDPRA & Dangote Fuel",
+        "query": "https://news.google.com/rss/search?q=(NNPCL+OR+%22Dangote+Refinery%22+OR+NMDPRA+OR+IPMAN)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#B91C1C"
+    },
+    {
+        "name": "National Grid & NERC Tariffs",
+        "query": "https://news.google.com/rss/search?q=(%22National+grid%22+OR+NERC+OR+TCN+OR+%22Band+A%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#D97706"
+    },
+
+    # --- Justice, Anti-Graft & Security ---
     {
         "name": "EFCC / ICPC Probes",
         "query": "https://news.google.com/rss/search?q=(EFCC+OR+ICPC)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
@@ -198,9 +283,29 @@ POI_TARGETS = [
         "badge_color": "#047857"
     },
     {
+        "name": "Judiciary & Supreme Court (CJN / NJC)",
+        "query": "https://news.google.com/rss/search?q=(%22Supreme+Court%22+OR+CJN+OR+%22National+Judicial+Council%22+OR+NJC)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#4338CA"
+    },
+    {
+        "name": "Security, Defence & Police (DHQ / NPF / DSS)",
+        "query": "https://news.google.com/rss/search?q=(DHQ+OR+%22Nigeria+Police%22+OR+DSS+OR+%22Nuhu+Ribadu%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#1E3A8A"
+    },
+    {
+        "name": "Customs & Borders (NCS / Adeniyi)",
+        "query": "https://news.google.com/rss/search?q=(%22Nigeria+Customs%22+OR+%22Bashir+Adeniyi%22+OR+%22import+duty%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#065F46"
+    },
+    {
         "name": "Labour & Professional Bodies (NLC / ASUU / NBA)",
         "query": "https://news.google.com/rss/search?q=(NLC+OR+TUC+OR+ASUU+OR+NBA)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
         "badge_color": "#D97706"
+    },
+    {
+        "name": "Public Health Alert (NCDC / Epidemics)",
+        "query": "https://news.google.com/rss/search?q=(NCDC+OR+Cholera+OR+Mpox+OR+%22Lassa+fever%22)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#991B1B"
     }
 ]
 
@@ -344,21 +449,38 @@ def fetch_poi_radar(history: set):
     """Fetch dedicated intelligence on Persons of Interest and State Power institutions."""
     poi_items = []
     for target in POI_TARGETS:
-        items = fetch_rss_feed(target["query"], limit=3)
+        items = fetch_rss_feed(target["query"], limit=4)
+        target_added = False
         for it in items:
             title_clean = re.sub(r"\s*-\s*[^-]+$", "", it["title"]).strip()
-            if not title_clean or it["url"] in history:
+            if not title_clean:
                 continue
-            history.add(it["url"])
-            poi_items.append({
-                "entity": target["name"],
-                "badge_color": target["badge_color"],
-                "title": title_clean,
-                "url": it["url"],
-                "pub_date": it["pub_date"]
-            })
-            if len([p for p in poi_items if p["entity"] == target["name"]]) >= 1:
+            is_new = it["url"] not in history
+            if is_new:
+                history.add(it["url"])
+                poi_items.append({
+                    "entity": target["name"],
+                    "badge_color": target["badge_color"],
+                    "title": title_clean,
+                    "url": it["url"],
+                    "pub_date": it["pub_date"],
+                    "is_new": True
+                })
+                target_added = True
                 break
+        # Fallback to top active item so that every monitored institution always has pulse visibility
+        if not target_added and items:
+            top_it = items[0]
+            title_clean = re.sub(r"\s*-\s*[^-]+$", "", top_it["title"]).strip()
+            if title_clean:
+                poi_items.append({
+                    "entity": target["name"],
+                    "badge_color": target["badge_color"],
+                    "title": title_clean,
+                    "url": top_it["url"],
+                    "pub_date": top_it["pub_date"],
+                    "is_new": False
+                })
     logger.info(f"Fetched {len(poi_items)} POI and institutional radar items")
     return poi_items
 
@@ -558,10 +680,11 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
     poi_rows = ""
     for p in poi_items:
         badge_color = p.get("badge_color", "#15803D")
+        new_tag = '<span style="background: #059669; color: #ffffff; font-size: 9px; font-weight: 800; padding: 1px 4px; border-radius: 2px; margin-left: 6px;">NEW</span>' if p.get("is_new") else ''
         poi_rows += f"""
         <tr style="border-bottom: 1px solid #e4e4e7;">
-            <td style="padding: 10px 12px; font-weight: 700; color: #09090b; width: 175px; font-size: 11.5px; vertical-align: top;">
-                <span style="display: inline-block; background: {badge_color}18; color: {badge_color}; border: 1px solid {badge_color}55; padding: 2px 6px; border-radius: 3px; font-weight: 700;">{p['entity']}</span>
+            <td style="padding: 10px 12px; font-weight: 700; color: #09090b; width: 195px; font-size: 11.5px; vertical-align: top;">
+                <span style="display: inline-block; background: {badge_color}18; color: {badge_color}; border: 1px solid {badge_color}55; padding: 2px 6px; border-radius: 3px; font-weight: 700;">{p['entity']}</span>{new_tag}
             </td>
             <td style="padding: 10px 12px; vertical-align: top;">
                 <a href="{p['url']}" target="_blank" style="color: #09090b; text-decoration: none; font-weight: 600; font-size: 13px; line-height: 1.4; display: block;">
@@ -678,9 +801,9 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
                 </tbody>
             </table>
 
-            <!-- Section 4: Persons of Interest & State Power Radar -->
+            <!-- Section 4: Persons of Interest & Institutional Power Radar -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #15803D; padding-bottom: 5px;">
-                4. 👑 Persons of Interest & State Power Radar (Tinubu, Obi, Atiku, VDM, Sowore, NASS, EFCC, Labour)
+                4. 👑 Persons of Interest & Institutional Power Radar (Tinubu, Obi, Atiku, VDM, Sowore, FIRS, NDPC, NCC, NAFDAC, FCCPC, Markets, NNPCL, Grid, Police, Labour)
             </h2>
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
                 <tbody>
@@ -688,9 +811,9 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
                 </tbody>
             </table>
 
-            <!-- Section 4: Economy & Business -->
+            <!-- Section 5: Economy & Business -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #059669; padding-bottom: 5px;">
-                4. 💼 Economy, Markets & Corporate Nigeria
+                5. 💼 Economy, Markets & Corporate Nigeria
             </h2>
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
                 <tbody>
@@ -698,9 +821,9 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
                 </tbody>
             </table>
 
-            <!-- Section 5: Tech & Startups -->
+            <!-- Section 6: Tech & Startups -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #7C3AED; padding-bottom: 5px;">
-                5. 🚀 Tech, Fintech & Digital Economy
+                6. 🚀 Tech, Fintech & Digital Economy
             </h2>
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
                 <tbody>
@@ -708,9 +831,9 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
                 </tbody>
             </table>
 
-            <!-- Section 6: Metro & Society -->
+            <!-- Section 7: Metro & Society -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #D97706; padding-bottom: 5px;">
-                6. 🏙️ Metro, Society & Security
+                7. 🏙️ Metro, Society & Security
             </h2>
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
                 <tbody>
@@ -718,9 +841,9 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
                 </tbody>
             </table>
 
-            <!-- Section 7: Entertainment, Culture & Lifestyle -->
+            <!-- Section 8: Entertainment, Culture & Lifestyle -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #DB2777; padding-bottom: 5px;">
-                7. 🎭 Entertainment, Pop Culture & Celebrity Watch
+                8. 🎭 Entertainment, Pop Culture & Celebrity Watch
             </h2>
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
                 <tbody>
@@ -728,9 +851,9 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
                 </tbody>
             </table>
 
-            <!-- Section 8: Sports Spotlight -->
+            <!-- Section 9: Sports Spotlight -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #15803D; padding-bottom: 5px;">
-                8. ⚽ Sports Spotlight
+                9. ⚽ Sports Spotlight
             </h2>
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
                 <tbody>
@@ -738,9 +861,9 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
                 </tbody>
             </table>
 
-            <!-- Section 9: X Trends -->
+            <!-- Section 10: X Trends -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #000000; padding-bottom: 5px;">
-                9. 𝕏 (Twitter) Nigeria: Trending Topics & Discourse Wire
+                10. 𝕏 (Twitter) Nigeria: Trending Topics & Discourse Wire
             </h2>
             <div style="background: #f9f9fb; border: 1px solid #e1e8ed; padding: 12px 14px; border-radius: 4px; margin-bottom: 14px;">
                 <div style="font-size: 11px; font-weight: 800; color: #536471; text-transform: uppercase; margin-bottom: 8px;">
@@ -752,9 +875,9 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
             </div>
             {x_post_rows}
 
-            <!-- Section 10: Instagram Viral Hubs -->
+            <!-- Section 11: Instagram Viral Hubs -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #E1306C; padding-bottom: 5px;">
-                10. 📸 Instagram & Social News Watch (Instablog9ja, BellaNaija & Viral Hubs)
+                11. 📸 Instagram & Social News Watch (Instablog9ja, BellaNaija & Viral Hubs)
             </h2>
             {ig_rows}
 
@@ -772,10 +895,10 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
     return html
 
 
-def build_markdown_log(today_str: str, articles: list, poi_items: list, x_trends: list, x_posts: list, ig_items: list) -> str:
+def build_markdown_log(today_str: str, articles: list, macro: list, poi_items: list, x_trends: list, x_posts: list, ig_items: list) -> str:
     md = f"""# Today in Nigeria 360° Daily Briefing — {today_str}
 
-*Multi-channel intelligence digest covering all trending Nigerian news beats: breaking press, persons of interest radar, markets, tech, metro, entertainment, sports, talk radio sentiments, 𝕏 trends, and Instagram reporting.*
+*Multi-channel intelligence digest covering all trending Nigerian news beats: breaking press, persons of interest & institutional power radar, markets, tech, metro, entertainment, sports, talk radio sentiments, 𝕏 trends, and Instagram reporting.*
 
 ---
 
@@ -783,10 +906,11 @@ def build_markdown_log(today_str: str, articles: list, poi_items: list, x_trends
 {render_category_md(articles, "National & Breaking", max_items=8)}
 
 ---
-## 2. 👑 Persons of Interest & State Power Radar (Tinubu, Obi, Atiku, VDM, Sowore, NASS, EFCC, Labour)
+## 2. 👑 Persons of Interest & Institutional Power Radar
 """
     for p in poi_items:
-        md += f"- **[{p['entity']}]** [{p['title']}]({p['url']})\n"
+        new_badge = " `NEW`" if p.get("is_new") else ""
+        md += f"- **[{p['entity']}]** [{p['title']}]({p['url']}){new_badge}\n"
 
     md += f"""
 ---
@@ -811,13 +935,13 @@ def build_markdown_log(today_str: str, articles: list, poi_items: list, x_trends
 
 ---
 ## 8. Macroeconomic Reality Ledger (Live Dynamic Index)
-| Indicator | Current Rate | May 2023 Baseline | Percentage Change |
+| Indicator | Current Rate | Baseline | Percentage Change |
 | :--- | :--- | :--- | :--- |
-| PMS Petrol (Lagos) | ₦1,020 – ₦1,060 / L | ₦198 / L | +425% |
-| Parallel Market FX | ₦1,670 – ₦1,710 / $1 | ₦461 / $1 | +265% |
-| 50kg Local Rice | ₦85,000 – ₦95,000 | ₦32,000 | +180% |
-| National Grid Generation | ~2,400 – 2,800 MW | ~4,000 MW | -35% |
+"""
+    for m in macro:
+        md += f"| {m['indicator']} | {m['rate']} | {m['baseline']} | {m['trend']} |\n"
 
+    md += """
 ---
 ## 9. 𝕏 (Twitter) Nigeria Trends & Discourse Pulse
 ### Trending Topics
@@ -891,7 +1015,7 @@ def main():
     with open(HTML_OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write(html_content)
 
-    md_content = build_markdown_log(today_str, articles, poi_items, x_trends, x_posts, ig_items)
+    md_content = build_markdown_log(today_str, articles, macro_ledger, poi_items, x_trends, x_posts, ig_items)
     with open(LOG_PATH, "w", encoding="utf-8") as f:
         f.write(md_content)
 
