@@ -5,21 +5,21 @@
 ---
 
 ## 1. 🔴 Top National & Breaking Wire
+- **[Google News Nigeria]** [Riot police fire teargas as 250,000 take part in schools protests across France - The Guardian](https://news.google.com/rss/articles/CBMijwFBVV95cUxPbGlFUmRES0NReV9UQjZDLThiQUw4a0lBZzVuWkpadnB3aEJlNnc4cDlPaElqODJEU3hSRWpQM093N2ViUDAtM0l3Q3VUdThnZHUwYjJzSDNfaFAxSDRmZXBlLXJrOEs1eTFQTVRKWmhpWUhscEN2ckV6cUVUSlFnblFkay1sNnoySVFUZG5oNA?oc=5) `NEW`
+- **[Google News Nigeria]** [Beyond The Economist condescension: Nigeria’s re-engineering under Tinubu is unstoppable - TheCable](https://news.google.com/rss/articles/CBMisAFBVV95cUxPTnZWd2VUTTJRTENOanFENDVya1dqcnRNWFFmSVJQb0lFZWkzS1cycmxUYkpJaGh6UWN1OE0wTVEzTS1VeTV6QjFOSmYyZEVlTzJQOE85SlRrZGVsSW9WenllMXlsRFlMTk9mbDVBb1hvNTh2OXFiamhoMUJZcnYtODhVYjhRREJmWU5xb3BVMXp6QXpaYUkzX2RfSWttdDhuZzFZQ1Uxbjk1ZWFNdmlEZQ?oc=5) `NEW`
 - **[Daily Post]** [Rivers 2027: Wike, Chinda, supporters meet Fubara in Port Harcourt](https://dailypost.ng/2026/10/06/rivers-2027-wike-chinda-supporters-meet-fubara-in-port-harcourt/)
 - **[Daily Post]** [Tayo Sobola cannot be cast as responsible housewife or child – Tolu Fagbure](https://dailypost.ng/2026/10/06/tayo-sobola-cannot-be-cast-as-responsible-housewife-or-child-tolu-fagbure/)
 - **[Daily Post]** [Nigerians await cheaper transport fares as Tinubu’s October 1 deadline passes](https://dailypost.ng/2026/10/06/nigerians-await-cheaper-transport-fares-as-tinubus-october-1-deadline-passes/)
 - **[Daily Post]** [Ex-LG office holders hail Ogun as state clears ₦3.5bn severance](https://dailypost.ng/2026/10/06/ex-lg-office-holders-hail-ogun-as-state-clears-%e2%82%a63-5bn-severance/)
-- **[Daily Post]** [NDLEA intensifies fight against illicit drugs with new outpost in Ogun border town](https://dailypost.ng/2026/10/06/ndlea-intensifies-fight-against-illicit-drugs-with-new-outpost-in-ogun-border-town/)
-- **[Daily Post]** [2027: Allow INEC operate independently – Ogun APM guber candidate urges FG](https://dailypost.ng/2026/10/06/2027-allow-inec-operate-independently-ogun-apm-guber-candidate-urges-fg/)
 
 
 ---
 ## 2. 💼 Economy, Markets & Corporate Nigeria
-- **[BusinessDay]** [CBN liquidity squeeze puts T-bill rally to test](https://businessday.ng/news/article/cbn-liquidity-squeeze-puts-t-bill-rally-to-test/) `NEW`
-- **[BusinessDay]** [BusinessDay journalist Modestus Anaesoronye wins prestigious PenCom print media award](https://businessday.ng/news/article/businessday-journalist-modestus-anaesoronye-wins-prestigious-pencom-print-media-award/) `NEW`
-- **[BusinessDay]** [NITDA’s mandatory software testing rules trigger push for risk-based enforcement](https://businessday.ng/technology/article/nitdas-mandatory-software-testing-rules-trigger-push-for-risk-based-enforcement/) `NEW`
-- **[BusinessDay]** [Airtel Money IPO: Why Nigerian investors can’t buy directly](https://businessday.ng/technology/article/airtel-money-ipo-why-nigerian-investors-cant-buy-directly/) `NEW`
+- **[BusinessDay]** [Nigeria records 63 deaths, loses N34.8bn to military air crashes in five years](https://businessday.ng/news/article/nigeria-records-63-deaths-nine-military-air-crashes-in-five-years/) `NEW`
+- **[BusinessDay]** [Youth voice missing in INEC’s 103 million voters register](https://businessday.ng/politics/article/youth-voice-missing-in-inecs-103-million-voters-register/) `NEW`
 - **[Nairametrics]** [Anthropic CEO Amodei earned $18 million in 2025 but trails other top tech CEOs](https://nairametrics.com/2026/10/06/anthropic-ceo-amodei-earned-18-million-in-2025-but-trails-other-top-tech-ceos/)
+- **[Nairametrics]** [NGX sheds N256 billion as five-day losing streak deepens](https://nairametrics.com/2026/10/06/ngx-sheds-n256-billion-as-five-day-losing-streak-deepens/)
+- **[Nairametrics]** [TenTrade brings traders and mentors together to build a community of shared learning in Lagos](https://nairametrics.com/2026/10/06/tentrade-brings-traders-and-mentors-together-to-build-a-community-of-shared-learning-in-lagos/)
 
 
 ---
@@ -35,7 +35,9 @@
 - **[Daily Trust]** [Mould: The Health Risk Growing on Your Wall](https://dailytrust.com/mould-the-health-risk-growing-on-your-wall/)
 - **[Daily Trust]** [Radda makes fresh appointments as resignations hit cabinet](https://dailytrust.com/radda-makes-fresh-appointments-as-resignations-hit-cabinet/)
 - **[Daily Trust]** [NNPC’s N7.2trn Profit: Question behind the headlines](https://dailytrust.com/nnpcs-n7-2trn-profit-question-behind-the-headlines/)
-- *No new dispatches in this cycle.*
+- **[Leadership NG]** [Safety Or Service? Rethinking The NYSC](https://leadership.ng/safety-or-service-rethinking-the-nysc/) `NEW`
+- **[Leadership NG]** [Infrastructure: Appreciate Tinubu, Ask For More, Umahi Tells South East](https://leadership.ng/infrastructure-appreciate-tinubu-ask-for-more-umahi-tells-south-east/)
+- **[Leadership NG]** [Northern Muslims, Christians Urge Peaceful Polls](https://leadership.ng/northern-muslims-christians-urge-peaceful-polls/)
 
 
 ---
@@ -80,9 +82,6 @@
 - [Penalty](https://twitter.com/search?q=Penalty)
 
 ### Discourse Wire
-- [🚨 𝗕𝗥𝗘𝗔𝗞𝗜𝗡𝗚: England played against an INELIGIBLE player at the 2026 World Cup, with FIFA aware of the issue before the tournament even took place. DR Congo goalkeeper Lionel Mpasi had NOT completed the required paperwork to switch his internati - X](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwSHFHWDcyN2ppMWJaZVEtckJmcDlsZE9IRXFnQmtEWHdTXzB6Vkp0aTYtYjUzY0ZyVGtBUmFSbnlsSjFlT3JDNG1PR05sU2l5Rmd0VHNEaVZSSDVyTDd6VQ?oc=5)
-- [How to change your country settings - X Help Center](https://news.google.com/rss/articles/CBMif0FVX3lxTFB6ZFFPRHA2WVJDU1Bzeng3SnlOS1Q0Wk41X1VtVVhyMVVIaHRKbm1Jb2VPRkh4d3UwamRHSkJvRS14SmoxaXBVVmtPSWd0V2dQNXFnUGZuU1BuRmdiYTBPb0U0dGdraDdCdFprMXZTSTRuQnlYamluLVVqQUZMSm8?oc=5)
-- [It was an honour to sit and discuss our beloved country with Bishop David Oyedepo, Pastor David Oyedepo Jnr and Pastor Steve Ogah thank you for your warm reception and audience. May Nigeria be truly great in our lifetime. - X](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMYlZIRklSbVVLdUFhdTRXWTZqX1YwM1c1RU5qTGYwSXNtUFRfMHVzN0ZpeVNfZTFQV2FyWTNhUXRNdEQyd0xTSTlMenhzZ2JaeFl0YzMwZUlURkNHbkE?oc=5)
 
 ---
 ## 9. Instagram Viral & Social News Watch
