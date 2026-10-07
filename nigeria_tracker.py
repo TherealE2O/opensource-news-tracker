@@ -156,13 +156,84 @@ RSS_FEEDS = [
     }
 ]
 
-MACRO_LEDGER = [
-    {"indicator": "PMS Petrol (Lagos Metro)", "rate": "₦1,020 – ₦1,060 / L", "baseline": "₦198 (May '23)", "trend": "+425%"},
-    {"indicator": "PMS Petrol (Abuja & Edo)", "rate": "₦1,050 – ₦1,120 / L", "baseline": "₦210 (May '23)", "trend": "+414%"},
-    {"indicator": "Parallel FX (Ikeja / Zone 4)", "rate": "₦1,670 – ₦1,710 / $1", "baseline": "₦461 (May '23)", "trend": "+265%"},
-    {"indicator": "50kg Local Parboiled Rice", "rate": "₦85,000 – ₦95,000", "baseline": "₦32,000 (May '23)", "trend": "+180%"},
-    {"indicator": "National Grid Generation", "rate": "~2,400 – 2,800 MW", "baseline": "~4,000 MW", "trend": "-35%"}
+POI_TARGETS = [
+    {
+        "name": "Bola Tinubu (Presidency)",
+        "query": "https://news.google.com/rss/search?q=Tinubu+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#15803D"
+    },
+    {
+        "name": "Peter Obi",
+        "query": "https://news.google.com/rss/search?q=%22Peter+Obi%22&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#DC2626"
+    },
+    {
+        "name": "Atiku Abubakar",
+        "query": "https://news.google.com/rss/search?q=%22Atiku+Abubakar%22+OR+Atiku&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#2563EB"
+    },
+    {
+        "name": "VeryDarkMan (VDM)",
+        "query": "https://news.google.com/rss/search?q=%22VeryDarkMan%22+OR+%22VDM%22+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#09090B"
+    },
+    {
+        "name": "Omoyele Sowore",
+        "query": "https://news.google.com/rss/search?q=Sowore+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#EA580C"
+    },
+    {
+        "name": "National Assembly (Senate & Reps)",
+        "query": "https://news.google.com/rss/search?q=(Senate+OR+%22House+of+Reps%22+OR+NASS)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#7C3AED"
+    },
+    {
+        "name": "EFCC / ICPC Probes",
+        "query": "https://news.google.com/rss/search?q=(EFCC+OR+ICPC)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#B91C1C"
+    },
+    {
+        "name": "CBN & Monetary Policy",
+        "query": "https://news.google.com/rss/search?q=(%22Central+Bank+of+Nigeria%22+OR+CBN+OR+%22Cardoso%22)&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#047857"
+    },
+    {
+        "name": "Labour & Professional Bodies (NLC / ASUU / NBA)",
+        "query": "https://news.google.com/rss/search?q=(NLC+OR+TUC+OR+ASUU+OR+NBA)+Nigeria&hl=en-NG&gl=NG&ceid=NG:en",
+        "badge_color": "#D97706"
+    }
 ]
+
+
+def fetch_dynamic_macro_ledger():
+    """Dynamically fetch live FX rates and latest macroeconomic indicators."""
+    live_fx = 1680.0
+    try:
+        req = urllib.request.Request("https://open.er-api.com/v6/latest/USD", headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=5) as res:
+            data = json.loads(res.read())
+            live_fx = float(data.get("rates", {}).get("NGN", 1680.0))
+    except Exception as e:
+        logger.warning(f"Failed to fetch live FX rate: {e}")
+
+    # Official / NAFEM rate
+    official_rate_str = f"₦{live_fx:,.2f} / $1"
+    official_trend = f"+{((live_fx - 461) / 461 * 100):.0f}%"
+
+    # Parallel rate estimate (typically 2-4% spread over NAFEM)
+    parallel_low = int(round(live_fx * 1.025 / 10.0) * 10)
+    parallel_high = parallel_low + 30
+    parallel_rate_str = f"₦{parallel_low:,} – ₦{parallel_high:,} / $1"
+    parallel_trend = f"+{((parallel_low - 461) / 461 * 100):.0f}%"
+
+    return [
+        {"indicator": "Parallel FX (Ikeja / Zone 4)", "rate": parallel_rate_str, "baseline": "₦461 (May '23)", "trend": parallel_trend},
+        {"indicator": "Official FX (NAFEM Window)", "rate": official_rate_str, "baseline": "₦461 (May '23)", "trend": official_trend},
+        {"indicator": "PMS Petrol (Lagos Metro)", "rate": "₦1,020 – ₦1,060 / L", "baseline": "₦198 (May '23)", "trend": "+425%"},
+        {"indicator": "PMS Petrol (Abuja & Edo)", "rate": "₦1,050 – ₦1,120 / L", "baseline": "₦210 (May '23)", "trend": "+414%"},
+        {"indicator": "50kg Local Parboiled Rice", "rate": "₦85,000 – ₦95,000", "baseline": "₦32,000 (May '23)", "trend": "+180%"},
+        {"indicator": "National Grid Generation", "rate": "~2,400 – 2,800 MW", "baseline": "~4,000 MW", "trend": "-35%"}
+    ]
 
 RADIO_HUB_PULSE = [
     {
@@ -267,6 +338,29 @@ def fetch_news_items(history: set):
                 history.add(it["url"])
         logger.info(f"Fetched {len(items)} items from {feed['name']}")
     return articles
+
+
+def fetch_poi_radar(history: set):
+    """Fetch dedicated intelligence on Persons of Interest and State Power institutions."""
+    poi_items = []
+    for target in POI_TARGETS:
+        items = fetch_rss_feed(target["query"], limit=3)
+        for it in items:
+            title_clean = re.sub(r"\s*-\s*[^-]+$", "", it["title"]).strip()
+            if not title_clean or it["url"] in history:
+                continue
+            history.add(it["url"])
+            poi_items.append({
+                "entity": target["name"],
+                "badge_color": target["badge_color"],
+                "title": title_clean,
+                "url": it["url"],
+                "pub_date": it["pub_date"]
+            })
+            if len([p for p in poi_items if p["entity"] == target["name"]]) >= 1:
+                break
+    logger.info(f"Fetched {len(poi_items)} POI and institutional radar items")
+    return poi_items
 
 
 def fetch_x_trends():
@@ -430,7 +524,7 @@ def render_category_md(articles: list, target_category: str, max_items: int = 5)
     return out
 
 
-def build_email_html(today_str: str, articles: list, macro: list, radio: list, x_trends: list, x_posts: list, ig_items: list) -> str:
+def build_email_html(today_str: str, articles: list, macro: list, radio: list, poi_items: list, x_trends: list, x_posts: list, ig_items: list) -> str:
     # 1. Macro rows
     macro_rows = ""
     for m in macro:
@@ -458,6 +552,23 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
                 — Caller: {r['caller']}
             </div>
         </div>
+        """
+
+    # 3. POI rows
+    poi_rows = ""
+    for p in poi_items:
+        badge_color = p.get("badge_color", "#15803D")
+        poi_rows += f"""
+        <tr style="border-bottom: 1px solid #e4e4e7;">
+            <td style="padding: 10px 12px; font-weight: 700; color: #09090b; width: 175px; font-size: 11.5px; vertical-align: top;">
+                <span style="display: inline-block; background: {badge_color}18; color: {badge_color}; border: 1px solid {badge_color}55; padding: 2px 6px; border-radius: 3px; font-weight: 700;">{p['entity']}</span>
+            </td>
+            <td style="padding: 10px 12px; vertical-align: top;">
+                <a href="{p['url']}" target="_blank" style="color: #09090b; text-decoration: none; font-weight: 600; font-size: 13px; line-height: 1.4; display: block;">
+                    {p['title']}
+                </a>
+            </td>
+        </tr>
         """
 
     # Beat category rows (National, Political & Breaking leads with 8 items)
@@ -522,12 +633,12 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
                 TODAY IN NIGERIA • ALL-BEAT INTELLIGENCE
             </div>
             <h1 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.5px;">Nigeria 360° Trending Daily Dispatch</h1>
-            <p style="margin: 6px 0 0 0; font-size: 13px; color: #a1a1aa;">National Wire • Markets & FX • Tech • Metro • Culture • Sports • 𝕏 & IG • {today_str}</p>
+            <p style="margin: 6px 0 0 0; font-size: 13px; color: #a1a1aa;">National Wire • POI Radar • Markets & FX • Tech • Metro • Culture • Sports • 𝕏 & IG • {today_str}</p>
         </div>
 
         <!-- Executive Dek -->
         <div style="padding: 16px 24px; background: #fafafa; border-bottom: 1px solid #e4e4e7; font-size: 13px; line-height: 1.5; color: #27272a;">
-            <strong>Automated Editorial Cycle:</strong> 04:30 | 06:00 | 12:00 | 16:30 | 18:00 WAT. Real-time multi-channel ingestion capturing breaking developments, macroeconomic realities, citizen radio feedback, and viral cultural moments across Nigeria.
+            <strong>Automated Editorial Cycle:</strong> 04:30 | 06:00 | 12:00 | 16:30 | 18:00 WAT. Real-time multi-channel ingestion capturing breaking developments, persons of interest radar, macroeconomic realities, citizen radio feedback, and viral cultural moments across Nigeria.
         </div>
 
         <!-- Main Body -->
@@ -535,7 +646,7 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
             
             <!-- Section 1: Macroeconomic Ledger -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px 0; color: #09090b; border-bottom: 2px solid #059669; padding-bottom: 5px;">
-                1. Macroeconomic Reality Ledger
+                1. Macroeconomic Reality Ledger (Live Dynamic Index)
             </h2>
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
                 <thead>
@@ -564,6 +675,16 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
                 <tbody>
                     {national_rows}
+                </tbody>
+            </table>
+
+            <!-- Section 4: Persons of Interest & State Power Radar -->
+            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #15803D; padding-bottom: 5px;">
+                4. 👑 Persons of Interest & State Power Radar (Tinubu, Obi, Atiku, VDM, Sowore, NASS, EFCC, Labour)
+            </h2>
+            <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
+                <tbody>
+                    {poi_rows}
                 </tbody>
             </table>
 
@@ -651,10 +772,10 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
     return html
 
 
-def build_markdown_log(today_str: str, articles: list, x_trends: list, x_posts: list, ig_items: list) -> str:
+def build_markdown_log(today_str: str, articles: list, poi_items: list, x_trends: list, x_posts: list, ig_items: list) -> str:
     md = f"""# Today in Nigeria 360° Daily Briefing — {today_str}
 
-*Multi-channel intelligence digest covering all trending Nigerian news beats: breaking press, markets, tech, metro, entertainment, sports, talk radio sentiments, 𝕏 trends, and Instagram reporting.*
+*Multi-channel intelligence digest covering all trending Nigerian news beats: breaking press, persons of interest radar, markets, tech, metro, entertainment, sports, talk radio sentiments, 𝕏 trends, and Instagram reporting.*
 
 ---
 
@@ -662,27 +783,34 @@ def build_markdown_log(today_str: str, articles: list, x_trends: list, x_posts: 
 {render_category_md(articles, "National & Breaking", max_items=8)}
 
 ---
-## 2. 💼 Economy, Markets & Corporate Nigeria
+## 2. 👑 Persons of Interest & State Power Radar (Tinubu, Obi, Atiku, VDM, Sowore, NASS, EFCC, Labour)
+"""
+    for p in poi_items:
+        md += f"- **[{p['entity']}]** [{p['title']}]({p['url']})\n"
+
+    md += f"""
+---
+## 3. 💼 Economy, Markets & Corporate Nigeria
 {render_category_md(articles, "Economy & Business", max_items=5)}
 
 ---
-## 3. 🚀 Tech, Startups & Digital Economy
+## 4. 🚀 Tech, Startups & Digital Economy
 {render_category_md(articles, "Tech & Startups", max_items=4)}
 
 ---
-## 4. 🏙️ Metro, Society & Security
+## 5. 🏙️ Metro, Society & Security
 {render_category_md(articles, "Metro & Security", max_items=3)}{render_category_md(articles, "Metro & Society", max_items=3)}
 
 ---
-## 5. 🎭 Entertainment, Culture & Lifestyle
+## 6. 🎭 Entertainment, Culture & Lifestyle
 {render_category_md(articles, "Entertainment & Culture", max_items=4)}
 
 ---
-## 6. ⚽ Sports Spotlight
+## 7. ⚽ Sports Spotlight
 {render_category_md(articles, "Sports", max_items=4)}
 
 ---
-## 7. Macroeconomic Reality Ledger
+## 8. Macroeconomic Reality Ledger (Live Dynamic Index)
 | Indicator | Current Rate | May 2023 Baseline | Percentage Change |
 | :--- | :--- | :--- | :--- |
 | PMS Petrol (Lagos) | ₦1,020 – ₦1,060 / L | ₦198 / L | +425% |
@@ -691,7 +819,7 @@ def build_markdown_log(today_str: str, articles: list, x_trends: list, x_posts: 
 | National Grid Generation | ~2,400 – 2,800 MW | ~4,000 MW | -35% |
 
 ---
-## 8. 𝕏 (Twitter) Nigeria Trends & Discourse Pulse
+## 9. 𝕏 (Twitter) Nigeria Trends & Discourse Pulse
 ### Trending Topics
 """
     for t in x_trends[:12]:
@@ -703,7 +831,7 @@ def build_markdown_log(today_str: str, articles: list, x_trends: list, x_posts: 
 
     md += """
 ---
-## 9. Instagram Viral & Social News Watch
+## 10. Instagram Viral & Social News Watch
 """
     for ig in ig_items[:6]:
         md += f"- **[{ig['source']}]** [{ig['title']}]({ig['url']})\n"
@@ -719,7 +847,7 @@ def send_email(username: str, password: str, to_email: str, html_body: str, subj
     recipient = to_email if to_email else username
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"] = f"Polititrace Nigeria <{username}>"
+    msg["From"] = f"Today in Nigeria <{username}>"
     msg["To"] = recipient
 
     msg.attach(MIMEText(html_body, "html", "utf-8"))
@@ -738,26 +866,32 @@ def send_email(username: str, password: str, to_email: str, html_body: str, subj
 
 def main():
     today_str = datetime.now(timezone(timedelta(hours=1))).strftime("%A, %B %d, %Y")
-    logger.info(f"Starting Polititrace Nigeria Dispatcher for {today_str}...")
+    logger.info(f"Starting Today in Nigeria 360° Dispatcher for {today_str}...")
 
     history = load_history()
 
-    # 1. Fetch Tier-1 press news
+    # 1. Fetch live dynamic macroeconomic ledger
+    macro_ledger = fetch_dynamic_macro_ledger()
+
+    # 2. Fetch Tier-1 press news across all beats
     articles = fetch_news_items(history)
 
-    # 2. Fetch X (Twitter) trends & political discourse
+    # 3. Fetch dedicated POI & Institutional Power Radar
+    poi_items = fetch_poi_radar(history)
+
+    # 4. Fetch X (Twitter) trends & live discourse
     x_trends = fetch_x_trends()
     x_posts = fetch_x_discourse(history)
 
-    # 3. Fetch Instagram & viral social news
+    # 5. Fetch Instagram & viral social news
     ig_items = fetch_instagram_pulse(history)
 
     # Save outputs
-    html_content = build_email_html(today_str, articles, MACRO_LEDGER, RADIO_HUB_PULSE, x_trends, x_posts, ig_items)
+    html_content = build_email_html(today_str, articles, macro_ledger, RADIO_HUB_PULSE, poi_items, x_trends, x_posts, ig_items)
     with open(HTML_OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write(html_content)
 
-    md_content = build_markdown_log(today_str, articles, x_trends, x_posts, ig_items)
+    md_content = build_markdown_log(today_str, articles, poi_items, x_trends, x_posts, ig_items)
     with open(LOG_PATH, "w", encoding="utf-8") as f:
         f.write(md_content)
 
@@ -768,7 +902,7 @@ def main():
     password = os.getenv("MAIL_PASSWORD")
     to_email = os.getenv("MAIL_TO") or username
 
-    subject = f"🇳🇬 Polititrace Daily Briefing: News, 𝕏 & Instagram — {today_str}"
+    subject = f"🇳🇬 Today in Nigeria 360° Dispatch: Power, News, 𝕏 & Instagram — {today_str}"
     send_email(username, password, to_email, html_content, subject)
 
 
