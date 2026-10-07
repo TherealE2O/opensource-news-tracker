@@ -553,25 +553,30 @@ def fetch_x_discourse(history: set):
         "https://news.google.com/rss/search?q=site:x.com+Nigeria+fuel+OR+Naira+OR+subsidy&hl=en-NG&gl=NG&ceid=NG:en",
         "https://news.google.com/rss/search?q=site:x.com+Nigeria+trending+OR+viral&hl=en-NG&gl=NG&ceid=NG:en"
     ]
+    seen_urls = set()
     for url in queries:
         items = fetch_rss_feed(url, limit=5)
         for it in items:
             title = it["title"]
-            # Clean title format: "... - x.com"
             title_clean = re.sub(r"\s*-\s*x\.com$", "", title).strip()
-            if not title_clean or it["url"] in history:
+            if not title_clean or it["url"] in seen_urls:
                 continue
 
-            history.add(it["url"])
+            seen_urls.add(it["url"])
+            is_new = it["url"] not in history
+            if is_new:
+                history.add(it["url"])
+
             x_posts.append({
                 "platform": "X (Twitter)",
                 "title": title_clean,
                 "url": it["url"],
-                "pub_date": it["pub_date"]
+                "pub_date": it["pub_date"],
+                "is_new": is_new
             })
-            if len(x_posts) >= 8:
+            if len(x_posts) >= 6:
                 break
-        if len(x_posts) >= 8:
+        if len(x_posts) >= 6:
             break
 
     logger.info(f"Fetched {len(x_posts)} live X discourse items")
@@ -581,52 +586,46 @@ def fetch_x_discourse(history: set):
 def fetch_instagram_pulse(history: set):
     """Fetch viral news, societal scoops, and civic reports from Instagram."""
     ig_items = []
+    seen_urls = set()
+
+    def add_ig_item(source, title, url, pub_date, badge_color):
+        if url in seen_urls or not title:
+            return
+        seen_urls.add(url)
+        is_new = url not in history
+        if is_new:
+            history.add(url)
+        ig_items.append({
+            "source": source,
+            "title": title,
+            "url": url,
+            "pub_date": pub_date,
+            "badge_color": badge_color,
+            "is_new": is_new
+        })
 
     # 1. Instablog9ja RSS Feed (Nigeria's top viral Instagram-first publisher)
     instablog_feed = "https://instablog9ja.com/feed/"
     ib_posts = fetch_rss_feed(instablog_feed, limit=6)
     for it in ib_posts:
-        if it["url"] not in history:
-            history.add(it["url"])
-            ig_items.append({
-                "source": "Instablog9ja (Instagram)",
-                "title": it["title"],
-                "url": it["url"],
-                "pub_date": it["pub_date"],
-                "badge_color": "#E1306C" # Instagram magenta
-            })
+        add_ig_item("Instablog9ja (Instagram)", it["title"], it["url"], it["pub_date"], "#E1306C")
 
     # 2. Google News Instagram indexed news for Nigeria
     gnews_ig = "https://news.google.com/rss/search?q=site:instagram.com+Nigeria+news&hl=en-NG&gl=NG&ceid=NG:en"
-    g_posts = fetch_rss_feed(gnews_ig, limit=5)
+    g_posts = fetch_rss_feed(gnews_ig, limit=6)
     for it in g_posts:
         title_clean = re.sub(r"\s*-\s*instagram\.com$", "", it["title"]).strip()
-        if it["url"] not in history and title_clean:
-            history.add(it["url"])
-            ig_items.append({
-                "source": "Instagram News Wire",
-                "title": title_clean,
-                "url": it["url"],
-                "pub_date": it["pub_date"],
-                "badge_color": "#833AB4" # Instagram purple
-            })
+        add_ig_item("Instagram News Wire", title_clean, it["url"], it["pub_date"], "#833AB4")
 
     # 3. YabaLeftOnline (Viral youth culture & social reactions)
     yaba_feed = "https://yabaleftonline.ng/feed/"
     yaba_posts = fetch_rss_feed(yaba_feed, limit=4)
     for it in yaba_posts:
-        if it["url"] not in history:
-            history.add(it["url"])
-            ig_items.append({
-                "source": "YabaLeftOnline",
-                "title": it["title"],
-                "url": it["url"],
-                "pub_date": it["pub_date"],
-                "badge_color": "#F77737" # Instagram warm orange
-            })
+        add_ig_item("YabaLeftOnline", it["title"], it["url"], it["pub_date"], "#F77737")
 
     logger.info(f"Fetched {len(ig_items)} Instagram & social news items")
     return ig_items[:8]
+
 
 
 def render_category_rows(articles: list, target_category: str, max_items: int = 5) -> str:
@@ -733,10 +732,11 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
     # X Posts rows
     x_post_rows = ""
     for xp in x_posts[:6]:
+        new_tag = '<span style="background: #059669; color: #ffffff; font-size: 9px; font-weight: 800; padding: 1px 4px; border-radius: 2px; margin-left: 6px;">NEW</span>' if xp.get("is_new") else ''
         x_post_rows += f"""
         <div style="background: #ffffff; border: 1px solid #e1e8ed; border-left: 3px solid #000000; padding: 10px 14px; margin-bottom: 8px; border-radius: 0 4px 4px 0;">
             <a href="{xp['url']}" target="_blank" style="color: #0f1419; text-decoration: none; font-size: 13px; font-weight: 600; line-height: 1.4; display: block;">
-                {xp['title']}
+                {xp['title']} {new_tag}
             </a>
             <div style="font-size: 11px; color: #536471; margin-top: 4px;">
                 𝕏 Live Discourse Wire
@@ -748,11 +748,12 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, p
     ig_rows = ""
     for ig in ig_items[:6]:
         badge_bg = ig.get("badge_color", "#E1306C")
+        new_tag = '<span style="background: #059669; color: #ffffff; font-size: 9px; font-weight: 800; padding: 1px 4px; border-radius: 2px; margin-left: 6px;">NEW</span>' if ig.get("is_new") else ''
         ig_rows += f"""
         <div style="background: #ffffff; border: 1px solid #fce7f3; border-left: 3px solid {badge_bg}; padding: 10px 14px; margin-bottom: 8px; border-radius: 0 4px 4px 0;">
             <div style="display: inline-block; background: {badge_bg}; color: #ffffff; font-size: 10px; font-weight: 800; padding: 2px 6px; border-radius: 2px; text-transform: uppercase; margin-bottom: 4px;">
                 {ig['source']}
-            </div>
+            </div> {new_tag}
             <a href="{ig['url']}" target="_blank" style="color: #09090b; text-decoration: none; font-size: 13px; font-weight: 600; line-height: 1.4; display: block; margin-top: 3px;">
                 {ig['title']}
             </a>
