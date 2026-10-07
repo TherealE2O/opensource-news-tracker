@@ -41,25 +41,106 @@ HEADERS = {
 }
 
 RSS_FEEDS = [
+    # --- Top National & Breaking Wire ---
     {
-        "name": "Premium Times",
-        "url": "https://www.premiumtimesng.com/feed",
-        "category": "National / Politics"
+        "name": "Daily Post",
+        "url": "https://dailypost.ng/feed/",
+        "category": "National & Breaking",
+        "badge_color": "#DC2626"
+    },
+    {
+        "name": "Channels TV",
+        "url": "https://www.channelstv.com/feed/",
+        "category": "National & Breaking",
+        "badge_color": "#0284C7"
     },
     {
         "name": "The Punch",
         "url": "https://punchng.com/feed/",
-        "category": "National / Metro"
+        "category": "National & Breaking",
+        "badge_color": "#EA580C"
     },
     {
-        "name": "The Cable",
-        "url": "https://www.thecable.ng/feed",
-        "category": "Investigation / Policy"
+        "name": "Premium Times",
+        "url": "https://www.premiumtimesng.com/feed",
+        "category": "National & Breaking",
+        "badge_color": "#16A34A"
     },
     {
         "name": "Vanguard",
         "url": "https://www.vanguardngr.com/feed/",
-        "category": "National / Politics"
+        "category": "National & Breaking",
+        "badge_color": "#9333EA"
+    },
+    {
+        "name": "Google News Nigeria",
+        "url": "https://news.google.com/rss?hl=en-NG&gl=NG&ceid=NG:en",
+        "category": "National & Breaking",
+        "badge_color": "#2563EB"
+    },
+
+    # --- Economy, Markets & Business ---
+    {
+        "name": "Nairametrics",
+        "url": "https://nairametrics.com/feed/",
+        "category": "Economy & Business",
+        "badge_color": "#059669"
+    },
+    {
+        "name": "BusinessDay",
+        "url": "https://businessday.ng/feed/",
+        "category": "Economy & Business",
+        "badge_color": "#0D9488"
+    },
+
+    # --- Tech & Innovation ---
+    {
+        "name": "TechCabal",
+        "url": "https://techcabal.com/feed/",
+        "category": "Tech & Startups",
+        "badge_color": "#7C3AED"
+    },
+
+    # --- Metro, Security & Grassroots ---
+    {
+        "name": "Daily Trust",
+        "url": "https://dailytrust.com/feed/",
+        "category": "Metro & Security",
+        "badge_color": "#D97706"
+    },
+    {
+        "name": "Leadership NG",
+        "url": "https://leadership.ng/feed/",
+        "category": "Metro & Society",
+        "badge_color": "#4F46E5"
+    },
+
+    # --- Entertainment, Culture & Lifestyle ---
+    {
+        "name": "Punch Ent.",
+        "url": "https://punchng.com/topics/entertainment/feed/",
+        "category": "Entertainment & Culture",
+        "badge_color": "#DB2777"
+    },
+    {
+        "name": "BellaNaija",
+        "url": "https://www.bellanaija.com/feed/",
+        "category": "Entertainment & Culture",
+        "badge_color": "#E11D48"
+    },
+
+    # --- Sports ---
+    {
+        "name": "Complete Sports",
+        "url": "https://www.completesports.com/feed/",
+        "category": "Sports",
+        "badge_color": "#15803D"
+    },
+    {
+        "name": "Punch Sports",
+        "url": "https://punchng.com/topics/sports/feed/",
+        "category": "Sports",
+        "badge_color": "#047857"
     }
 ]
 
@@ -155,7 +236,7 @@ def fetch_rss_feed(url: str, limit: int = 6):
 
 
 def fetch_news_items(history: set):
-    """Fetch Tier-1 Nigerian news outlets."""
+    """Fetch Tier-1 Nigerian news outlets across all beats."""
     articles = []
     for feed in RSS_FEEDS:
         items = fetch_rss_feed(feed["url"], limit=6)
@@ -164,6 +245,7 @@ def fetch_news_items(history: set):
             articles.append({
                 "outlet": feed["name"],
                 "category": feed["category"],
+                "badge_color": feed.get("badge_color", "#2563EB"),
                 "title": it["title"],
                 "url": it["url"],
                 "pub_date": it["pub_date"],
@@ -189,7 +271,7 @@ def fetch_x_trends():
             soup = BeautifulSoup(content, "html.parser")
             trend_lists = soup.find_all(class_=re.compile(r"trend-card__list"))
             if trend_lists:
-                for li in trend_lists[0].find_all("li")[:12]:
+                for li in trend_lists[0].find_all("li")[:14]:
                     a = li.find("a")
                     if a and a.text.strip():
                         href = a.get("href", "")
@@ -202,7 +284,7 @@ def fetch_x_trends():
             list_match = re.search(r'class="[^"]*trend-card__list[^"]*"[^>]*>(.*?)</(?:ol|ul)>', content, re.DOTALL)
             if list_match:
                 li_matches = re.findall(r'<a[^>]*href="([^"]*)"[^>]*>(.*?)</a>', list_match.group(1))
-                for href, raw_name in li_matches[:12]:
+                for href, raw_name in li_matches[:14]:
                     name = re.sub(r"<[^>]+>", "", raw_name).strip()
                     if name:
                         trends.append({
@@ -216,11 +298,12 @@ def fetch_x_trends():
 
 
 def fetch_x_discourse(history: set):
-    """Fetch live political discourse and viral posts from X (Twitter) via indexed feeds."""
+    """Fetch live discourse and viral posts from X (Twitter) via indexed feeds."""
     x_posts = []
     queries = [
         "https://news.google.com/rss/search?q=site:x.com+Nigeria+politics&hl=en-NG&gl=NG&ceid=NG:en",
-        "https://news.google.com/rss/search?q=site:x.com+Tinubu+OR+Naira+OR+fuel&hl=en-NG&gl=NG&ceid=NG:en"
+        "https://news.google.com/rss/search?q=site:x.com+Tinubu+OR+Naira+OR+fuel&hl=en-NG&gl=NG&ceid=NG:en",
+        "https://news.google.com/rss/search?q=site:x.com+Nigeria+trending+OR+viral&hl=en-NG&gl=NG&ceid=NG:en"
     ]
     for url in queries:
         items = fetch_rss_feed(url, limit=5)
@@ -238,9 +321,9 @@ def fetch_x_discourse(history: set):
                 "url": it["url"],
                 "pub_date": it["pub_date"]
             })
-            if len(x_posts) >= 6:
+            if len(x_posts) >= 8:
                 break
-        if len(x_posts) >= 6:
+        if len(x_posts) >= 8:
             break
 
     logger.info(f"Fetched {len(x_posts)} live X discourse items")
@@ -298,6 +381,42 @@ def fetch_instagram_pulse(history: set):
     return ig_items[:8]
 
 
+def render_category_rows(articles: list, target_category: str, max_items: int = 5) -> str:
+    matches = [a for a in articles if a.get("category") == target_category]
+    matches = sorted(matches, key=lambda x: not x.get("is_new", False))[:max_items]
+    if not matches:
+        return "<tr><td colspan='2' style='padding: 8px 12px; font-size: 12px; color: #71717a; font-style: italic;'>No new updates in this cycle.</td></tr>"
+    rows = ""
+    for a in matches:
+        badge_color = a.get("badge_color", "#2563EB")
+        new_tag = '<span style="background: #059669; color: #ffffff; font-size: 9px; font-weight: 800; padding: 1px 4px; border-radius: 2px; margin-left: 6px;">NEW</span>' if a.get("is_new") else ''
+        rows += f"""
+        <tr style="border-bottom: 1px solid #e4e4e7;">
+            <td style="padding: 10px 12px; font-weight: 700; color: #09090b; width: 140px; font-size: 11.5px; vertical-align: top;">
+                <span style="display: inline-block; background: {badge_color}18; color: {badge_color}; border: 1px solid {badge_color}55; padding: 2px 6px; border-radius: 3px; font-weight: 700;">{a['outlet']}</span>{new_tag}
+            </td>
+            <td style="padding: 10px 12px; vertical-align: top;">
+                <a href="{a['url']}" target="_blank" style="color: #09090b; text-decoration: none; font-weight: 600; font-size: 13px; line-height: 1.4; display: block;">
+                    {a['title']}
+                </a>
+            </td>
+        </tr>
+        """
+    return rows
+
+
+def render_category_md(articles: list, target_category: str, max_items: int = 5) -> str:
+    matches = [a for a in articles if a.get("category") == target_category]
+    matches = sorted(matches, key=lambda x: not x.get("is_new", False))[:max_items]
+    if not matches:
+        return "- *No new dispatches in this cycle.*\n"
+    out = ""
+    for a in matches:
+        new_badge = " `NEW`" if a.get("is_new") else ""
+        out += f"- **[{a['outlet']}]** [{a['title']}]({a['url']}){new_badge}\n"
+    return out
+
+
 def build_email_html(today_str: str, articles: list, macro: list, radio: list, x_trends: list, x_posts: list, ig_items: list) -> str:
     # 1. Macro rows
     macro_rows = ""
@@ -328,29 +447,17 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
         </div>
         """
 
-    # 3. Tier-1 news rows
-    curated_news = [a for a in articles if a.get("is_new")][:10]
-    if not curated_news:
-        curated_news = articles[:8]
-
-    news_rows = ""
-    for a in curated_news:
-        news_rows += f"""
-        <tr style="border-bottom: 1px solid #e4e4e7;">
-            <td style="padding: 11px 14px; font-weight: 700; color: #09090b; width: 130px; font-size: 12px;">
-                <span style="display: inline-block; background: #f4f4f5; border: 1px solid #e4e4e7; padding: 3px 6px; border-radius: 3px;">{a['outlet']}</span>
-            </td>
-            <td style="padding: 11px 14px;">
-                <a href="{a['url']}" target="_blank" style="color: #09090b; text-decoration: none; font-weight: 600; font-size: 13px; line-height: 1.4;">
-                    {a['title']}
-                </a>
-            </td>
-        </tr>
-        """
+    # Beat category rows
+    national_rows = render_category_rows(articles, "National & Breaking", max_items=6)
+    economy_rows = render_category_rows(articles, "Economy & Business", max_items=5)
+    tech_rows = render_category_rows(articles, "Tech & Startups", max_items=4)
+    metro_rows = render_category_rows(articles, "Metro & Security", max_items=3) + render_category_rows(articles, "Metro & Society", max_items=3)
+    ent_rows = render_category_rows(articles, "Entertainment & Culture", max_items=4)
+    sports_rows = render_category_rows(articles, "Sports", max_items=4)
 
     # 4. X (Twitter) Trends Pills
     trend_pills = ""
-    for t in x_trends[:10]:
+    for t in x_trends[:12]:
         trend_pills += f"""
         <a href="{t['url']}" target="_blank" style="display: inline-block; background: #f4f4f5; color: #0f1419; text-decoration: none; padding: 5px 10px; margin: 3px 4px 4px 0; border-radius: 14px; font-size: 12px; font-weight: 700; border: 1px solid #e1e8ed;">
             {t['name']}
@@ -359,7 +466,7 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
 
     # X Posts rows
     x_post_rows = ""
-    for xp in x_posts[:5]:
+    for xp in x_posts[:6]:
         x_post_rows += f"""
         <div style="background: #ffffff; border: 1px solid #e1e8ed; border-left: 3px solid #000000; padding: 10px 14px; margin-bottom: 8px; border-radius: 0 4px 4px 0;">
             <a href="{xp['url']}" target="_blank" style="color: #0f1419; text-decoration: none; font-size: 13px; font-weight: 600; line-height: 1.4; display: block;">
@@ -391,7 +498,7 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polititrace Nigeria Daily Dispatch</title>
+    <title>Today in Nigeria — 360° Trending Intelligence</title>
 </head>
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f4f4f5; margin: 0; padding: 20px; color: #18181b;">
     <div style="max-width: 680px; margin: 0 auto; background: #ffffff; border-radius: 6px; border: 1px solid #e4e4e7; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.06);">
@@ -399,22 +506,22 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
         <!-- Header -->
         <div style="background-color: #09090b; color: #ffffff; padding: 28px 24px; border-bottom: 3px solid #059669;">
             <div style="display: inline-block; background: #059669; color: #ffffff; font-size: 10px; font-weight: 800; letter-spacing: 1px; padding: 3px 8px; border-radius: 2px; text-transform: uppercase; margin-bottom: 8px;">
-                POLITITRACE FORENSIC INTELLIGENCE
+                TODAY IN NIGERIA • ALL-BEAT INTELLIGENCE
             </div>
-            <h1 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.5px;">Nigeria Politics & Society Daily Dispatch</h1>
-            <p style="margin: 6px 0 0 0; font-size: 13px; color: #a1a1aa;">Verified press, talk radio, 𝕏 trends & Instagram civic monitoring • {today_str}</p>
+            <h1 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.5px;">Nigeria 360° Trending Daily Dispatch</h1>
+            <p style="margin: 6px 0 0 0; font-size: 13px; color: #a1a1aa;">National Wire • Markets & FX • Tech • Metro • Culture • Sports • 𝕏 & IG • {today_str}</p>
         </div>
 
         <!-- Executive Dek -->
-        <div style="padding: 18px 24px; background: #fafafa; border-bottom: 1px solid #e4e4e7; font-size: 13.5px; line-height: 1.6; color: #27272a;">
-            <strong>Intelligence Briefing:</strong> Multi-channel daily synthesis spanning macroeconomic indicators, grassroots talk radio calls, Tier-1 investigative wire, trending 𝕏 political hashtags, and viral Instagram civic reporting.
+        <div style="padding: 16px 24px; background: #fafafa; border-bottom: 1px solid #e4e4e7; font-size: 13px; line-height: 1.5; color: #27272a;">
+            <strong>Automated Editorial Cycle:</strong> 04:30 | 06:00 | 12:00 | 16:30 | 18:00 WAT. Real-time multi-channel ingestion capturing breaking developments, macroeconomic realities, citizen radio feedback, and viral cultural moments across Nigeria.
         </div>
 
         <!-- Main Body -->
         <div style="padding: 24px;">
             
             <!-- Section 1: Macroeconomic Ledger -->
-            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px 0; color: #09090b; border-bottom: 2px solid #09090b; padding-bottom: 5px;">
+            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px 0; color: #09090b; border-bottom: 2px solid #059669; padding-bottom: 5px;">
                 1. Macroeconomic Reality Ledger
             </h2>
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
@@ -432,24 +539,74 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
             </table>
 
             <!-- Section 2: Talk Radio Voices -->
-            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 24px 0 12px 0; color: #09090b; border-bottom: 2px solid #09090b; padding-bottom: 5px;">
+            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 24px 0 12px 0; color: #09090b; border-bottom: 2px solid #059669; padding-bottom: 5px;">
                 2. Grassroots Pulse (Morning Talk Radio Hubs)
             </h2>
             {radio_blocks}
 
-            <!-- Section 3: Verified Tier-1 News Wire -->
-            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #09090b; padding-bottom: 5px;">
-                3. Tier-1 Verified State & National Developments
+            <!-- Section 3: National & Breaking Wire -->
+            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #DC2626; padding-bottom: 5px;">
+                3. 🔴 Top National & Breaking Wire
             </h2>
             <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
                 <tbody>
-                    {news_rows}
+                    {national_rows}
                 </tbody>
             </table>
 
-            <!-- Section 4: X (Twitter) Trends & Political Discourse -->
+            <!-- Section 4: Economy & Business -->
+            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #059669; padding-bottom: 5px;">
+                4. 💼 Economy, Markets & Corporate Nigeria
+            </h2>
+            <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
+                <tbody>
+                    {economy_rows}
+                </tbody>
+            </table>
+
+            <!-- Section 5: Tech & Startups -->
+            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #7C3AED; padding-bottom: 5px;">
+                5. 🚀 Tech, Fintech & Digital Economy
+            </h2>
+            <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
+                <tbody>
+                    {tech_rows}
+                </tbody>
+            </table>
+
+            <!-- Section 6: Metro & Society -->
+            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #D97706; padding-bottom: 5px;">
+                6. 🏙️ Metro, Society & Security
+            </h2>
+            <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
+                <tbody>
+                    {metro_rows}
+                </tbody>
+            </table>
+
+            <!-- Section 7: Entertainment, Culture & Lifestyle -->
+            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #DB2777; padding-bottom: 5px;">
+                7. 🎭 Entertainment, Pop Culture & Celebrity Watch
+            </h2>
+            <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
+                <tbody>
+                    {ent_rows}
+                </tbody>
+            </table>
+
+            <!-- Section 8: Sports Spotlight -->
+            <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #15803D; padding-bottom: 5px;">
+                8. ⚽ Sports Spotlight
+            </h2>
+            <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 24px;">
+                <tbody>
+                    {sports_rows}
+                </tbody>
+            </table>
+
+            <!-- Section 9: X Trends -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #000000; padding-bottom: 5px;">
-                4. 𝕏 (Twitter) Nigeria: Trending Hashtags & Political Wire
+                9. 𝕏 (Twitter) Nigeria: Trending Topics & Discourse Wire
             </h2>
             <div style="background: #f9f9fb; border: 1px solid #e1e8ed; padding: 12px 14px; border-radius: 4px; margin-bottom: 14px;">
                 <div style="font-size: 11px; font-weight: 800; color: #536471; text-transform: uppercase; margin-bottom: 8px;">
@@ -461,9 +618,9 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
             </div>
             {x_post_rows}
 
-            <!-- Section 5: Instagram Viral & Civic Watch -->
+            <!-- Section 10: Instagram Viral Hubs -->
             <h2 style="font-size: 13.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin: 28px 0 12px 0; color: #09090b; border-bottom: 2px solid #E1306C; padding-bottom: 5px;">
-                5. 📸 Instagram & Social News Watch (Instablog9ja, BellaNaija & Viral Hubs)
+                10. 📸 Instagram & Social News Watch (Instablog9ja, BellaNaija & Viral Hubs)
             </h2>
             {ig_rows}
 
@@ -471,7 +628,7 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
 
         <!-- Footer -->
         <div style="background-color: #fafafa; border-top: 1px solid #e4e4e7; padding: 18px 24px; font-size: 12px; color: #71717a; text-align: center; line-height: 1.5;">
-            <div>Compiled by <strong>Polititrace Nigeria Intelligence Desk</strong></div>
+            <div>Compiled by <strong>Today in Nigeria Intelligence Desk</strong></div>
             <div style="margin-top: 4px;">Multi-channel monitoring: Press RSS • Live Radio Wire • 𝕏 Trends • Instagram Dispatches</div>
         </div>
 
@@ -482,20 +639,37 @@ def build_email_html(today_str: str, articles: list, macro: list, radio: list, x
 
 
 def build_markdown_log(today_str: str, articles: list, x_trends: list, x_posts: list, ig_items: list) -> str:
-    md = f"""# Polititrace Daily Briefing — {today_str}
+    md = f"""# Today in Nigeria 360° Daily Briefing — {today_str}
 
-*Multi-channel intelligence digest for Nigerian politics, state affairs, talk radio sentiments, 𝕏 trends, and Instagram reporting.*
+*Multi-channel intelligence digest covering all trending Nigerian news beats: breaking press, markets, tech, metro, entertainment, sports, talk radio sentiments, 𝕏 trends, and Instagram reporting.*
 
 ---
 
-## 1. Top Verified News Wire
-"""
-    for a in articles[:10]:
-        md += f"- **[{a['outlet']}]** [{a['title']}]({a['url']})\n"
+## 1. 🔴 Top National & Breaking Wire
+{render_category_md(articles, "National & Breaking", max_items=6)}
 
-    md += """
 ---
-## 2. Macroeconomic Ledger
+## 2. 💼 Economy, Markets & Corporate Nigeria
+{render_category_md(articles, "Economy & Business", max_items=5)}
+
+---
+## 3. 🚀 Tech, Startups & Digital Economy
+{render_category_md(articles, "Tech & Startups", max_items=4)}
+
+---
+## 4. 🏙️ Metro, Society & Security
+{render_category_md(articles, "Metro & Security", max_items=3)}{render_category_md(articles, "Metro & Society", max_items=3)}
+
+---
+## 5. 🎭 Entertainment, Culture & Lifestyle
+{render_category_md(articles, "Entertainment & Culture", max_items=4)}
+
+---
+## 6. ⚽ Sports Spotlight
+{render_category_md(articles, "Sports", max_items=4)}
+
+---
+## 7. Macroeconomic Reality Ledger
 | Indicator | Current Rate | May 2023 Baseline | Percentage Change |
 | :--- | :--- | :--- | :--- |
 | PMS Petrol (Lagos) | ₦1,020 – ₦1,060 / L | ₦198 / L | +425% |
@@ -504,19 +678,19 @@ def build_markdown_log(today_str: str, articles: list, x_trends: list, x_posts: 
 | National Grid Generation | ~2,400 – 2,800 MW | ~4,000 MW | -35% |
 
 ---
-## 3. 𝕏 (Twitter) Nigeria Trends & Political Pulse
-### Trending Hashtags
+## 8. 𝕏 (Twitter) Nigeria Trends & Discourse Pulse
+### Trending Topics
 """
-    for t in x_trends[:10]:
+    for t in x_trends[:12]:
         md += f"- [{t['name']}]({t['url']})\n"
 
-    md += "\n### Political Discourse Wire\n"
-    for xp in x_posts[:5]:
+    md += "\n### Discourse Wire\n"
+    for xp in x_posts[:6]:
         md += f"- [{xp['title']}]({xp['url']})\n"
 
     md += """
 ---
-## 4. Instagram Viral & Civic News Watch
+## 9. Instagram Viral & Social News Watch
 """
     for ig in ig_items[:6]:
         md += f"- **[{ig['source']}]** [{ig['title']}]({ig['url']})\n"

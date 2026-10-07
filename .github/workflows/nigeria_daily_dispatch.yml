@@ -4,10 +4,16 @@ on:
   push:
     branches: [ main ]
   schedule:
-    # Runs daily morning at 06:00 WAT (05:00 UTC)
+    # 04:30 WAT (03:30 UTC) - Dawn breaking news & overnight developments
+    - cron: '30 3 * * *'
+    # 06:00 WAT (05:00 UTC) - Morning drive & morning talk radio kickoff
     - cron: '0 5 * * *'
-    # Evening wrap-up at 17:00 WAT (16:00 UTC)
-    - cron: '0 16 * * *'
+    # 12:00 WAT (11:00 UTC) - Midday pulse & market/business updates
+    - cron: '0 11 * * *'
+    # 16:30 WAT (15:30 UTC) - Afternoon rush & developing national stories
+    - cron: '30 15 * * *'
+    # 18:00 WAT (17:00 UTC) - Prime evening wrap-up & day summary
+    - cron: '0 17 * * *'
   workflow_dispatch: # Allows manual trigger anytime from GitHub UI
 
 permissions:
