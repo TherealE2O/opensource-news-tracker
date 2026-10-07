@@ -35,6 +35,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 HISTORY_PATH = os.path.join(SCRIPT_DIR, "seen_nigeria_news.json")
 LOG_PATH = os.path.join(SCRIPT_DIR, "latest_nigeria_briefing.md")
 HTML_OUTPUT_PATH = os.path.join(SCRIPT_DIR, "email_body.html")
+STAFF_DISPATCH_PATH = os.path.join(SCRIPT_DIR, "staff_dispatch.json")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) PolititraceIntelligenceBot/2.0"
@@ -385,6 +386,24 @@ def load_history():
 def save_history(history_set):
     with open(HISTORY_PATH, "w", encoding="utf-8") as f:
         json.dump(list(history_set)[-600:], f, indent=2)
+
+
+def load_staff_dispatch():
+    if os.path.exists(STAFF_DISPATCH_PATH):
+        try:
+            with open(STAFF_DISPATCH_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            logger.warning(f"Could not read staff dispatch history: {e}")
+    return {}
+
+
+def save_staff_dispatch(dispatch_dict):
+    try:
+        with open(STAFF_DISPATCH_PATH, "w", encoding="utf-8") as f:
+            json.dump(dispatch_dict, f, indent=2)
+    except Exception as e:
+        logger.warning(f"Could not save staff dispatch history: {e}")
 
 
 def fetch_rss_feed(url: str, limit: int = 6):
@@ -1027,8 +1046,38 @@ def main():
     to_email = os.getenv("MAIL_TO") or username
 
     subject = f"🇳🇬 Today in Nigeria 360° Dispatch: Power, News, 𝕏 & Instagram — {today_str}"
+
+    # 1. Primary Recipient (Main Person / Yourself)
     send_email(username, password, to_email, html_content, subject)
+
+    # 2. Staff Recipients (Chidinma) — Strictly Once A Day
+    staff_recipients = ["chidinmakalu2004@gmail.com"]
+    extra_staff = os.getenv("STAFF_RECIPIENTS")
+    if extra_staff:
+        for s in extra_staff.split(","):
+            s_clean = s.strip()
+            if s_clean and s_clean not in staff_recipients:
+                staff_recipients.append(s_clean)
+
+    staff_history = load_staff_dispatch()
+    today_date_key = datetime.now(timezone(timedelta(hours=1))).strftime("%Y-%m-%d")
+
+    for staff in staff_recipients:
+        # Avoid duplicate if staff is already the primary recipient
+        if staff.lower() == (to_email or "").lower():
+            continue
+
+        last_sent_date = staff_history.get(staff)
+        if last_sent_date == today_date_key:
+            logger.info(f"Staff recipient {staff} already received today's dispatch ({today_date_key}). Skipping (strictly once-a-day rule enforced).")
+        else:
+            logger.info(f"Dispatching daily briefing to staff recipient {staff} (first run of the day: {today_date_key})...")
+            sent_ok = send_email(username, password, staff, html_content, subject)
+            if sent_ok:
+                staff_history[staff] = today_date_key
+                save_staff_dispatch(staff_history)
 
 
 if __name__ == "__main__":
     main()
+
