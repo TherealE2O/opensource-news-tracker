@@ -5,79 +5,81 @@
 ---
 
 ## 1. 🔴 Top National & Breaking Wire
-- **[The Cable]** [Man United sack Carrick, line up Pochettino as replacement - TheCable](https://news.google.com/rss/articles/CBMiigFBVV95cUxOVmlIQW14VHFoQkl6QnI1dXJUc3NUaldydUJDekc1YVFYb3hiMjlOdHl2MkwzbWdQbk9aU3Nma2JWUWRZX1VjdHpFc20wenZNbWdVNjU5YXlQUFA0NGN4OEVsM0xjd2tTcm8zU0hXWGxYakd3Z0F1ZlpiT3phRTd4d3RwMGNyVmlnUmc?oc=5) `NEW`
-- **[Premium Times]** [APC campaign council restructures media directorate, restricts official spokespersons to three - Premium Times Nigeria](https://news.google.com/rss/articles/CBMi5AFBVV95cUxOelVWRVlLOW1aMV9SM1IzWmJFSjBrdFFSeUpIakFRMTExMEVjaHJDOXJkRk5vMS1ma0kyTjROeXJpZHZodkllMXpMUEJ6MEJ0M2N4M1FnaHNCeFI4cDBtX3FTSHNEaGI1MkdXYkxGd1pJdlJKYWoySnFUdGR4QjZ2SDRtdjM4WTNRem0zaS1kS1RkRmtXZm1LcDJzcFdGTE5ORDJvNWJzOHNLODBCdWhFTUIxYnZ4UHFlbmJ2YTl0STZOUkJHWUw0dnVQejc1SmhMUWNtUXhPdWZGWVdydk5ucjZSUEI?oc=5) `NEW`
-- **[Sahara Reporters]** [Trump Administration Awards $40m Contracts To Company Backed By Fund Linked To President Trump’s Sons - Sahara Reporters](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcm9kUnJYT3NXX3dRSW04TFNiZUhndjN6cm5QWmxvS3RLUVhHd0w5R0VJcDIycElKYWVlaVNMdW1JaUJtQ0JRTFRIaHlvc1hJdjRDMkxyN0JmeUM3bFlwWm5wc21SY0dUR0xlNmdJakNVeDRUN2JCNHBPazA2RXhaQ3Y2M1B5MHROa3kzYUMwS21PR052dG1kMC1ZN1htamVxejVpMlpaaDdRODZTYWJFWmtQRlh4QkFsZzJDTXpLV0dOdw?oc=5) `NEW`
-- **[The ICIR]** [Five Years of the Petroleum Industry Act - The ICIR](https://news.google.com/rss/articles/CBMieEFVX3lxTE52bHdiUGRuN1RsTFFYTE8wdWpGSDBLbkxvUDEybHNUMzBfQkN4aFY5WWlsemlNckp2ZDZlWS1GN3RpSGJOZnNONDBTUGx1THFKTnRobVVTWVR6eU5iUDJ1Q3htb0ZVTl9RZWZYdFVMV3ZOV2VSZHh3SA?oc=5) `NEW`
-- **[Daily Post]** ['All my friends left me' — Nigeria U-17 captain Harmony Chidi reveals struggle establishing herself](https://dailypost.ng/2026/11/12/all-my-friends-left-me-nigeria-u-17-captain-harmony-chidi-reveals-struggle-establishing-herself/) `NEW`
-- **[Daily Post]** [“They came for us while waiting for Peter Obi” – NDC supporter speaks after attack in Lagos[VIDEO]](https://dailypost.ng/2026/11/12/they-came-for-us-while-waiting-for-peter-obi-ndc-supporter-speaks-after-thugs-attack-in-lagosvideo/) `NEW`
-- **[Daily Post]** [EPL: Why Man Utd decided to sack Michael Carrick](https://dailypost.ng/2026/11/12/epl-why-man-utd-decided-to-sack-michael-carrick/) `NEW`
-- **[Daily Post]** [2027: Atiku no threat to Tinubu - Lagos APC chieftain, Salau-Bashua](https://dailypost.ng/2026/11/12/2027-atiku-not-a-threat-to-tinubu-apc-chieftain/) `NEW`
+- **[The Cable]** [TheCable journalist attacked, equipment stolen by suspected APC loyalists at NDC town hall meeting in Lagos - TheCable](https://news.google.com/rss/articles/CBMivgFBVV95cUxNTG91aWZZZG85cUVIX2cyZ3J0aUFmcnJXc1FaYVF0WEptVDF0d08wZ1hJenhSVm5meExDYnYwdlUzODZYT3NCSjlFT244UHFEZVotRDRQalZiekFmUURRZ0NWYVRLOVhwdTZMWFc5ZC1xZk53LU5sWDBCa29YaVZmcXFFbDdwZEhfYXNDcW9kUUpXZUtieDRjbXpjQm1hd2RTSEpUSUhjekVyUUJUXzN4SWhRYTJ6aVJGaTg2dEtB?oc=5) `NEW`
+- **[The Cable]** [UNIJOS appoints Patricia Lar as first female VC - TheCable](https://news.google.com/rss/articles/CBMifEFVX3lxTE5kbUgwemp5dFBHcFFyVExfWjZ6RHZMcEhYb3U1TUNpczMtNU56RjNQV0pvNHlESk5RekR2d2pIYjhPbFJlcFNwWXhBZmJCZ2RHTnpCSlRfbGx5TWVzUVE1dkxISDAzOWZmU3g1MTk3aXlRUWN3ZjEtUEh4TWw?oc=5) `NEW`
+- **[The Cable]** [Makinde: Tinubu is building political power, not national unity - TheCable](https://news.google.com/rss/articles/CBMijwFBVV95cUxOWjNrXzFEUzdLd2pia010M1ZuNUduTzhiVGw3TmU2QVR1WmRsRkh2SGlIcEY4NzVkSDU4UDA5TThrR1FWVEYwSEFJMzVlemY5S3c3SkVLQzBZaFZmbVNHbG11blBvTV9tcnI1V003cFVHaHFBbTh0MldfVW1YaW1qUU9XWG5yU2dzUVpjdnFKTQ?oc=5) `NEW`
+- **[The Cable]** [Who bewitched Nigerian youths? - TheCable](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MS2xiSUpBNFlEVElUem1KZWJUeE9zSnZWOU1HRlZVNnNqS21KbWNqTGxGT2JFUlFoelBPX3pDRnhubnpCdGM0M1FQb0F2NHdhTUNRb1lUV0hfSVhiZDJMbkM3X3U?oc=5) `NEW`
+- **[The Cable]** [The vote is not yours to deliver - TheCable](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Ub1ByUWVkNEtEQzdDQ09nMWs3RW41YWRyWl9YVk5SR0FGLXd2cnF3S2hycERWYVFsYXRwRm1ldFVEUXVjN3dsMU42cXgwOUtPbXBJSjdRT2NQUHN5STFxYTJKb2F6NGVB?oc=5) `NEW`
+- **[Premium Times]** [2027: Reps to probe attacks on political rallies, supporters - Premium Times Nigeria](https://news.google.com/rss/articles/CBMitgFBVV95cUxOZUp2RzhxMzJwSnJYVmJTa0hxc3poUlNQOTBtanV3X3d1SDA1SlRKVDlRVk1hbC04YlJad1VFWE9ZRllBVDBoSWZadkNRVTRnSzh5dUszQUFJYkJHYkxGTDgxQXhpQmlnME9nMHMxendxQ0hUeDBIRVg3TVMyZW0zM0xsak9UVkhzc0ZSS2xYSFZfbk9xTzFLUEZaSVRlbmNmSU5mMWhKdUg3bTJ3dk5JUWFqbVNLZw?oc=5) `NEW`
+- **[Premium Times]** [Suspected thugs attack NDC town hall venue in Lagos, damage vehicles - Premium Times Nigeria](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOanNSLTVQZWRwWHk2TWEwalhqa2x3WFBnTEFIV2c1T1lIOGU4TE5hcm53c1ZRd2daYW56blFvMkFrRW9aYk9xVGM2UlNwVHV6SmdKc2FRd0MxQjFfRTBmcmxvNUFWczdYNWJla1lHOXZqVV9Ca3NqRTF3UlhJOE96bldhT2l3cjhSSkgxRTlWenJjclNxd2swNld5aVREM0dBaFItZU1uTXppSkd5U2VPNkdZT01QYkVqTXd1OTJuSjJsQQ?oc=5) `NEW`
+- **[Premium Times]** [A new look for FHFL, with affordable housing still at its heart - Premium Times Nigeria](https://news.google.com/rss/articles/CBMitAFBVV95cUxQTEt0ZFB4SGstZ3FTbUw2U2VGQnQxVnFfelRWeVFVTXRwUXdtSHAtSzc5T1JOWjEwazJfT0F2UkYySkN1WUh5QU1IcXBqd2hnRnFVcU1tMEREVk9QWnJrYzdoZzdWU0ttOVhJQlAxVHVHWjRnUllNVkF2a2EwTXY5Wnd6LTdmNDJJRFBERC14bkZXRE9MRHF0NWtpQkVzWGNfMlJYNXAyTzdMQjNCajlKQU1XOXk?oc=5) `NEW`
 
 
 ---
 ## 2. 👑 Persons of Interest & Institutional Power Radar
-- **[Bola Tinubu (Presidency & FEC)]** [President Tinubu Congratulates Son on Traditional Honour, Urges Service](https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFJfV3dVckxnWEVlYVlueHBVb3pBekx2LTBfUkd2Wlg0cFRFTkxpQUFwZ0xuUFNoX2tyLVRlT2hacEVGSVM1MjlNVU9YZk1Pc0hRWk91YjB4UGtpa2tFX08yV3pWUzEwQ0Q5SE80NEw3emZiVW1RXzA0TWZRVmpPaVBlNURUQldtU3RqOGllYmstMGlH?oc=5) `NEW`
-- **[Peter Obi]** [2027: Peter Obi meets Plateau traditional rulers, decries insecurity](https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUJyMG15bktOWFdvS05CT1c1dHE1MVU1SlJLSWlFTWpobFNlUkx4THhHczNyWmlhVUROQ1lvU1BwaTNNVFBUYk5fVlA3cTFaZTlWdi1nUW55c2FZSkdPaXRDWV9Ua2hFbWVWYzB4dXBNTk5aNzlsaWZlbFRzcmhSZ3ZFQTFaXzluSmhNY2xfQjRKLWpROVBWRWE0UkpMYVlpQk9rNlJ6eFZwSURoM3hDZnFnNFpnOTBUYy04MzhjOFJfR3VnaDVIdGZiYzI?oc=5) `NEW`
-- **[Atiku Abubakar]** [ADC Gets Lifu’s Judgement, Atiku Orders Legal Team To Prepare Appeal](https://news.google.com/rss/articles/CBMikgFBVV95cUxOeXowLVhVZng3U0FyNDl3cVpfZG0taU9pbXg1WlVkU2ZaV2hRSzM4UFdMRVoyWVVRbzlXWlB3RWZ0MkhzY2xMUG5WbVRPR18yRkczcTZLNmgyNlVCTXQ5R2kzRlFscENPaGFYRWkxSEUzOWRaUC1uOS1DcXEyak40VEExWnlpTjZYNmZFUlI1Z0NmZw?oc=5) `NEW`
+- **[Bola Tinubu (Presidency & FEC)]** [Tinubu’s N50,000 relief for the vulnerable](https://news.google.com/rss/articles/CBMihAFBVV95cUxQaXRSZGFlX3JMSHpKU0YxdTRQOUFlQW96c3pNbVhlaklCOW1nS3pDNGxGM0VNRnBvRkN2aVlPRTl5alJ1NERmVUJKRmZEM1VhZ0FPQVVGbGdSNVl6M1dJSGc0UzZlRjJ3aFZreFFHNDQtT1RzZ19IRTA0Tk5VMXFuRzYyeTE?oc=5) `NEW`
+- **[Peter Obi]** [Govt Scared of Peter Obi’s Popularity, Campaign Camp Pushes Back Over Flamingos Airport Encounter](https://news.google.com/rss/articles/CBMi1wFBVV95cUxNa1lJZUtlWjhKTXFqbUgwY1lzVk5ZREQtZXFBdHR5d3h4Nl9XWnhpcEhxc2pNZnNQWTZzUWttSGhwZUpteFRqWFAyajJ3dDJoYlZUcmEwQUk4T3BJbmF5ZFFJYnE1TUtwXzNoT01NT3VzbjB6cnBmZTFPYlo1SEUwb2RTTU9rS05xOEpsQjI3VldFSGxpdERCa2xIUUVaWFVPaUI4ZUthQ0FmZmlDYVAxdWQ0cXFLUnF0T3dqY3k2S0ZYU2dMN0FSbWZTdkhLUjlpUDVXdTE3SQ?oc=5) `NEW`
+- **[Atiku Abubakar]** [Insecurity: Atiku Knocks Tinubu’s Administration Over 638 Deaths In October, 64,000 Nigerians Refugees In Niger](https://news.google.com/rss/articles/CBMiygFBVV95cUxQVzNWYm8tX09uVjJFX21wRXJXSjFfeDQ0VjhPUkM2QmxndjNhY0hQVWkyWTA0R3hsRWlLRHpqMHRPTTZfWnZVS1JDUDVMa1Q5RXlycGdQNnN0LTJUd1JOQ2dmM1AtMkFkZXZHY29tOWZnLW4yWlk1SC1abzNRYUtWdmd3dnpBNzd2ZmJjLVpib0ZVUEJ0MEdUYWpua2RFcTZaMUsyVHYzVFBTWjdiejdpWGZaTXI5dmk4RjVJdXZqdnE3dzBvY1g1UWNB?oc=5) `NEW`
 - **[VeryDarkMan (VDM)]** [Police invite VDM to substantiate claim that officers leak travellers’ information to kidnappers](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOanNTMjZPTlpUOVpVSGJZNDJtamcyNjA5X3RtMTQtN3lSNmZKN3lzdkwxZzh1YTVoZ0g3UTRHQVNZQ2J4dFZ0RTlkQnhNM2h6dnRKLWdUZG9nVlV2TWhKZkh6MmdLNHlrMDJmMlhvUWItQWJoYTRFV0EzY2czcFhfYU4tTGdyR2IteVdIRW1MX3ZvTTFSYXVFUGR4dmJtb1prdmdZU1FfbGxjUTJ1blRMQVUzRm54U3Vubk9fRUFHbFRiZw?oc=5) `NEW`
-- **[Omoyele Sowore]** [Still on Sowore, Ekiti attack and the law](https://news.google.com/rss/articles/CBMieEFVX3lxTE8wdFFKOENySkxrTnBEcmcwT2lrYmM1bVpscXlXYkIzQ18tdWFfbmRNNzNXdWRxUUhFTGxYeFlORUlJcGx0RnkxeWtGdDRhcmoxaENJdFBaYmtBOGF6eXUwc1NVSldjbUZDb2dqZ1hTMTRVWmZZLWJDeA?oc=5) `NEW`
-- **[National Assembly (Senate & Reps)]** [Senate Threatens To Summon Telecom Operators, Minister Over Poor Network Services, Airtime Deductions](https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeW02RUw1YzB6c3lDcU1yMmxLbHZoTVkxY0NKeF9XNV9KXzJOaUpQRURRQ25hSVJZakFxeVNvQ0U3S2hSOXp5ckNWMjZ3OU5lS3REN0ROYVl6VDF5ekU1LVFQR2JtX09Cam9qd1BkWGJyYkdrWE5Tdnp0RTVKVlV5Q040clZidVJheHlFbmJuSWhvcWI4ZmgzdGh4b3BiLXZPdV9OMzhkLUhxenhzZFVHSDZDNjZURWlrZ1o5MkkxTk9NbVhTQ2cwdDdyaWlxY0FaSml2Yg?oc=5)
-- **[FIRS & Tax Reform (Oyedele / Adedeji)]** [E-invoicing pushed Nigeria’s revenue to N33 trillion in 10 months – Taiwo Oyedele](https://news.google.com/rss/articles/CBMisgFBVV95cUxPUm1uLVRpaUl2QmtkNTM0QVphNGxSTUJQanMxNXk5OURwTVp2UGcxbXprMHFjR1l0SWxGdzNPNnRnSHB2NU00cThCallsMFZPVFJNdl9GN0RhbUxrVU9vdTBER0NYZDJ3RnBURV9tQkRGSVg1bkZad2JJR0NqUkxvVWFxWTBHQ0NlYXJhLUhVeUZUOVBsQkZjWnlUOHlnc3pXdlYxQkhSQlFYcDRqRmZzdDJR?oc=5) `NEW`
-- **[NDPC & Data Protection (Vincent Olatunji)]** [NDPC probed 240 data breach cases, flagged 1,900 firms for non-compliance, says Vincent Olatunji](https://news.google.com/rss/articles/CBMiugFBVV95cUxOSjlUc1hDOHVwU192YngtTy1SakJJbGw4WXo4ZUJlUFJSY2F2dUU5Ukdyb3ZNUmRVaHZxZzFCakcxYjRQczM2SmRSNFNFcUxaV053c0Y2TWZ1VFJsamxhTW5ZbENKY0xNQS10aTJOd2sxM2FLOFVaY0VRUHpNdVBjNTZXSWhJM2lmUUpFZkY3bTV5eTc1N3cxN0dxZXgwTWRlZU4zc1RqdFZnbWt1RGZvd2hDTU9ldUhnQlE?oc=5) `NEW`
-- **[NCC & Telecoms / ISPs (Aminu Maida)]** [NCC, WIPO move to digitise copyright registration in Nigeria](https://news.google.com/rss/articles/CBMihAFBVV95cUxNSTYyOE92ZGpXTTdpOVA1OEI3WHVnaTlfaVJNOV9EN3F2YlpNaG55ekdxQ1JJSFRZTGpJOFZJSF90XzBHSTg3S1ZDbno0M0s2MFBfTE14QWZVWFNoaEhWa3N0c2pqQy1fVXNLZk1OWW5EcWVReFRPOG1weE5lVHcySE1RR3o?oc=5) `NEW`
-- **[NAFDAC & Drug Safety (Mojisola Adeyeye)]** [Poison for profit: Nigeria needs a war not another raid](https://news.google.com/rss/articles/CBMimgFBVV95cUxOSE1uM1JOejRlcFJVZS1WV2FETzZkcHZWYUtXbWNaRE9nbFlibjJqS2JoTEV5cHI3NTdOREZSR2EtdzBCREQ4bTJVUGpCTzBQUGVTbHFBNTllbzl5ZTdqQl9kLXhCS0xldlotNENXUXVYMk9IZG5KcjBFY2tRYjBLMnBDWGJTVnl3MDBndl9DamM5SGlieFI3TEVB?oc=5) `NEW`
-- **[FCCPC Consumer Watch (Tunji Bello)]** [Fuel Hikes: Nigeria monitoring local PMS pump prices amid falling crude price –FCCPC](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9YaXE1ancwd1BWbThsVDUwZWFvLWR2bmxvZkRQSXVmekhtWG0zOW9yWE5nYWxEemVFWnZMN0E2OUg3RHBoNjM5SUJfbnRXUQ?oc=5) `NEW`
+- **[Omoyele Sowore]** [ATTACK ON SOWORE: GUARANTEE HIS SAFETY, INVESTIGATE THE VIOLENCE AND SUSPEND CRIMINAL PROCEEDINGS AGAINST HIM](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQ1AyeWE1QV9LNDJuaGh4dHBqcmJZSXFXZU41RFNWeDBJSEVLQXY4aUFldmtqM1U2bjNuRmxZN2VPSUxKcXBFM3lzS1dTeFplaHROXzc2c2twZUVFT0lzWk5SdUt2Vk1TLUdTaUxJSzR6dkptS3c2OWFyU1RqSGJod01fWkJMTGpHWWN4aGw5ZlJ3SWhOci1DWjgtU3FFSnZZSlN4RTJBaXlRM2F2RDgyZ05BUGYtRWpNaVpJQ1Q1dW0weTkyUUstMQ?oc=5) `NEW`
+- **[National Assembly (Senate & Reps)]** [Senate Warns Petroleum Sector Directors Against Sabotage, Inefficiency](https://news.google.com/rss/articles/CBMimAFBVV95cUxOem1hTXMzaVV5V0M2WFduZkNEcDhSRFMzb2ZGbVNqTFMxWE1BQ0JpUVk5QlpGdk5VTVVPS0lIcnZEb2h4ZmE1ZXZmcndwcGxfamF0Qy1jWWRfMkc3YWlrai1USHBkWjZEWk43VmowazM4am84d28tem92VXcwLUt3ajd1eXUwaFRmR1BzbkE5VkZhcm1oZ2g1TQ?oc=5) `NEW`
+- **[FIRS & Tax Reform (Oyedele / Adedeji)]** [Rev360: Reimagining tax administration for a digital Nigeria](https://news.google.com/rss/articles/CBMilAFBVV95cUxNclBuTmpzTmRydE9GMXBBRmNZcC11bVJiWTQ0VER2blNDM2ZQNzMxQnBjcUtjd2Q5Vk5mUlZCQzVVX2RKaGF6NFhVa0tvaWNvMzVKZzdreDRZZU1TT3R1cjV2TGgyN3RtRGlOLUktWldTUlQxeTU1Ykw5cHkzMFdhYjcyUkZtRVBwTHFHZ0tfNlh0anNZ?oc=5)
+- **[NDPC & Data Protection (Vincent Olatunji)]** [NDPC says Nigeria’s data protection industry now worth $12bn](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOXRSUDdYTTA1aVVibDREQnhTcl9oSFg5VFlMWDc2VC1LUVBlcEp1WFVacWJJckRxQ3BkMU5pdG05WVVsYUpxV09WLTN0V0RNcXg4NGRUb1dxTlI0UXRsMkFvZDRULUtMV1dyc1dBQjlVekJ3TU0ya18zakVucVAxdWZXWEFfTjk5STJV?oc=5) `NEW`
+- **[NCC & Telecoms / ISPs (Aminu Maida)]** [NCC warns AI, piracy threaten Nigeria’s creative industry earnings](https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3dONllzdlQybmZpdzBOQlNYUzMyVkFucnZIaUVXWE1QWTlfbVhmMkE1VjlkVXZRUDNxV0MzQkZWZFAzV0R5MldkT3VFcGV3OW9MbDUtOWt1aDFkNkZDM3lEY2dmTkd2WjBvSDJMemhBOEZkNF9RdnBYZ3VCajFwNk0xb0gwRmVRdnRWNmJiV0ZfR3VOT2IzVEc1aGlvTWhJNHlsQWc0dDQtZk80bGEzbTF3?oc=5) `NEW`
+- **[NAFDAC & Drug Safety (Mojisola Adeyeye)]** [NSW handles N17bn transactions for NAFDAC, SON, others in 8 months](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnRYS2JNcFd2ZmVyb3dyN2hCSDlybTdWZmVuZlZpaFVsWUdFYmVGa1ppT3VaQnlwa25wcHg5VUFVSE5XTzlGSF9lUDZQZ0FRQVBYcUhSNDVTQ3FQVC0xakgzQUZDYzItbU9tV1NhSkpscG8yMTRRYnFUWGVOY1FQS2Q3UzhSLXBXMlJB?oc=5) `NEW`
+- **[FCCPC Consumer Watch (Tunji Bello)]** [FCCPC Tracks Global Crude Prices for Petrol Cuts](https://news.google.com/rss/articles/CBMid0FVX3lxTE0zaThQQ3BVbld1Vmo5azhHaHEzWmtzUTZPWVVKVUsxVHpvbFlDYldNU3A2dEVQNHdrMjJGMVh2am4xSUJ5aVU2cTE1dUZqakhPYk11YTNDcWpCM0JqX0dMdmV3bUp5ZEhaVG1rVVZnUlA1RVZ3OGFj?oc=5)
 - **[Market Women & Traders (Iyaloja / NANTS)]** [Nigeria targets single-digit inflation by end-2027 to unlock cheaper borrowing, minister says](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNckw5dlVKZ0FDcTdxM2ZfS3R6Mzl1YTdSc0xxa2tSVVcwMzBwczdRVFFITVBjUU8yQS1KQ2ZmcFA2WUh1TEhuSjE0bWdQYU15YWFiMWpQVlBMR1JCU2hEWm9MV1p3YWpuSlc1OHloTEhJblJnYlhPZVNOZmNpLVdIT2pLb0NhT3RPZDB6em1ya1M3ZkQzRDBZTmozVlNlQTJYZEQ1SkxIR21ibVhOalV1ZVdua1dKWjVSQVh0OHF2UElKZw?oc=5) `NEW`
-- **[NNPCL, NMDPRA & Dangote Fuel]** [Dangote refinery IPO misses 10m investors target despite N6.4tn demand](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRTczMmRKazdWTzdySkk1OGFpd2pmMWZDU2pPZFRwVU1kUDBOZFhoLWFidUZ3STR1NURwN0RKcWlrNXhLU29MVTFfaHlJNDhhV2EyOWpuMVRCYlFIM00xTG9zcXFuME5keG5MSlplWnprcVhjZkJLaEVwZDh5d05aa09BdW4zaDhUWXlFT2NWY0g4RlhYWk9tY0t3M0MzVkVGeDJndWh2dHNLQQ?oc=5) `NEW`
-- **[National Grid & NERC Tariffs]** [Nigeria's National Grid Breaches Frequency and Voltage Limits](https://news.google.com/rss/articles/CBMipAFBVV95cUxPR0xIWE5wMVdRNWpyY2xEQzMzN3NfWXdDbEhOemc3QzZyWHdtcHdBVnFaWWZab2h2M1lwVTF3c3VPdFhkZXRHS3JsejFUVmt2VVpYbzNmcktRaW9pQktGczVVc2JQcTZKXzRrWUFqbjhmVzU4RGxBVmQ5d0F3Y1p3SFQ1VkdsUDhJV0FmT19JX1loYm51MC1jWlg2RkRhczlsaXpxeA?oc=5) `NEW`
-- **[EFCC / ICPC Probes]** [ICPC Tells Imo NSCDC Officers That Protecting Nigeria’s Critical Assets Takes More Than Weapons](https://news.google.com/rss/articles/CBMitgFBVV95cUxPX3RuMElXVE85dFVySDVDSHFadTBXV0NPcEs5OHo4NTVxLVBUWU44NW1QQWh5aUlwWnc0dThpYm9uZm03YnBhamk2UVBIZWJvejlOTVZOWDB2Ykowd1NhMjd4ampoNGg2WnNuR1dPdTlSdlVxVkhjWHJkQ1VDTVBmX0pYbVJOcHdzNWtmUmJ3N2w4WldLMGg1amFXczM4RkdrT0ZtYldWWE5tRTFpaUV4OE9Ja0dYdw?oc=5) `NEW`
-- **[CBN & Monetary Policy]** [NITDA, CBN PARTNER TO STRENGTHEN NIGERIA’S DIGITAL SOVEREIGNTY THROUGH NATIONAL SOVEREIGN CLOUD INITIATIVE](https://news.google.com/rss/articles/CBMiywFBVV95cUxNTW1RRmNCUGd2TTJCWmJrMkhUaDUxbm5QVW1GMUpWRXk5RXJBeFBtUDB6T2hCZGgzQk9EaTB2bzJFTWRPaWo0T3dxR0lnLXFNVFBQU3oxWndHWm9BdHRFVTRxVVhEVVE4YnhkNzBKYUV2NkhvczFnUVNSRUs1bmtDTVphVlV1QXRDZ044bS1JYXBTZlFEei1VTkRNUWRyNXBWLXVvaVZTUFIzQVUwUGpVMWIzLVF4UTVJamlIcDJURVU5X19DQVVuYXB2aw?oc=5) `NEW`
-- **[Judiciary & Supreme Court (CJN / NJC)]** [Ahead of 2027 elections, CJN warns judges, lawyers, political parties, social media users](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdjVTelJVLUlvaGh6VFZ2RzVGT2VsdWE3Z0xRVWRib2lnVndfMFFFV1cydGpCdG5Fa1l6bXMwVXNZTFZETkhMQ2dSMUFXdEt6SGIzTEYxNmZyZFNqZGJ0WTZhVXFzVHN1Uzh2U0d0TUJaZEVPdGo2M0R1TFNHVTZUdERMOTJqVjZCVEEtMXJXNlZvUTJfZW56b3FnOENIRnlXdlZWM1FSM2pZUkxlb0dacWhfWnlWVDZm?oc=5) `NEW`
-- **[Security, Defence & Police (DHQ / NPF / DSS)]** [NCCSALW Seeks Stronger DSS, Police Collaboration To Tackle Illicit Arms in FCT](https://news.google.com/rss/articles/CBMiowFBVV95cUxNaENNNWxaOFNvWVVCdXdCYWJsenMxcEhwdk9xYnpzbEVNV3V1dEFGQ2Z1bHp1MEVidUN0TVN0cTRPdTBlbklQUWUxTzFxLVJBbW5CbU1SQ3FWa0szclZyYjVrU2dzM0p2WllJVU5Cbks4Tl83c252cVhFTmRQbVFzajdMZW9WXzIxeHNhTGkxaHRFUWxCOV9sT0xicThLUXpMQVZN?oc=5) `NEW`
-- **[Customs & Borders (NCS / Adeniyi)]** [Nigeria Customs Processes 109,034 Trade Declarations in Two Months](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FVGZNN1BZVnp0ZmlhYmxzWTU1NmNVVlJvRFYxQ1hBQlUtLTVmMzlKb2swdUc0NGw0NmhWdG5XeDR5QlhiRWg1ME5ENHJhYk8zMXBMSVRJUk01VGRGaWxNYjkyWWpzZw?oc=5)
-- **[Labour & Professional Bodies (NLC / ASUU / NBA)]** [As NLC Squares Up with TUC Over N70,000 Transport Allowance…](https://news.google.com/rss/articles/CBMinwFBVV95cUxNOUtMXzZ1eGNuN0JpZ2FQMjBxOTVuSXY3WkpiWVo0elNINnNCYU1SZENwMllXUHluM1d3V1NEWWNhUE1FYndHUWh4dDdXMnhpZmZ2OU1JY2h5VDEtX19HaVpaMms1M2s3eXEyQ2ROMjNqS3d6RkNvczhrd2tqS3UwZHRWb0h3cnI4WjlFTF83cmJDV1J1M3g2TWtGX1R1STA?oc=5) `NEW`
-- **[Public Health Alert (NCDC / Epidemics)]** [NCDC engages religious leaders on Ebola preparedness in Abuja](https://news.google.com/rss/articles/CBMijgFBVV95cUxOVHVQbnNWdmFsZVUyOHlYbUsxYm5GeVNUdUdBM000b1ZtbUxxWmM5Y0xYV3Q2NFR6RFJCSTd0TWxScEdaVWdnX2ZoTEtLWFRoaTNkV25CUEhNNEFOaG5RU0MzSVZpZDlmaGNjdTNxbUtmYmo2ekFneU56REd6aVMtWHlLQ2hBMDNrNGF1aG1R?oc=5) `NEW`
+- **[NNPCL, NMDPRA & Dangote Fuel]** [Nigerian billionaire Aliko Dangote's refinery cuts petrol sellers to 25 from 37](https://news.google.com/rss/articles/CBMivwFBVV95cUxNMTBlNU9mU3RqYU9ZVVE4U3BLV29yd0gtaklISG93WWNEV0w3bmluYldsZEE3LWRXeHUxZDhoSkliWFdLRlNnR1RremdYMjJrcU8xbHU0MDl1WkRFdTY2ME5kaEtGZGZTaWcwOUJpZTRWVkZoQ1dlcmFMMFJQOGRKNW9YUnJiM1hLYkpJeVRsclViSWhXMEhGSDNFRkZEMW9OSl9zNlRXZnBJSzFZX1FHd2Z4NnByM25jbEl6QzRmdw?oc=5) `NEW`
+- **[National Grid & NERC Tariffs]** [NERC Approves N30 Billion for Free Electricity Meters for Band A and Band B Customers Across Nigeria](https://news.google.com/rss/articles/CBMiygFBVV95cUxQTk5Sci12elVHRjA4QkZuN0hrUjlXdG1semZEUnVscnBodUdPUzAxVnJGbm9vY3o3c09PN3M5cGdzaHZkVDN0d3N3d2dRSUp0ejVGdHFqS2hZNlY0VWZIY3RTSDVQenpjcmxyM2hxTWlVbFFlU3N3eGxZSXlNLUd3ODF3ZndKV1puN2xRamg5clZXaHdTTnlSbkd1UmUzWXZLRkFObE5yVFEtejBFSEhEV0RjdnR6dHZrdnZHOEdTaW1NTnV0SUlSTTh3?oc=5) `NEW`
+- **[EFCC / ICPC Probes]** [EFCC Chair Olukoyede Bags Anti-Corruption Leadership Award, Urges Patriotism](https://news.google.com/rss/articles/CBMioAFBVV95cUxQTjZDNnVWSUlqSEVVRzk0WDZ4OVVpVF9ZQVBNeVlDZTExYlZHbjM1T2E5cUw4TjM0SG9HQktMdVQ3cXphRHI1VXZkd3ptWlo5VDA0QzBkNlJVR0huTGVuQi1KbkZ6TlU2V2ZSa2M2ZHRaN1VqbjdyQnlxQ3BlODF2dk1HaXR1MEFneXNVYzUxWFQzUG03NDFSM29VU2EyQm45?oc=5) `NEW`
+- **[CBN & Monetary Policy]** [CBN rate cuts yet to reflect in banks’ lending rates – Breadmakers](https://news.google.com/rss/articles/CBMikwFBVV95cUxQOWZmTWZmbGFuOTRObEVOQjFqZkU1bFJEXzZnZmRUVWoxaGFoeDJLdlh6WEFMa0N1TTJpTm1MUVBCdlNRT3ZDeUp4VEg4ZG5PcjlGNnZ3X1ZSMV9OUFBVYnk5TVRXZzBhS1o2NzZsTUR0aGtPX0s0M1V4d1dXc2RMWEo3cEpqTTVrSVFVVlZnNkptX2M?oc=5) `NEW`
+- **[Judiciary & Supreme Court (CJN / NJC)]** [Access to Justice: Head of India’s Rights Body meets CJN, signs MoU with NHRC](https://news.google.com/rss/articles/CBMisAFBVV95cUxQdDBTNkk0WXoxN1RjWVZJakNsSWxQNW04M3BOMklUbVVtcnhSN1dLR05MUDZBSWtxa2FTUmowN0cxVk93ZnAyd0o1VW9xWm1nWDJmb1IxUG5CZkV2ZUJlYkk1RzhkdzRsVG80cTZuWkdFNWJUaGFSMzk2VWp2M1RBNXd5TjNqWFRsaHRwS011eXNEMzRtUTlxcWpxNlNISlZ2LVNKdjhqTTBSaHd4Y21oVA?oc=5) `NEW`
+- **[Security, Defence & Police (DHQ / NPF / DSS)]** [Adamawa Counter-Terrorism Police Inspector Benjamin Nathan Resigns From Nigeria Police Force](https://news.google.com/rss/articles/CBMixAFBVV95cUxQZjg2WmFURnR5dlptVVVrX1hTNmhianlxa1ZKdDlnMVNuM1JoS0ZUNGNFOGFvemNYeDdrQ1V2dU56Y3VyRmMwMTI3SXJOQldBVVZmQUZjWGktUHFHd3JFT0Q1MTFVMUJ4MWRrYTBBT28tWDFrSlNzQ3hlZ0VTSS04S1pZa3U3QklBODRmWXZZTnQtSnNEY3VGSDhXQ1Y2d2FhdnExQnZVd3VIdlhtRE5pNUw3MS1KZjBzT21qS0tzdndSc2hW?oc=5) `NEW`
+- **[Customs & Borders (NCS / Adeniyi)]** [Nigeria Customs begins clearing power equipment trapped at Lagos ports for 20 years](https://news.google.com/rss/articles/CBMivAFBVV95cUxQTDRiaFR0NU0wQ2tGUGRXaEQ1T3J0a204NW1GYVRZdF9BM01BYnh5ZlJTUVZ4N3dWNDRMLXZzTEptcmRtVWh1RFRKUmRaSkc1TUIwTGotMnZQWVIxT05oOTMyMnFEQUpjM25sbHhsQlZNMEpJdGw1ejJmemJLNnJTdVFJUnkxenozb2ViVWxFc1E4SmRIbEJUbGIyOXdUNTJESnMwdnhnNjVYcHJUNXcwd0lwbk1YcFpzZWtlbg?oc=5) `NEW`
+- **[Labour & Professional Bodies (NLC / ASUU / NBA)]** [NLC SECURES N70,000 WAGE AWARD FOR NIGERIAN WORKERS](https://news.google.com/rss/articles/CBMifkFVX3lxTE1hY2xBMElyZ3RhYXBtaGllb0RSSVQ5MEpwUGpWcjUyUW92WHdpVHQ3T3hjYmRwU1R1djZJdGhkWXQtZVowdEthSUpkdUtDZTd3akhfSWRmYmF2cmpBWFM3aXFLVzFFY09KQ09nQTR0QUdWOFFqVjNnM1lIVWRmdw?oc=5) `NEW`
+- **[Public Health Alert (NCDC / Epidemics)]** [Lassa Fever: Anambra Confirms Patient’s Recovery](https://news.google.com/rss/articles/CBMidEFVX3lxTE04R1VXX18tMXhLRnR3bWJLQjEzYjJzZ1VvSVNSUEp2YjZSMW1KcFAxUWxjdTRJSWlGb1BndDF4Mm9WOU1HTWl5TTBIb2d4QjZjZ2haOEFwSmR4alJuc2p0WktVbS1BZnlGbURGZXpUSkhTQjNB?oc=5) `NEW`
 
 ---
 ## 3. 💼 Economy, Markets & Corporate Nigeria
-- **[Nairametrics]** [DMO raises N5.06 billion from November savings bonds, down 17.4%](https://nairametrics.com/2026/11/12/dmo-raises-n5-06-billion-from-november-savings-bonds-down-17-4/) `NEW`
-- **[Nairametrics]** [Moniepoint, Tosin Eniolorunda Foundation reward OAU Final-Year students with millions for innovative and practical projects](https://nairametrics.com/2026/11/12/moniepoint-tosin-eniolorunda-foundation-reward-oau-final-year-students-with-millions-for-innovative-and-practical-projects/) `NEW`
-- **[Nairametrics]** [World Bank proposes $250 million financing for Kenya’s irrigation projects](https://nairametrics.com/2026/11/12/world-bank-proposes-250-million-financing-for-kenyas-irrigation-projects/) `NEW`
-- **[BusinessDay]** [Nigeria needs national property data to boost investment in real estate market – NIESV](https://businessday.ng/news/article/nigeria-needs-national-property-data-to-boost-investment-in-real-estate-market-niesv/) `NEW`
-- **[BusinessDay]** [Nigeria’s rising debt costs expose shallow capital market, S&P warns](https://businessday.ng/news/article/nigerias-rising-debt-costs-expose-shallow-capital-market-sp-warns/) `NEW`
+- **[Nairametrics]** [Mastercard and SMEDAN convene MSME Growth Forum and sign MoU to advance SME digitization in Nigeria](https://nairametrics.com/2026/11/12/mastercard-and-smedan-convene-msme-growth-forum-and-sign-mou-to-advance-sme-digitization-in-nigeria/) `NEW`
+- **[Nairametrics]** [Abbey Bank, First HoldCo lead shareholder shake-up at Nigerian banks in 9M 2026](https://nairametrics.com/2026/11/12/abbey-bank-first-holdco-lead-shareholder-shake-up-at-nigerian-banks-in-9m-2026/) `NEW`
+- **[Nairametrics]** [Bank of Ghana to introduce upgraded cedi banknotes from December 1](https://nairametrics.com/2026/11/12/bank-of-ghana-to-introduce-upgraded-cedi-banknotes-from-december-1/) `NEW`
+- **[Nairametrics]** [How CanalBox is Democratising Internet Service Through Fibre](https://nairametrics.com/2026/11/12/how-canalbox-is-democratising-internet-service-through-fibre/) `NEW`
+- **[Nairametrics]** [Colette Kress: Meet Nvidia’s interim CEO steering multi-trillion dollar AI growth](https://nairametrics.com/2026/11/12/colette-kress-meet-nvidias-interim-ceo-steering-multi-trillion-dollar-ai-growth/) `NEW`
 
 
 ---
 ## 4. 🚀 Tech, Startups & Digital Economy
-- **[TechCabal]** [Zimbabwe’s Pizza Inn owner buys out Kenya delivery arm for $664,000](https://techcabal.com/2026/11/11/pizza-inn-owner-kenya-deliver-business/) `NEW`
-- **[TechCabal]** [👨🏿‍🚀TechCabal Daily – Ghana’s big 5G promise](https://techcabal.com/2026/11/12/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-ghanas-big-5g-promise/)
-- **[TechCabal]** [Why Vodacom’s fastest-growing markets are outside South Africa](https://techcabal.com/2026/11/11/vodacom-safaricom-growth/)
-- **[TechCabal]** [Nigeria’s active mobile subscriptions hit 200 million after NIN-SIM purge](https://techcabal.com/2026/11/11/nigerias-mobile-subscriptions/)
+- **[TechCabal]** [Jensen Huang’s exit puts Nvidia’s African AI bet to the test](https://techcabal.com/2026/11/12/jensen-huang-exit-puts-nvidia-africa-test/) `NEW`
+- **[TechCabal]** [How eHealth Africa is using tech to close Nigeria’s immunisation gaps](https://techcabal.com/2026/11/12/ehealth-africa-using-tech-to-close-gaps/) `NEW`
+- **[TechCabal]** [Nigeria has tap-to-pay. Now it needs a reason to tap](https://techcabal.com/2026/11/12/nigerias-tap-to-pay-adoption-stalls/) `NEW`
+- **[TechCabal]** [👨🏿‍🚀TechCabal Daily – Ghana’s big 5G promise](https://techcabal.com/2026/11/12/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-ghanas-big-5g-promise/) `NEW`
 
 
 ---
 ## 5. 🏙️ Metro, Society & Security
-- **[Daily Trust]** [BREAKING: Party supporters fight back as Thugs break into NDC townhall in Lagos](https://dailytrust.com/breaking-party-supporters-fight-back-as-thugs-break-into-ndc-townhall-in-lagos/)
-- **[Daily Trust]** [2027: South-West Monarchs Reject Fuel Subsidy Return](https://dailytrust.com/2027-south-west-monarchs-reject-fuel-subsidy-return/)
-- **[Daily Trust]** [After Worst Start in 40 Years, Manchester United sack Carrick](https://dailytrust.com/after-worst-start-in-40-years-manchester-united-sack-carrick/)
-- *No new dispatches in this cycle.*
+- **[HumAngle]** [Into The Abyss Of Deaths, Burials, And Missing People In Nigeria’s War On Terror - HumAngle](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WZDdhQnhnTXI1YkhYXzZrMVRnSVoxT0FnVzZrYmZzZFNrcUpoRnpEc0RvaWswX2pNZGxXSmhZMFI3NzJLaHNselNYWkh6LVY4ZFE?oc=5) `NEW`
+- **[HumAngle]** [Nigerian Women In Conflict Zones Battle Maternal Mortality Crisis - HumAngle](https://news.google.com/rss/articles/CBMinAFBVV95cUxPTjJXZmU1WmxWaDRPNG1hVnNRMUtVTnAxaHJTelRMWWNFSEVBNGphVUVBNmwtQkxDNEQyUndaY2hRTkdpeUJFOWQ0VHlqa2JHMENPb0pOWUxnRm9fNVVqR29vUnBDZGEtaU9MdzFCdlBEcUMzb01majBGem9DTmt6SGtEdGowQUV2R01saU9UVEFjbEg3M2l3YTZYQ1k?oc=5) `NEW`
+- **[Daily Trust]** [We Are Not On Strike—KASU-ASUU](https://dailytrust.com/we-are-not-on-strike-kasu-asuu/)
+- **[Leadership NG]** [Army Raids Terrorist Hideouts, Recover 5 Motorcycles In Taraba](https://leadership.ng/army-raids-terrorist-hideouts-recover-5-motorcycles-in-taraba/) `NEW`
+- **[Leadership NG]** [AbdulRazaq Flags Off Construction Of K-Wara Dairy Farm, Sets 12-month Target For Completion](https://leadership.ng/abdulrazaq-flags-off-construction-of-k-wara-dairy-farm-sets-12-month-target-for-completion/) `NEW`
+- **[Leadership NG]** [Makinde Campaign Tells Tinubu To Account For N11.2 Trillion Crude Oil Advance Sale](https://leadership.ng/makinde-campaign-tells-tinubu-to-account-for-n11-2-trillion-crude-oil-advance-sale/) `NEW`
 
 
 ---
 ## 6. 🎭 Entertainment, Culture & Lifestyle
-- **[BellaNaija]** [2026 CAF Awards: Date, Venue, Nominees & Everything to Know](https://www.bellanaija.com/2026/11/2026-caf-awards-lagos-date-venue-nominees/) `NEW`
-- **[BellaNaija]** [The Bride & Her Bestie: It’s a Rush of Emotions as Funmbi Ogunbanwo and Her Sisters Share Sweet Wedding Day Memories!](https://www.bellanaija.com/2026/11/the-bride-and-her-bestie-with-funmbi-ogunbanwo/) `NEW`
-- **[BellaNaija]** [Celebrating 50 Years of Nourishment: Maltina Introduces Its New Look to Trade Partners](https://www.bellanaija.com/2026/11/maltina-celebrating-fifty-years-2026/) `NEW`
-- **[BellaNaija]** [How to Style a Pink Buba With a Mini Skirt: Alex Unusual’s Loving Itohan Look](https://www.bellanaija.com/2026/11/how-to-style-pink-buba-mini-skirt-alex-unusual/) `NEW`
+- **[BellaNaija]** [Children of Blood and Bone Trailer Features a First Listen to Tems’ “African Love Song” | Watch](https://www.bellanaija.com/2026/11/children-of-blood-and-bone-trailer-tems-african-love-song/) `NEW`
+- **[BellaNaija]** [“Lagos Gave Me My Greatest Successes and Deepest Heartbreak”: DJ Cuppy Opens Up in Ifeoluwa Documentary](https://www.bellanaija.com/2026/11/dj-cuppy-ifeoluwa-documentary/) `NEW`
+- **[BellaNaija]** [From Talking Drums to Tourism Diplomacy: How Nigeria Captured Attention at WTM London 2026](https://www.bellanaija.com/2026/11/wtm-london-2026/) `NEW`
+- **[BellaNaija]** [Pan-African Vibes, Epic Bar Battles, and More! Lagos Cocktail Week 2026 was an Unforgettable Experience](https://www.bellanaija.com/2026/11/lagos-cocktail-week-2026/) `NEW`
 
 
 ---
 ## 7. ⚽ Sports Spotlight
-- **[Complete Sports]** [Crystal Palace Sack Manager Sage After Dismal Premier League Start](https://www.completesports.com/crystal-palace-sack-manager-sage-after-dismal-premier-league-start/) `NEW`
-- **[Complete Sports]** [2026 Youth Olympics: Team Nigeria End Campaign With Three Gold Medals](https://www.completesports.com/2026-youth-olympics-team-nigeria-end-campaign-with-three-gold-medals/) `NEW`
-- **[Complete Sports]** [Big Win 777 Slot Online Real Money: Game Guide, Features And RTP](https://www.completesports.com/big-win-777-slot-online-real-money/) `NEW`
-- **[Complete Sports]** [AFCON 2027Q: 5 Key Tanzanian Players The Super Eagles Must Watch](https://www.completesports.com/afcon-2027q-5-key-tanzanian-players-the-super-eagles-must-watch/) `NEW`
+- **[Complete Sports]** [AFCON 2027Q: Super Eagles Handed Lifeline As Guinea-Bissau Force Madagascar To 1-1 Draw](https://www.completesports.com/afcon-2027q-super-eagles-handed-lifeline-as-guinea-bissau-force-madagascar-to-1-1-draw/) `NEW`
+- **[Complete Sports]** [Wenger Plotting Sensational Bid To Unseat Infantino As FIFA President](https://www.completesports.com/wenger-plotting-sensational-bid-to-unseat-infantino-as-fifa-president/) `NEW`
+- **[Complete Sports]** [AFCON 2027Q: Ghana’s Black Stars Revive Campaign With  2-0 Win Over Somalia](https://www.completesports.com/afcon-2027q-ghanas-black-stars-revive-campaign-with-2-0-win-over-somalia/) `NEW`
+- **[Complete Sports]** [Euromatch NPFL: Bendel Insurance Can Silence Shooting Stars in Ibadan  – Boboye](https://www.completesports.com/euromatch-npfl-bendel-insurance-can-silence-shooting-stars-in-ibadan-boboye/) `NEW`
 
 
 ---
@@ -94,18 +96,18 @@
 ---
 ## 9. 𝕏 (Twitter) Nigeria Trends & Discourse Pulse
 ### Trending Topics
-- [Carrick](https://twitter.com/search?q=Carrick)
-- [#MoneyInLagos](https://twitter.com/search?q=%23MoneyInLagos)
-- [#ProphetJeremiahFufeyin](https://twitter.com/search?q=%23ProphetJeremiahFufeyin)
-- [Speed Darlington](https://twitter.com/search?q=Speed%20Darlington)
-- [DJ Cuppy](https://twitter.com/search?q=DJ%20Cuppy)
-- [Veekee James](https://twitter.com/search?q=Veekee%20James)
-- [Pierre Sage](https://twitter.com/search?q=Pierre%20Sage)
-- [Future Fest](https://twitter.com/search?q=Future%20Fest)
-- [Pochettino](https://twitter.com/search?q=Pochettino)
-- [#ChowdeckBlackFriday](https://twitter.com/search?q=%23ChowdeckBlackFriday)
-- [#GloCafeApp](https://twitter.com/search?q=%23GloCafeApp)
-- [Italy](https://twitter.com/search?q=Italy)
+- [Arda Guler](https://twitter.com/search?q=Arda%20Guler)
+- [Nvidia](https://twitter.com/search?q=Nvidia)
+- [Belgium](https://twitter.com/search?q=Belgium)
+- [Abefe Industry Chef](https://twitter.com/search?q=Abefe%20Industry%20Chef)
+- [#Kwara4SBK](https://twitter.com/search?q=%23Kwara4SBK)
+- [#Zenora](https://twitter.com/search?q=%23Zenora)
+- [Turkey](https://twitter.com/search?q=Turkey)
+- [National Anthem](https://twitter.com/search?q=National%20Anthem)
+- [Shalli](https://twitter.com/search?q=Shalli)
+- [Ayew](https://twitter.com/search?q=Ayew)
+- [#DigitalNigeria2026](https://twitter.com/search?q=%23DigitalNigeria2026)
+- [Pluto](https://twitter.com/search?q=Pluto)
 
 ### Discourse Wire
 - [Punch Newspapers (@MobilePunch) - X](https://news.google.com/rss/articles/CBMiPkFVX3lxTE4ySkt3dldZMWlPaXduYjNYLS1waDBsN21lZ2lLa1F0cVZtZGhBTFBCdlVXNThWSFZXSlpQSHBn?oc=5)
